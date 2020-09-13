@@ -1,0 +1,184 @@
+class asdg_SlotInfo;
+
+class UnderBarrelSlot;
+class UnderBarrelSlot_rail: UnderBarrelSlot {
+    class compatibleItems {
+        hlc_isopod = 1;
+        hlc_bipod_utgshooters = 1;
+    };
+};
+class nia_rifle_grips_slot: UnderBarrelSlot {
+    displayName = "Gripod slot";
+    class compatibleItems {
+        hlc_grip_AFG2 = 1;
+        hlc_grip_PMVFG = 1;
+        HLC_bipod_UTGShooters = 1;
+    };
+};
+
+class asdg_UnderSlot: asdg_SlotInfo {
+    class compatibleItems {};
+};
+
+class WB_rifle_grips_slot: asdg_SlotInfo {
+    iconPicture = "\a3\weapons_f_mark\Data\UI\attachment_under";
+    iconPinpoint = "Bottom";
+    linkProxy = "\a3\data_f_mark\Proxies\Weapon_Slots\UNDERBARREL";
+    class compatibleItems {
+        hlc_grip_AFG2 = 1;
+        hlc_grip_PMVFG = 1;
+        hlc_grip_saw_grip1 = 1;
+        hlc_grip_saw_grip2 = 1;
+    };
+};
+
+class rhs_rifle_gripod_slot: UnderBarrelSlot {
+    class compatibleItems {
+        hlc_grip_AFG2 = 1;
+        hlc_grip_PMVFG = 1;
+    };
+};
+
+class rhs_western_rifle_gripod_slot : rhs_rifle_gripod_slot {
+    class compatibleItems: compatibleItems {
+        HLC_bipod_UTGShooters = 1;
+        HLC_ISOPOD = 1;
+        hlc_grip_saw_grip1 = 1;
+        hlc_grip_saw_grip2 = 1;
+    };
+};
+
+class rhs_western_mg_gripod_slot: rhs_western_rifle_gripod_slot {
+    class compatibleItems: compatibleItems {
+        hlc_grip_saw_grip1 = 1;
+        hlc_grip_saw_grip2 = 1;
+    };
+};
+
+class CowsSlot;
+class CowsSlot_Rail: CowsSlot {
+    class compatibleItems {
+        hlc_optic_docterr = 1;
+        hlc_optic_hensoldtzo_lo = 1;
+        hlc_optic_hensoldtzo_lo_2d = 1;
+        hlc_optic_hensoldtzo_lo_docter = 1;
+        hlc_optic_hensoldtzo_lo_docter_2d = 1;
+        hlc_optic_hensoldtzo_hi = 1;
+        hlc_optic_hensoldtzo_hi_2d = 1;
+        hlc_optic_hensoldtzo_hi_docter = 1;
+        hlc_optic_hensoldtzo_hi_docter_2d = 1;
+        hlc_optic_zf95base = 1;
+        hlc_optic_leupoldm3a = 1;
+        hlc_optic_atacr = 1;
+        hlc_optic_atacr_offset = 1;
+        hlc_optic_vomz3d = 1;
+        hlc_optic_vomz = 1;
+    };
+};
+
+class asdg_OpticRail: asdg_SlotInfo {
+    class compatibleItems {};
+};
+
+class asdg_OpticRail1913_3CB_FNFAL: asdg_OpticRail {
+    class compatibleItems {
+        hlc_optic_pvs4fal = 1;
+        hlc_optic_suit = 1;
+    };
+};
+class asdg_OpticRail1913_3CB_G3: asdg_OpticRail {
+    class compatibleItems {
+        hlc_optic_pvs4g3 = 1;
+        hlc_optic_stanagzf_g3 = 1;
+        hlc_optic_stanagzf2d_g3 = 1;
+        hlc_optic_zf95_g3 = 1;
+        hlc_optic_leupoldm3a_g3 = 1;
+        hlc_optic_accupoint_g3 = 1;
+        hlc_optic_zfsg1 = 1;
+    };
+};
+class asdg_OpticRail1913_3CB_M14: asdg_OpticRail {
+    class compatibleItems {
+        hlc_optic_pvs4m14 = 1;
+        hlc_optic_lrt_m14 = 1;
+        hlc_optic_artel_m14 = 1;
+    };
+};
+
+class asdg_OpticRailL1A1: asdg_OpticRail {
+    class compatibleItems: compatibleItems {
+        hlc_optic_pvs4fal = 1;
+        hlc_optic_suit = 1;
+    };
+};
+
+class asdg_OpticSideMount: asdg_OpticRail {
+    class compatibleItems {};
+};
+
+class rhs_russian_rifle_scopes_slot: asdg_OpticSideMount {
+    class compatibleItems: compatibleItems {
+        hlc_optic_pso1 = 1;
+        hlc_optic_goshawk = 1;
+        hlc_optic_kobra = 1;
+        hlc_optic_1p29 = 1;
+    };
+};
+
+class SlotInfo;
+class rhs_russian_svd_scopes_slot: SlotInfo {
+    class compatibleItems {
+        hlc_optic_pso1 = 1;
+        hlc_optic_goshawk = 1;
+    };
+};
+
+class asdg_MuzzleSlot: asdg_SlotInfo {
+    class compatibleItems {};
+};
+
+class asdg_MuzzleSlot_556_3CB_HK33: asdg_MuzzleSlot {
+    class compatibleItems {
+        hlc_muzzle_556nato_m42000 = 1;
+        hlc_muzzle_snds_rotex3p = 1;
+        hlc_muzzle_556nato_rotexiiic_grey = 1;
+        hlc_muzzle_556nato_rotexiiic_tan = 1;
+        hlc_muzzle_gunfighter_comp = 1;
+        hlc_muzzle_556nato_kac = 1;
+        hlc_muzzle_kx3_comp = 1;
+        hlc_muzzle_sf3p_556 = 1;
+    };
+};
+
+class asdg_MuzzleSlot_762_3CB_G3: asdg_MuzzleSlot {
+    class compatibleItems {
+        hlc_muzzle_snds_rotex3p = 1;
+        hlc_muzzle_gunfighter_comp = 1;
+        hlc_muzzle_mag58_brake = 1;
+        hlc_muzzle_kx3_comp = 1;
+        hlc_muzzle_300blk_kac = 1;
+        hlc_muzzle_sf3p_762r = 1;
+    };
+};
+class asdg_MuzzleSlot_762_3CB_M14: asdg_MuzzleSlot {
+    class compatibleItems {
+        hlc_muzzle_snds_rotex3p = 1;
+        hlc_muzzle_gunfighter_comp = 1;
+        hlc_muzzle_mag58_brake = 1;
+        hlc_muzzle_kx3_comp = 1;
+        hlc_muzzle_300blk_kac = 1;
+        hlc_muzzle_sf3p_762r = 1;
+    };
+};
+
+class asdg_MuzzleSlot_900_3CB: asdg_MuzzleSlot {
+    class compatibleItems {
+        hlc_muzzle_agendasix = 1;
+    };
+};
+class asdg_MuzzleSlot_9MM_SMG: asdg_MuzzleSlot {
+    class compatibleItems {
+        hlc_muzzle_agendasix = 1;
+    };
+};
+
