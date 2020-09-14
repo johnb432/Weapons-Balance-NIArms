@@ -52,7 +52,7 @@ class Extended_PostInit_EventHandlers {
 class CfgFunctions {
     class WB {
         class common {
-            class barrelswitch_ACR {file = "\fix_niarms\fnc_barrelswitch_ACR.sqf";};
+            class barrelswitchACR {file = "\fix_niarms\fnc_barrelswitchACR.sqf";};
             class checkShowAceActions {file = "\fix_niarms\fnc_checkShowAceActions.sqf";};
         };
     };
@@ -67,8 +67,8 @@ class Mode_SemiAuto;
 class Mode_FullAuto;
 class Mode_Burst;
 
-class asdg_OpticRailL1A1;
-class WB_rifle_grips_slot;
+//class asdg_OpticRailL1A1;
+//class WB_rifle_grips_slot;
 class nia_rifle_gripod_slot;
 
 class CfgWeapons {
