@@ -67,8 +67,6 @@ class Mode_SemiAuto;
 class Mode_FullAuto;
 class Mode_Burst;
 
-//class asdg_OpticRailL1A1;
-//class WB_rifle_grips_slot;
 class nia_rifle_gripod_slot;
 
 class CfgWeapons {

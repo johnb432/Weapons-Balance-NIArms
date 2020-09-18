@@ -231,7 +231,7 @@ class hlc_rifle_M1903A1_unertl: hlc_Springfield_base {
 class hlc_grip_saw_grip1: bipod_01_F_snd {
     inertia = -0.2;
     displayName = "SAW Pistol Grip (Black)";
-    picture = "\rhsusf\addons\rhsusf_inventoryicons\data\accessories\rhsusf_acc_grip4_ca.paa";
+    //picture = "\rhsusf\addons\rhsusf_inventoryicons\data\accessories\rhsusf_acc_grip4_ca.paa";
     rhs_grip_type = "rhs_grip2_change";
     weaponInfoType = "RHS_Gripod4";
 };
@@ -248,13 +248,13 @@ class HLC_bipod_UTGShooters: bipod_01_F_snd {
 };
 class hlc_grip_AFG2: HLC_bipod_UTGShooters {
     inertia = -0.2;
-    picture = "\rhsusf\addons\rhsusf_inventoryicons\data\accessories\rhsusf_acc_grip2_ca.paa";
+    //picture = "\rhsusf\addons\rhsusf_inventoryicons\data\accessories\rhsusf_acc_grip2_ca.paa";
     rhs_grip_type = "rhs_grip2_change";
     weaponInfoType = "RHS_Gripod2";
 };
 class hlc_grip_PMVFG: HLC_bipod_UTGShooters {
     inertia = -0.2;
-    picture = "\rhsusf\addons\rhsusf_inventoryicons\data\accessories\rhsusf_acc_grip3_tan_ca.paa";
+    //picture = "\rhsusf\addons\rhsusf_inventoryicons\data\accessories\rhsusf_acc_grip3_tan_ca.paa";
     rhs_grip_type = "rhs_grip3_change";
     weaponInfoType = "RHS_Gripod3";
 };

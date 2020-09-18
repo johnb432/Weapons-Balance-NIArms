@@ -9,7 +9,7 @@
    	1: STRING - Barrel classname that is being swapped in place
 
    	Example:
-   		[player,"hlc_barrel_compact_ACR_556"] call WB_fnc_barrelswitch_ACR;
+   		[player,"hlc_barrel_compact_ACR_556"] call WB_fnc_barrelswitchACR;
 
    	Returns:
    	Nothing

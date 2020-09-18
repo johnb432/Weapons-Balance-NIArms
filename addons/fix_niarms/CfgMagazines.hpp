@@ -133,23 +133,23 @@ class hlc_30rnd_556x45_tdim_HK33: hlc_30rnd_556x45_b_HK33 {
 
 class hlc_200rnd_556x45_M_SAW: 30Rnd_556x45_Stanag {
     mass = 52;
-    model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m249_box_mag";
-    modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_box_200rnd";
+    //model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m249_box_mag";
+    //modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_box_200rnd";
 };
 class hlc_200rnd_556x45_B_SAW: hlc_200rnd_556x45_M_SAW {
     mass = 52;
-    model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m249_box_mag";
-    modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_box_200rnd";
+    //model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m249_box_mag";
+    //modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_box_200rnd";
 };
 class hlc_200rnd_556x45_Mdim_SAW: hlc_200rnd_556x45_M_SAW {
     mass = 52;
-    model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m249_box_mag";
-    modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_box_200rnd";
+    //model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m249_box_mag";
+    //modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_box_200rnd";
 };
 class hlc_200rnd_556x45_T_SAW: hlc_200rnd_556x45_M_SAW {
     mass = 52;
-    model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m249_box_mag";
-    modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_box_200rnd";
+    //model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m249_box_mag";
+    //modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_box_200rnd";
 };
 
 class hlc_100Rnd_762x51_B_M60E4: 30Rnd_556x45_Stanag {
@@ -168,34 +168,6 @@ class hlc_100Rnd_762x51_Barrier_M60E4: hlc_100Rnd_762x51_B_M60E4 {
 
 class hlc_200Rnd_762x51_B_M60E4: 30Rnd_556x45_Stanag {
     mass = 62;
-    model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m240_mag";
-    modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_762x51_m240_pouch_100rnd";
-    modelSpecialIsProxy = 1;
-};
-class hlc_200Rnd_762x51_Barrier_M60E4: hlc_200Rnd_762x51_B_M60E4 {
-    displayName = "7.62mm SOST 200Rnd M13-linked belt (Tracers Every 4)";
-    mass = 62;
-    model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m240_mag";
-    modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_762x51_m240_pouch_100rnd";
-    modelSpecialIsProxy = 1;
-};
-class hlc_200Rnd_762x51_M_M60E4: hlc_200Rnd_762x51_B_M60E4 {
-    mass = 62;
-    model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m240_mag";
-    modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_762x51_m240_pouch_100rnd";
-    modelSpecialIsProxy = 1;
-};
-class hlc_200Rnd_762x51_Mdim_M60E4: hlc_200Rnd_762x51_B_M60E4 {
-    mass = 62;
-    model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m240_mag";
-    modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_762x51_m240_pouch_100rnd";
-    modelSpecialIsProxy = 1;
-};
-class hlc_200Rnd_762x51_T_M60E4: hlc_200Rnd_762x51_B_M60E4 {
-    mass = 62;
-    model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m240_mag";
-    modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_762x51_m240_pouch_100rnd";
-    modelSpecialIsProxy = 1;
 };
 
 class hlc_10rnd_12g_buck_S12: 30Rnd_556x45_Stanag {
@@ -270,7 +242,7 @@ class hlc_30Rnd_303_B_bren : hlc_50Rnd_45ACP_B_1921 {
     ammo = "HLC_303Brit_B";
     author = "Toadie, johnb43";
     count = 30;
-    descriptionshort = "Caliber: .303British Ball<br />Rounds: 30<br />Used in: Bren";
+    descriptionshort = "Caliber: .303British Ball<br/>Rounds: 30<br/>Used in: Bren";
     displayname = ".303 Ball 30Rnd Bren Magazine";
     displaynameshort = ".303 British Ball";
     initspeed = 840;
@@ -283,7 +255,7 @@ class hlc_30Rnd_303_T_bren : hlc_30Rnd_303_B_bren {
     ammo = "HLC_303Brit_T";
     author = "Toadie, johnb43";
     count = 30;
-    descriptionshort = "Caliber: .303British Tracer<br />Rounds: 30<br />Used in: Bren";
+    descriptionshort = "Caliber: .303British Tracer<br/>Rounds: 30<br/>Used in: Bren";
     displayname = ".303 Tracer 30Rnd Bren Magazine";
     displaynameshort = ".303 British Tracer";
     initspeed = 770;
@@ -295,7 +267,7 @@ class hlc_30Rnd_303_AP_bren : hlc_30Rnd_303_B_bren {
     ammo = "HLC_303Brit_AP";
     author = "Toadie, johnb43";
     count = 30;
-    descriptionshort = "Caliber: .303British Armour-Piercing<br />Rounds: 30<br />Used in: Bren";
+    descriptionshort = "Caliber: .303British Armour-Piercing<br/>Rounds: 30<br/>Used in: Bren";
     displayname = ".303 AP 30Rnd Bren Magazine";
     displaynameshort = ".303 British AP";
     initspeed = 720;
@@ -308,7 +280,7 @@ class hlc_30Rnd_303_AP_bren : hlc_30Rnd_303_B_bren {
 class hlc_10Rnd_303_B_enfield : hlc_30Rnd_303_B_bren {
     count = 10;
     scope = 2;
-    descriptionshort = "Caliber: .303British Ball<br />Rounds: 10<br />Used in: SMLE,No.4,No.5";
+    descriptionshort = "Caliber: .303British Ball<br/>Rounds: 10<br/>Used in: SMLE,No.4,No.5";
     displayname = ".303 Ball 10Rnd Enfield Clip";
     initspeed = 744;
     mass = 4.4;
@@ -317,7 +289,7 @@ class hlc_10Rnd_303_B_enfield : hlc_30Rnd_303_B_bren {
 };
 class hlc_10Rnd_303_T_enfield : hlc_30Rnd_303_T_bren {
     count = 10;
-    descriptionshort = "Caliber: .303British Tracer<br />Rounds: 10<br />Used in: SMLE,No.4,No.5";
+    descriptionshort = "Caliber: .303British Tracer<br/>Rounds: 10<br/>Used in: SMLE,No.4,No.5";
     displayname = ".303 Tracer 10Rnd Enfield Clip";
     tracersevery = 1;
     scope = 2;
@@ -328,7 +300,7 @@ class hlc_10Rnd_303_T_enfield : hlc_30Rnd_303_T_bren {
 };
 class hlc_10Rnd_303_AP_enfield : hlc_30Rnd_303_AP_bren {
     count = 10;
-    descriptionshort = "Caliber: .303British Armour-Piercing<br />Rounds: 10<br />Used in: SMLE,No.4,No.5";
+    descriptionshort = "Caliber: .303British Armour-Piercing<br/>Rounds: 10<br/>Used in: SMLE,No.4,No.5";
     displayname = ".303 AP 10Rnd Enfield Clip";
     tracersevery = 1;
     initspeed = 840;
@@ -342,7 +314,7 @@ class hlc_10Rnd_303_AP_enfield : hlc_30Rnd_303_AP_bren {
 class hlc_5Rnd_792_B_Kar98 : hlc_10Rnd_303_B_enfield {
     ammo = "HLC_792x57_Ball";
     count = 5;
-    descriptionshort = "Caliber: 7.92x57mm sS (Ball)<br />Rounds: 5<br />Used in: Kar98";
+    descriptionshort = "Caliber: 7.92x57mm sS (Ball)<br/>Rounds: 5<br/>Used in: Kar98";
     displayname = "7.92mm FMJ 5Rnd Mauser Clip";
     displaynameshort = "7.92x57mm Ball";
     initspeed = 770;
@@ -354,7 +326,7 @@ class hlc_5Rnd_792_B_Kar98 : hlc_10Rnd_303_B_enfield {
 class hlc_5Rnd_792_T_Kar98 : hlc_10Rnd_303_B_enfield {
     ammo = "HLC_792x57_Tracer";
     count = 5;
-    descriptionshort = "Caliber: 7.92x57mm Tracer<br />Rounds: 5<br />Used in: Kar98";
+    descriptionshort = "Caliber: 7.92x57mm Tracer<br/>Rounds: 5<br/>Used in: Kar98";
     displayname = "7.92mm Tracer 5Rnd G98 Clip";
     displaynameshort = "7.92x57mm Tracer";
     initspeed = 762;
@@ -366,7 +338,7 @@ class hlc_5Rnd_792_T_Kar98 : hlc_10Rnd_303_B_enfield {
 class hlc_5Rnd_792_AP_Kar98 : hlc_10Rnd_303_B_enfield {
     ammo = "HLC_792x57_AP";
     count = 5;
-    descriptionshort = "Caliber: 7.92x57mm PmK (AP)<br />Rounds: 5<br />Used in: Kar98";
+    descriptionshort = "Caliber: 7.92x57mm PmK (AP)<br/>Rounds: 5<br/>Used in: Kar98";
     displayname = "7.92mm AP 5Rnd G98 Clip";
     displaynameshort = "7.92x57mm Armour Piercing";
     initspeed = 840;
@@ -381,7 +353,7 @@ class hlc_50Rnd_57x28_JHP_P90 : 30Rnd_556x45_Stanag {
     ammo = "HLC_57x28mm_JHP";
     author = "Toadie, johnb43";
     count = 50;
-    descriptionshort = "Caliber: 5.7x28mm SS195LF Blue VMax <br />Rounds: 50<br />Used in: P90";
+    descriptionshort = "Caliber: 5.7x28mm SS195LF Blue VMax <br/>Rounds: 50<br/>Used in: P90";
     displayname = "5.7mm JHP 50Rnd P90 Magazine";
     displaynameshort = "5.7x28mm SS195LF Blue VMax";
     initspeed = 715;
@@ -394,7 +366,7 @@ class hlc_50Rnd_57x28_JHP_P90 : 30Rnd_556x45_Stanag {
 };
 class hlc_50Rnd_57x28_FMJ_P90 : hlc_50Rnd_57x28_JHP_P90 {
     ammo = "HLC_57x28mm_FMJ";
-    descriptionshort = "Caliber: 5.7x28mm SS190 Black-Tip<br />Rounds: 50<br />Used in: P90";
+    descriptionshort = "Caliber: 5.7x28mm SS190 Black-Tip<br/>Rounds: 50<br/>Used in: P90";
     displayname = "5.7mm FMJ 50Rnd P90 Magazine";
     displaynameshort = "5.7x28mm SS190 Black-Tip";
     lastroundstracer = 0;
@@ -409,7 +381,7 @@ class hlc_100Rnd_762x54_B_PKM : 30Rnd_556x45_Stanag {
     ammo = "HLC_762x54_ball";
     author = "Toadie, johnb43";
     count = 100;
-    descriptionshort = "Caliber: 7.62x54mm Ball<br />Rounds: 100<br />Used in: PKM";
+    descriptionshort = "Caliber: 7.62x54mm Ball<br/>Rounds: 100<br/>Used in: PKM";
     displayname = "7.62mm FMJ 100Rnd Maxim-Link Belt";
     displaynameshort = "7.62x54mm Ball";
     initspeed = 825;
@@ -423,7 +395,7 @@ class hlc_100Rnd_762x54_M_PKM : 30Rnd_556x45_Stanag {
     ammo = "HLC_762x54_tracer";
     author = "Toadie, johnb43";
     count = 100;
-    descriptionshort = "Caliber: 7.62x54mm Ball/Tracer Mix<br />Rounds: 100<br />Used in: PKM";
+    descriptionshort = "Caliber: 7.62x54mm Ball/Tracer Mix<br/>Rounds: 100<br/>Used in: PKM";
     displayname = "7.62mm FMJ 100Rnd Maxim-Link Belt (Tracers every 4)";
     displaynameshort = "7.62x54mm Ball/Tracer";
     initspeed = 798;
@@ -437,7 +409,7 @@ class hlc_100Rnd_762x54_T_PKM : 30Rnd_556x45_Stanag {
     ammo = "HLC_762x54_tracer";
     author = "Toadie, johnb43";
     count = 100;
-    descriptionshort = "Caliber: 7.62x54mm 7T2 Tracer<br />Rounds: 100<br />Used in: PKM";
+    descriptionshort = "Caliber: 7.62x54mm 7T2 Tracer<br/>Rounds: 100<br/>Used in: PKM";
     displayname = "7.62mm Tracers 100Rnd Maxim-Link Belt";
     displaynameshort = "7.62x54mm 7T2 Tracer";
     initspeed = 798;
@@ -451,7 +423,7 @@ class hlc_250Rnd_762x54_B_PKM : 30Rnd_556x45_Stanag {
     ammo = "HLC_762x54_ball";
     author = "Toadie, johnb43";
     count = 250;
-    descriptionshort = "Caliber: 7.62x54mm Ball<br />Rounds: 250<br />Used in: PKM";
+    descriptionshort = "Caliber: 7.62x54mm Ball<br/>Rounds: 250<br/>Used in: PKM";
     displayname = "7.62mm FMJ 250Rnd Maxim-Link Belt";
     displaynameshort = "7.62x54mm Ball";
     initspeed = 825;
@@ -465,7 +437,7 @@ class hlc_250Rnd_762x54_M_PKM : 30Rnd_556x45_Stanag {
     ammo = "HLC_762x54_tracer";
     author = "Toadie, johnb43";
     count = 250;
-    descriptionshort = "Caliber: 7.62x54mm Ball/Tracer Mix<br />Rounds: 250<br />Used in: PKM";
+    descriptionshort = "Caliber: 7.62x54mm Ball/Tracer Mix<br/>Rounds: 250<br/>Used in: PKM";
     displayname = "7.62mm FMJ 250Rnd Maxim-Link Belt (Tracers Every 4)";
     displaynameshort = "7.62x54mm Ball/Tracer";
     initspeed = 798;
@@ -479,7 +451,7 @@ class hlc_250Rnd_762x54_T_PKM : 30Rnd_556x45_Stanag {
     ammo = "HLC_762x54_tracer";
     author = "Toadie, johnb43";
     count = 250;
-    descriptionshort = "Caliber: 7.62x54mm 7T2 Tracer<br />Rounds: 250<br />Used in: PKM";
+    descriptionshort = "Caliber: 7.62x54mm 7T2 Tracer<br/>Rounds: 250<br/>Used in: PKM";
     displayname = "7.62mm Tracers 250Rnd Maxim-Link Belt";
     displaynameshort = "7.62x54mm 7T2 Tracer";
     initspeed = 798;
@@ -493,7 +465,7 @@ class hlc_100Rnd_762x54_AP_PKM : 30Rnd_556x45_Stanag {
     ammo = "HLC_762x54_AP";
     author = "Toadie, johnb43";
     count = 100;
-    descriptionshort = "Caliber: 7.62x54mm 7N13 AP<br />Rounds: 250<br />Used in: PKM";
+    descriptionshort = "Caliber: 7.62x54mm 7N13 AP<br/>Rounds: 250<br/>Used in: PKM";
     displayname = "7.62mm AP 100Rnd Maxim-Link Belt";
     displaynameshort = "7.62x54mm 7N13 AP";
     initspeed = 825;
@@ -506,7 +478,7 @@ class hlc_100Rnd_762x54_AP_PKM : 30Rnd_556x45_Stanag {
 class hlc_250Rnd_762x54_AP_PKM : hlc_100Rnd_762x54_AP_PKM {
     ammo = "HLC_762x54_AP";
     count = 250;
-    descriptionshort = "Caliber: 7.62x54mm 7N13 AP<br />Rounds: 250<br />Used in: PKM";
+    descriptionshort = "Caliber: 7.62x54mm 7N13 AP<br/>Rounds: 250<br/>Used in: PKM";
     displayname = "7.62mm AP 250Rnd Maxim-Link Belt";
     displaynameshort = "7.62x54mm 7N13 AP";
     initspeed = 825;
@@ -520,7 +492,7 @@ class hlc_250Rnd_762x54_AP_PKM : hlc_100Rnd_762x54_AP_PKM {
 //MG34 Boxes
 class hlc_75rnd_792_B_MG34 : hlc_5Rnd_792_B_Kar98 {
     count = 75;
-    descriptionshort = "Caliber: 7.92x57mm sS (Ball)<br />Rounds: 75<br />Used in: MG34";
+    descriptionshort = "Caliber: 7.92x57mm sS (Ball)<br/>Rounds: 75<br/>Used in: MG34";
     displayname = "MG34 (Ball) 75rnd 7.92mm";
     displaynameshort = "7.92x57mm Ball";
     initspeed = 762;
@@ -534,7 +506,7 @@ class hlc_75rnd_792_B_MG34 : hlc_5Rnd_792_B_Kar98 {
 class hlc_75rnd_792_T_MG34 : hlc_75rnd_792_B_MG34 {
     ammo = "HLC_792x57_Tracer";
     count = 75;
-    descriptionshort = "Caliber: 7.92x57mm Tracer<br />Rounds: 75<br />Used in: MG34";
+    descriptionshort = "Caliber: 7.92x57mm Tracer<br/>Rounds: 75<br/>Used in: MG34";
     displayname = "MG34 (Tracer) 75rnd 7.92mm";
     displaynameshort = "7.92x57mm Tracer";
     mass = 39;
@@ -544,7 +516,7 @@ class hlc_75rnd_792_T_MG34 : hlc_75rnd_792_B_MG34 {
 class hlc_75rnd_792_AP_MG34 : hlc_75rnd_792_B_MG34 {
     ammo = "HLC_792x57_AP";
     count = 75;
-    descriptionshort = "Caliber: 7.92x57mm PmK (AP)<br />Rounds: 75<br />Used in: MG34";
+    descriptionshort = "Caliber: 7.92x57mm PmK (AP)<br/>Rounds: 75<br/>Used in: MG34";
     displayname = "MG34 (AP) 75rnd 7.92mm";
     displaynameshort = "7.92x57mm Armour-Piercing";
     mass = 39;
@@ -557,7 +529,7 @@ class hlc_5Rnd_50BMG_B_TAC50 : hlc_50Rnd_45ACP_B_1921 {
     ammo = "B_127x99_Ball";
     author = "Toadie, johnb43";
     count = 5;
-    descriptionshort = "Caliber: .50 BMG Ball<br />Rounds: 5<br />Used in: TAC-50";
+    descriptionshort = "Caliber: .50 BMG Ball<br/>Rounds: 5<br/>Used in: TAC-50";
     displayname = "TAC-50 Ball 5rnd .50BMG";
     displaynameshort = ".50 BMG Ball";
     lastroundstracer = 0;
@@ -569,7 +541,7 @@ class hlc_5Rnd_50BMG_B_TAC50 : hlc_50Rnd_45ACP_B_1921 {
 class hlc_5Rnd_50BMG_T_TAC50 : hlc_5Rnd_50BMG_B_TAC50 {
     ammo = "B_127x99_Ball_Tracer_Red";
     count = 5;
-    descriptionshort = "Caliber: .50 BMG Tracer<br />Rounds: 5<br />Used in: TAC-50";
+    descriptionshort = "Caliber: .50 BMG Tracer<br/>Rounds: 5<br/>Used in: TAC-50";
     displayname = "TAC-50 Tracer 5rnd .50BMG";
     displaynameshort = ".50 BMG Tracer";
     lastroundstracer = 0;
@@ -582,7 +554,7 @@ class hlc_5Rnd_50BMG_T_TAC50 : hlc_5Rnd_50BMG_B_TAC50 {
 class hlc_5Rnd_50BMG_SLAP_TAC50 : hlc_5Rnd_50BMG_B_TAC50 {
     ammo = "FH_50BMG_SLAP";
     count = 5;
-    descriptionshort = "Caliber: .50 BMG SLAP<br />Rounds: 5<br />Used in: TAC-50";
+    descriptionshort = "Caliber: .50 BMG SLAP<br/>Rounds: 5<br/>Used in: TAC-50";
     displayname = "TAC-50 SLAP 5rnd .50BMG";
     displaynameshort = ".50 BMG SLAP";
     lastroundstracer = 0;
@@ -595,7 +567,7 @@ class hlc_5Rnd_50BMG_SLAP_TAC50 : hlc_5Rnd_50BMG_B_TAC50 {
 class hlc_5Rnd_50BMG_Raufoss_TAC50 : hlc_5Rnd_50BMG_B_TAC50 {
     ammo = "FH_50BMG_Raufoss";
     count = 5;
-    descriptionshort = "Caliber: .50 BMG Raufoss<br />Rounds: 5<br />Used in: TAC-50";
+    descriptionshort = "Caliber: .50 BMG Raufoss<br/>Rounds: 5<br/>Used in: TAC-50";
     displayname = "TAC-50 Raufoss (Mk211) HEIAP 5rnd .50BMG";
     displaynameshort = ".50 BMG Raufoss";
     lastroundstracer = 0;
