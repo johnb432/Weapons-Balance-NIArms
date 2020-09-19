@@ -3,6 +3,7 @@
 - New additions:
     - Change barrel option for AUGs and ACRs as ACE interaction if ACE is loaded
     - Added Quick-change barrels for the ACR (works the same as the AUG barrels)
+    - Added NIArms 50Rnd drum mag
 
 - Weapon changes:
     - NIArms:
@@ -430,6 +431,11 @@
         - XM177E2:
             - Changed weight from 2.72kg to 2.95kg
 
+- MagazineWells:
+    - CBA:
+         - 9x19 MP5:
+             - Added NIArms 50Rnd drum mag
+
 - Weight balancing:
     - NIArms:
         - All (12x) 30Rnd 5.45x39mm AK mags from 0.51-0.57kg to 0.41kg
@@ -445,6 +451,10 @@
         - 3x 20Rnd 7.62x51mm FAL mags from 0.74-0.85kg to 0.76kg
         - All (7x) 26Rnd 6.8x43mm ACR mags from 0.67kg to 0.54kg
         - All (3x) 25Rnd 9x19mm AUG mags from 0.58kg to 0.41kg
+        - All (4x) 100Rnd NIArms M60 7.62 belts from 1.54kg to 1.47kg
+        - All (5x) 50Rnd NIArms MG3 belts from 1.20kg to 1.15kg
+        - All (5x) 100Rnd NIArms MG3 belts from 1.54kg to 1.47kg
+        - All (4x) 200Rnd NIArms M249 5.56 belts from 2.36kg to 2.34kg
 
 - Models/Icons/Names:
     - NIArms:

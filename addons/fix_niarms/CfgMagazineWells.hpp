@@ -122,6 +122,12 @@ class CfgMagazineWells {
         };
     };
 
+    class CBA_9x19_MP5 {
+        WB_Magazines[] += {
+            "hlc_50rnd_9x19_B_9mmar"
+        };
+    };
+
     class M240_762x51 {
         WB_Magazines[] += {
             "hlc_100Rnd_762x51_M_M60E4",

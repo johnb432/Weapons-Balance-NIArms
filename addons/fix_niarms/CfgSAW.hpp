@@ -53,9 +53,27 @@ class hlc_lmg_minimipara: hlc_saw_base {
         rhs_mag_30Rnd_556x45_Mk318_Stanag_Ranger = "hlc_lmg_minimipara_30Rnd";
         rhs_mag_30Rnd_556x45_M193_Stanag = "hlc_lmg_minimipara_30Rnd";
         rhs_mag_30Rnd_556x45_M196_Stanag_Tracer_Red = "hlc_lmg_minimipara_30Rnd";
-        //UK3CB BAF & Factions
-        UK3CB_M16_20Rnd_Mag = "hlc_lmg_minimipara_30Rnd";
-        UK3CB_M16_20Rnd_Mag_T = "hlc_lmg_minimipara_30Rnd";
+        //3CB Factions
+        UK3CB_M16_20rnd_556x45 = "hlc_lmg_minimipara_30Rnd";
+        UK3CB_M16_20rnd_556x45_G = "hlc_lmg_minimipara_30Rnd";
+        UK3CB_M16_20rnd_556x45_R = "hlc_lmg_minimipara_30Rnd";
+        UK3CB_M16_20rnd_556x45_W = "hlc_lmg_minimipara_30Rnd";
+        UK3CB_M16_20rnd_556x45_Y = "hlc_lmg_minimipara_30Rnd";
+        UK3CB_M16_20rnd_556x45_GT = "hlc_lmg_minimipara_30Rnd";
+        UK3CB_M16_20rnd_556x45_RT = "hlc_lmg_minimipara_30Rnd";
+        UK3CB_M16_20rnd_556x45_WT = "hlc_lmg_minimipara_30Rnd";
+        UK3CB_M16_20rnd_556x45_YT = "hlc_lmg_minimipara_30Rnd";
+
+        UK3CB_M16_30rnd_556x45 = "hlc_lmg_minimipara_30Rnd";
+        UK3CB_M16_30rnd_556x45_G = "hlc_lmg_minimipara_30Rnd";
+        UK3CB_M16_30rnd_556x45_R = "hlc_lmg_minimipara_30Rnd";
+        UK3CB_M16_30rnd_556x45_W = "hlc_lmg_minimipara_30Rnd";
+        UK3CB_M16_30rnd_556x45_Y = "hlc_lmg_minimipara_30Rnd";
+        UK3CB_M16_30rnd_556x45_GT = "hlc_lmg_minimipara_30Rnd";
+        UK3CB_M16_30rnd_556x45_RT = "hlc_lmg_minimipara_30Rnd";
+        UK3CB_M16_30rnd_556x45_WT = "hlc_lmg_minimipara_30Rnd";
+        UK3CB_M16_30rnd_556x45_YT = "hlc_lmg_minimipara_30Rnd";
+        //UK3CB BAF
         UK3CB_BAF_556_30Rnd_Blank = "hlc_lmg_minimipara_30Rnd";
         UK3CB_BAF_556_30Rnd = "hlc_lmg_minimipara_30Rnd";
         UK3CB_BAF_556_30Rnd_T = "hlc_lmg_minimipara_30Rnd";
@@ -132,9 +150,27 @@ class hlc_lmg_minimipara_railed: hlc_lmg_minimipara {
         rhs_mag_100Rnd_556x45_M855_cmag_mixed = "hlc_lmg_minimipara_railed_30Rnd";
         rhs_mag_100Rnd_556x45_Mk318_cmag = "hlc_lmg_minimipara_railed_30Rnd";
         rhs_mag_100Rnd_556x45_Mk262_cmag = "hlc_lmg_minimipara_railed_30Rnd";
-        //UK3CB BAF & Factions
-        UK3CB_M16_20Rnd_Mag = "hlc_lmg_minimipara_railed_30Rnd";
-        UK3CB_M16_20Rnd_Mag_T = "hlc_lmg_minimipara_railed_30Rnd";
+        //3CB Factions
+        UK3CB_M16_20rnd_556x45 = "hlc_lmg_minimipara_railed_30Rnd";
+        UK3CB_M16_20rnd_556x45_G = "hlc_lmg_minimipara_railed_30Rnd";
+        UK3CB_M16_20rnd_556x45_R = "hlc_lmg_minimipara_railed_30Rnd";
+        UK3CB_M16_20rnd_556x45_W = "hlc_lmg_minimipara_railed_30Rnd";
+        UK3CB_M16_20rnd_556x45_Y = "hlc_lmg_minimipara_railed_30Rnd";
+        UK3CB_M16_20rnd_556x45_GT = "hlc_lmg_minimipara_railed_30Rnd";
+        UK3CB_M16_20rnd_556x45_RT = "hlc_lmg_minimipara_railed_30Rnd";
+        UK3CB_M16_20rnd_556x45_WT = "hlc_lmg_minimipara_railed_30Rnd";
+        UK3CB_M16_20rnd_556x45_YT = "hlc_lmg_minimipara_railed_30Rnd";
+
+        UK3CB_M16_30rnd_556x45 = "hlc_lmg_minimipara_railed_30Rnd";
+        UK3CB_M16_30rnd_556x45_G = "hlc_lmg_minimipara_railed_30Rnd";
+        UK3CB_M16_30rnd_556x45_R = "hlc_lmg_minimipara_railed_30Rnd";
+        UK3CB_M16_30rnd_556x45_W = "hlc_lmg_minimipara_railed_30Rnd";
+        UK3CB_M16_30rnd_556x45_Y = "hlc_lmg_minimipara_railed_30Rnd";
+        UK3CB_M16_30rnd_556x45_GT = "hlc_lmg_minimipara_railed_30Rnd";
+        UK3CB_M16_30rnd_556x45_RT = "hlc_lmg_minimipara_railed_30Rnd";
+        UK3CB_M16_30rnd_556x45_WT = "hlc_lmg_minimipara_railed_30Rnd";
+        UK3CB_M16_30rnd_556x45_YT = "hlc_lmg_minimipara_railed_30Rnd";
+        //UK3CB BAF
         UK3CB_BAF_556_30Rnd_Blank = "hlc_lmg_minimipara_railed_30Rnd";
         UK3CB_BAF_556_30Rnd = "hlc_lmg_minimipara_railed_30Rnd";
         UK3CB_BAF_556_30Rnd_T = "hlc_lmg_minimipara_railed_30Rnd";
@@ -203,9 +239,27 @@ class hlc_lmg_minimi: hlc_lmg_minimipara {
         rhs_mag_30Rnd_556x45_Mk318_Stanag_Ranger = "hlc_lmg_minimi_30Rnd";
         rhs_mag_30Rnd_556x45_M193_Stanag = "hlc_lmg_minimi_30Rnd";
         rhs_mag_30Rnd_556x45_M196_Stanag_Tracer_Red = "hlc_lmg_minimi_30Rnd";
-        //UK3CB BAF & Factions
-        UK3CB_M16_20Rnd_Mag = "hlc_lmg_minimi_30Rnd";
-        UK3CB_M16_20Rnd_Mag_T = "hlc_lmg_minimi_30Rnd";
+        //3CB Factions
+        UK3CB_M16_20rnd_556x45 = "hlc_lmg_minimi_30Rnd";
+        UK3CB_M16_20rnd_556x45_G = "hlc_lmg_minimi_30Rnd";
+        UK3CB_M16_20rnd_556x45_R = "hlc_lmg_minimi_30Rnd";
+        UK3CB_M16_20rnd_556x45_W = "hlc_lmg_minimi_30Rnd";
+        UK3CB_M16_20rnd_556x45_Y = "hlc_lmg_minimi_30Rnd";
+        UK3CB_M16_20rnd_556x45_GT = "hlc_lmg_minimi_30Rnd";
+        UK3CB_M16_20rnd_556x45_RT = "hlc_lmg_minimi_30Rnd";
+        UK3CB_M16_20rnd_556x45_WT = "hlc_lmg_minimi_30Rnd";
+        UK3CB_M16_20rnd_556x45_YT = "hlc_lmg_minimi_30Rnd";
+
+        UK3CB_M16_30rnd_556x45 = "hlc_lmg_minimi_30Rnd";
+        UK3CB_M16_30rnd_556x45_G = "hlc_lmg_minimi_30Rnd";
+        UK3CB_M16_30rnd_556x45_R = "hlc_lmg_minimi_30Rnd";
+        UK3CB_M16_30rnd_556x45_W = "hlc_lmg_minimi_30Rnd";
+        UK3CB_M16_30rnd_556x45_Y = "hlc_lmg_minimi_30Rnd";
+        UK3CB_M16_30rnd_556x45_GT = "hlc_lmg_minimi_30Rnd";
+        UK3CB_M16_30rnd_556x45_RT = "hlc_lmg_minimi_30Rnd";
+        UK3CB_M16_30rnd_556x45_WT = "hlc_lmg_minimi_30Rnd";
+        UK3CB_M16_30rnd_556x45_YT = "hlc_lmg_minimi_30Rnd";
+        //UK3CB BAF
         UK3CB_BAF_556_30Rnd_Blank = "hlc_lmg_minimi_30Rnd";
         UK3CB_BAF_556_30Rnd = "hlc_lmg_minimi_30Rnd";
         UK3CB_BAF_556_30Rnd_T = "hlc_lmg_minimi_30Rnd";
@@ -275,9 +329,27 @@ class hlc_lmg_minimi_railed: hlc_lmg_minimipara {
         rhs_mag_30Rnd_556x45_Mk318_Stanag_Ranger = "hlc_lmg_minimi_railed_30Rnd";
         rhs_mag_30Rnd_556x45_M193_Stanag = "hlc_lmg_minimi_railed_30Rnd";
         rhs_mag_30Rnd_556x45_M196_Stanag_Tracer_Red = "hlc_lmg_minimi_railed_30Rnd";
-        //UK3CB BAF & Factions
-        UK3CB_M16_20Rnd_Mag = "hlc_lmg_minimi_railed_30Rnd";
-        UK3CB_M16_20Rnd_Mag_T = "hlc_lmg_minimi_railed_30Rnd";
+        //3CB Factions
+        UK3CB_M16_20rnd_556x45 = "hlc_lmg_minimi_railed_30Rnd";
+        UK3CB_M16_20rnd_556x45_G = "hlc_lmg_minimi_railed_30Rnd";
+        UK3CB_M16_20rnd_556x45_R = "hlc_lmg_minimi_railed_30Rnd";
+        UK3CB_M16_20rnd_556x45_W = "hlc_lmg_minimi_railed_30Rnd";
+        UK3CB_M16_20rnd_556x45_Y = "hlc_lmg_minimi_railed_30Rnd";
+        UK3CB_M16_20rnd_556x45_GT = "hlc_lmg_minimi_railed_30Rnd";
+        UK3CB_M16_20rnd_556x45_RT = "hlc_lmg_minimi_railed_30Rnd";
+        UK3CB_M16_20rnd_556x45_WT = "hlc_lmg_minimi_railed_30Rnd";
+        UK3CB_M16_20rnd_556x45_YT = "hlc_lmg_minimi_railed_30Rnd";
+
+        UK3CB_M16_30rnd_556x45 = "hlc_lmg_minimi_railed_30Rnd";
+        UK3CB_M16_30rnd_556x45_G = "hlc_lmg_minimi_railed_30Rnd";
+        UK3CB_M16_30rnd_556x45_R = "hlc_lmg_minimi_railed_30Rnd";
+        UK3CB_M16_30rnd_556x45_W = "hlc_lmg_minimi_railed_30Rnd";
+        UK3CB_M16_30rnd_556x45_Y = "hlc_lmg_minimi_railed_30Rnd";
+        UK3CB_M16_30rnd_556x45_GT = "hlc_lmg_minimi_railed_30Rnd";
+        UK3CB_M16_30rnd_556x45_RT = "hlc_lmg_minimi_railed_30Rnd";
+        UK3CB_M16_30rnd_556x45_WT = "hlc_lmg_minimi_railed_30Rnd";
+        UK3CB_M16_30rnd_556x45_YT = "hlc_lmg_minimi_railed_30Rnd";
+        //UK3CB BAF
         UK3CB_BAF_556_30Rnd_Blank = "hlc_lmg_minimi_railed_30Rnd";
         UK3CB_BAF_556_30Rnd = "hlc_lmg_minimi_railed_30Rnd";
         UK3CB_BAF_556_30Rnd_T = "hlc_lmg_minimi_railed_30Rnd";
@@ -346,9 +418,27 @@ class hlc_lmg_minimipara_long: hlc_lmg_minimipara {
         rhs_mag_30Rnd_556x45_Mk318_Stanag_Ranger = "hlc_lmg_minimipara_long_30Rnd";
         rhs_mag_30Rnd_556x45_M193_Stanag = "hlc_lmg_minimipara_long_30Rnd";
         rhs_mag_30Rnd_556x45_M196_Stanag_Tracer_Red = "hlc_lmg_minimipara_long_30Rnd";
-        //UK3CB BAF & Factions
-        UK3CB_M16_20Rnd_Mag = "hlc_lmg_minimipara_long_30Rnd";
-        UK3CB_M16_20Rnd_Mag_T = "hlc_lmg_minimipara_long_30Rnd";
+        //3CB Factions
+        UK3CB_M16_20rnd_556x45 = "hlc_lmg_minimipara_long_30Rnd";
+        UK3CB_M16_20rnd_556x45_G = "hlc_lmg_minimipara_long_30Rnd";
+        UK3CB_M16_20rnd_556x45_R = "hlc_lmg_minimipara_long_30Rnd";
+        UK3CB_M16_20rnd_556x45_W = "hlc_lmg_minimipara_long_30Rnd";
+        UK3CB_M16_20rnd_556x45_Y = "hlc_lmg_minimipara_long_30Rnd";
+        UK3CB_M16_20rnd_556x45_GT = "hlc_lmg_minimipara_long_30Rnd";
+        UK3CB_M16_20rnd_556x45_RT = "hlc_lmg_minimipara_long_30Rnd";
+        UK3CB_M16_20rnd_556x45_WT = "hlc_lmg_minimipara_long_30Rnd";
+        UK3CB_M16_20rnd_556x45_YT = "hlc_lmg_minimipara_long_30Rnd";
+
+        UK3CB_M16_30rnd_556x45 = "hlc_lmg_minimipara_long_30Rnd";
+        UK3CB_M16_30rnd_556x45_G = "hlc_lmg_minimipara_long_30Rnd";
+        UK3CB_M16_30rnd_556x45_R = "hlc_lmg_minimipara_long_30Rnd";
+        UK3CB_M16_30rnd_556x45_W = "hlc_lmg_minimipara_long_30Rnd";
+        UK3CB_M16_30rnd_556x45_Y = "hlc_lmg_minimipara_long_30Rnd";
+        UK3CB_M16_30rnd_556x45_GT = "hlc_lmg_minimipara_long_30Rnd";
+        UK3CB_M16_30rnd_556x45_RT = "hlc_lmg_minimipara_long_30Rnd";
+        UK3CB_M16_30rnd_556x45_WT = "hlc_lmg_minimipara_long_30Rnd";
+        UK3CB_M16_30rnd_556x45_YT = "hlc_lmg_minimipara_long_30Rnd";
+        //UK3CB BAF
         UK3CB_BAF_556_30Rnd_Blank = "hlc_lmg_minimipara_long_30Rnd";
         UK3CB_BAF_556_30Rnd = "hlc_lmg_minimipara_long_30Rnd";
         UK3CB_BAF_556_30Rnd_T = "hlc_lmg_minimipara_long_30Rnd";
@@ -418,9 +508,27 @@ class hlc_lmg_minimipara_long_railed: hlc_lmg_minimipara {
         rhs_mag_30Rnd_556x45_Mk318_Stanag_Ranger = "hlc_lmg_minimipara_long_railed_30Rnd";
         rhs_mag_30Rnd_556x45_M193_Stanag = "hlc_lmg_minimipara_long_railed_30Rnd";
         rhs_mag_30Rnd_556x45_M196_Stanag_Tracer_Red = "hlc_lmg_minimipara_long_railed_30Rnd";
-        //UK3CB BAF & Factions
-        UK3CB_M16_20Rnd_Mag = "hlc_lmg_minimipara_long_railed_30Rnd";
-        UK3CB_M16_20Rnd_Mag_T = "hlc_lmg_minimipara_long_railed_30Rnd";
+        //3CB Factions
+        UK3CB_M16_20rnd_556x45 = "hlc_lmg_minimipara_long_railed_30Rnd";
+        UK3CB_M16_20rnd_556x45_G = "hlc_lmg_minimipara_long_railed_30Rnd";
+        UK3CB_M16_20rnd_556x45_R = "hlc_lmg_minimipara_long_railed_30Rnd";
+        UK3CB_M16_20rnd_556x45_W = "hlc_lmg_minimipara_long_railed_30Rnd";
+        UK3CB_M16_20rnd_556x45_Y = "hlc_lmg_minimipara_long_railed_30Rnd";
+        UK3CB_M16_20rnd_556x45_GT = "hlc_lmg_minimipara_long_railed_30Rnd";
+        UK3CB_M16_20rnd_556x45_RT = "hlc_lmg_minimipara_long_railed_30Rnd";
+        UK3CB_M16_20rnd_556x45_WT = "hlc_lmg_minimipara_long_railed_30Rnd";
+        UK3CB_M16_20rnd_556x45_YT = "hlc_lmg_minimipara_long_railed_30Rnd";
+
+        UK3CB_M16_30rnd_556x45 = "hlc_lmg_minimipara_long_railed_30Rnd";
+        UK3CB_M16_30rnd_556x45_G = "hlc_lmg_minimipara_long_railed_30Rnd";
+        UK3CB_M16_30rnd_556x45_R = "hlc_lmg_minimipara_long_railed_30Rnd";
+        UK3CB_M16_30rnd_556x45_W = "hlc_lmg_minimipara_long_railed_30Rnd";
+        UK3CB_M16_30rnd_556x45_Y = "hlc_lmg_minimipara_long_railed_30Rnd";
+        UK3CB_M16_30rnd_556x45_GT = "hlc_lmg_minimipara_long_railed_30Rnd";
+        UK3CB_M16_30rnd_556x45_RT = "hlc_lmg_minimipara_long_railed_30Rnd";
+        UK3CB_M16_30rnd_556x45_WT = "hlc_lmg_minimipara_long_railed_30Rnd";
+        UK3CB_M16_30rnd_556x45_YT = "hlc_lmg_minimipara_long_railed_30Rnd";
+        //UK3CB BAF
         UK3CB_BAF_556_30Rnd_Blank = "hlc_lmg_minimipara_long_railed_30Rnd";
         UK3CB_BAF_556_30Rnd = "hlc_lmg_minimipara_long_railed_30Rnd";
         UK3CB_BAF_556_30Rnd_T = "hlc_lmg_minimipara_long_railed_30Rnd";
@@ -497,9 +605,27 @@ class hlc_lmg_M249E1: hlc_lmg_minimipara {
         rhs_mag_100Rnd_556x45_M855_cmag_mixed = "hlc_lmg_M249E1_30Rnd";
         rhs_mag_100Rnd_556x45_Mk318_cmag = "hlc_lmg_M249E1_30Rnd";
         rhs_mag_100Rnd_556x45_Mk262_cmag = "hlc_lmg_M249E1_30Rnd";
-        //UK3CB BAF & Factions
-        UK3CB_M16_20Rnd_Mag = "hlc_lmg_M249E1_30Rnd";
-        UK3CB_M16_20Rnd_Mag_T = "hlc_lmg_M249E1_30Rnd";
+        //3CB Factions
+        UK3CB_M16_20rnd_556x45 = "hlc_lmg_M249E1_30Rnd";
+        UK3CB_M16_20rnd_556x45_G = "hlc_lmg_M249E1_30Rnd";
+        UK3CB_M16_20rnd_556x45_R = "hlc_lmg_M249E1_30Rnd";
+        UK3CB_M16_20rnd_556x45_W = "hlc_lmg_M249E1_30Rnd";
+        UK3CB_M16_20rnd_556x45_Y = "hlc_lmg_M249E1_30Rnd";
+        UK3CB_M16_20rnd_556x45_GT = "hlc_lmg_M249E1_30Rnd";
+        UK3CB_M16_20rnd_556x45_RT = "hlc_lmg_M249E1_30Rnd";
+        UK3CB_M16_20rnd_556x45_WT = "hlc_lmg_M249E1_30Rnd";
+        UK3CB_M16_20rnd_556x45_YT = "hlc_lmg_M249E1_30Rnd";
+
+        UK3CB_M16_30rnd_556x45 = "hlc_lmg_M249E1_30Rnd";
+        UK3CB_M16_30rnd_556x45_G = "hlc_lmg_M249E1_30Rnd";
+        UK3CB_M16_30rnd_556x45_R = "hlc_lmg_M249E1_30Rnd";
+        UK3CB_M16_30rnd_556x45_W = "hlc_lmg_M249E1_30Rnd";
+        UK3CB_M16_30rnd_556x45_Y = "hlc_lmg_M249E1_30Rnd";
+        UK3CB_M16_30rnd_556x45_GT = "hlc_lmg_M249E1_30Rnd";
+        UK3CB_M16_30rnd_556x45_RT = "hlc_lmg_M249E1_30Rnd";
+        UK3CB_M16_30rnd_556x45_WT = "hlc_lmg_M249E1_30Rnd";
+        UK3CB_M16_30rnd_556x45_YT = "hlc_lmg_M249E1_30Rnd";
+        //UK3CB BAF
         UK3CB_BAF_556_30Rnd_Blank = "hlc_lmg_M249E1_30Rnd";
         UK3CB_BAF_556_30Rnd = "hlc_lmg_M249E1_30Rnd";
         UK3CB_BAF_556_30Rnd_T = "hlc_lmg_M249E1_30Rnd";
@@ -575,9 +701,27 @@ class hlc_lmg_M249E2: hlc_lmg_minimipara {
         rhs_mag_100Rnd_556x45_M855_cmag_mixed = "hlc_lmg_M249E2_30Rnd";
         rhs_mag_100Rnd_556x45_Mk318_cmag = "hlc_lmg_M249E2_30Rnd";
         rhs_mag_100Rnd_556x45_Mk262_cmag = "hlc_lmg_M249E2_30Rnd";
-        //UK3CB BAF & Factions
-        UK3CB_M16_20Rnd_Mag = "hlc_lmg_M249E2_30Rnd";
-        UK3CB_M16_20Rnd_Mag_T = "hlc_lmg_M249E2_30Rnd";
+        //3CB Factions
+        UK3CB_M16_20rnd_556x45 = "hlc_lmg_M249E2_30Rnd";
+        UK3CB_M16_20rnd_556x45_G = "hlc_lmg_M249E2_30Rnd";
+        UK3CB_M16_20rnd_556x45_R = "hlc_lmg_M249E2_30Rnd";
+        UK3CB_M16_20rnd_556x45_W = "hlc_lmg_M249E2_30Rnd";
+        UK3CB_M16_20rnd_556x45_Y = "hlc_lmg_M249E2_30Rnd";
+        UK3CB_M16_20rnd_556x45_GT = "hlc_lmg_M249E2_30Rnd";
+        UK3CB_M16_20rnd_556x45_RT = "hlc_lmg_M249E2_30Rnd";
+        UK3CB_M16_20rnd_556x45_WT = "hlc_lmg_M249E2_30Rnd";
+        UK3CB_M16_20rnd_556x45_YT = "hlc_lmg_M249E2_30Rnd";
+
+        UK3CB_M16_30rnd_556x45 = "hlc_lmg_M249E2_30Rnd";
+        UK3CB_M16_30rnd_556x45_G = "hlc_lmg_M249E2_30Rnd";
+        UK3CB_M16_30rnd_556x45_R = "hlc_lmg_M249E2_30Rnd";
+        UK3CB_M16_30rnd_556x45_W = "hlc_lmg_M249E2_30Rnd";
+        UK3CB_M16_30rnd_556x45_Y = "hlc_lmg_M249E2_30Rnd";
+        UK3CB_M16_30rnd_556x45_GT = "hlc_lmg_M249E2_30Rnd";
+        UK3CB_M16_30rnd_556x45_RT = "hlc_lmg_M249E2_30Rnd";
+        UK3CB_M16_30rnd_556x45_WT = "hlc_lmg_M249E2_30Rnd";
+        UK3CB_M16_30rnd_556x45_YT = "hlc_lmg_M249E2_30Rnd";
+        //UK3CB BAF
         UK3CB_BAF_556_30Rnd_Blank = "hlc_lmg_M249E2_30Rnd";
         UK3CB_BAF_556_30Rnd = "hlc_lmg_M249E2_30Rnd";
         UK3CB_BAF_556_30Rnd_T = "hlc_lmg_M249E2_30Rnd";
@@ -647,17 +791,30 @@ class hlc_lmg_m249para: hlc_lmg_minimipara {
         rhs_mag_30Rnd_556x45_Mk318_Stanag_Ranger = "hlc_lmg_m249para_30Rnd";
         rhs_mag_30Rnd_556x45_M193_Stanag = "hlc_lmg_m249para_30Rnd";
         rhs_mag_30Rnd_556x45_M196_Stanag_Tracer_Red = "hlc_lmg_m249para_30Rnd";
-        //UK3CB BAF & Factions
-        UK3CB_M16_20Rnd_Mag = "hlc_lmg_m249para_30Rnd";
-        UK3CB_M16_20Rnd_Mag_T = "hlc_lmg_m249para_30Rnd";
+        //3CB Factions
+        UK3CB_M16_20rnd_556x45 = "hlc_lmg_m249para_30Rnd";
+        UK3CB_M16_20rnd_556x45_G = "hlc_lmg_m249para_30Rnd";
+        UK3CB_M16_20rnd_556x45_R = "hlc_lmg_m249para_30Rnd";
+        UK3CB_M16_20rnd_556x45_W = "hlc_lmg_m249para_30Rnd";
+        UK3CB_M16_20rnd_556x45_Y = "hlc_lmg_m249para_30Rnd";
+        UK3CB_M16_20rnd_556x45_GT = "hlc_lmg_m249para_30Rnd";
+        UK3CB_M16_20rnd_556x45_RT = "hlc_lmg_m249para_30Rnd";
+        UK3CB_M16_20rnd_556x45_WT = "hlc_lmg_m249para_30Rnd";
+        UK3CB_M16_20rnd_556x45_YT = "hlc_lmg_m249para_30Rnd";
+
+        UK3CB_M16_30rnd_556x45 = "hlc_lmg_m249para_30Rnd";
+        UK3CB_M16_30rnd_556x45_G = "hlc_lmg_m249para_30Rnd";
+        UK3CB_M16_30rnd_556x45_R = "hlc_lmg_m249para_30Rnd";
+        UK3CB_M16_30rnd_556x45_W = "hlc_lmg_m249para_30Rnd";
+        UK3CB_M16_30rnd_556x45_Y = "hlc_lmg_m249para_30Rnd";
+        UK3CB_M16_30rnd_556x45_GT = "hlc_lmg_m249para_30Rnd";
+        UK3CB_M16_30rnd_556x45_RT = "hlc_lmg_m249para_30Rnd";
+        UK3CB_M16_30rnd_556x45_WT = "hlc_lmg_m249para_30Rnd";
+        UK3CB_M16_30rnd_556x45_YT = "hlc_lmg_m249para_30Rnd";
+        //UK3CB BAF
         UK3CB_BAF_556_30Rnd_Blank = "hlc_lmg_m249para_30Rnd";
         UK3CB_BAF_556_30Rnd = "hlc_lmg_m249para_30Rnd";
         UK3CB_BAF_556_30Rnd_T = "hlc_lmg_m249para_30Rnd";
-        //ACE
-        ACE_30Rnd_556x45_Stanag_M995_AP_mag = "hlc_lmg_m249para_30Rnd";
-        ACE_30Rnd_556x45_Stanag_Mk262_mag = "hlc_lmg_m249para_30Rnd";
-        ACE_30Rnd_556x45_Stanag_Mk318_mag = "hlc_lmg_m249para_30Rnd";
-        ACE_30Rnd_556x45_Stanag_Tracer_Dim = "hlc_lmg_m249para_30Rnd";
         //SFP
         sfp_30Rnd_556x45_Stanag = "hlc_lmg_m249para_30Rnd";
         sfp_30Rnd_556x45_Stanag_plastic = "hlc_lmg_m249para_30Rnd";
@@ -719,9 +876,27 @@ class hlc_m249_pip1: hlc_lmg_minimi_railed {
         rhs_mag_30Rnd_556x45_Mk318_Stanag_Ranger = "hlc_m249_pip1_30Rnd";
         rhs_mag_30Rnd_556x45_M193_Stanag = "hlc_m249_pip1_30Rnd";
         rhs_mag_30Rnd_556x45_M196_Stanag_Tracer_Red = "hlc_m249_pip1_30Rnd";
-        //UK3CB BAF & Factions
-        UK3CB_M16_20Rnd_Mag = "hlc_m249_pip1_30Rnd";
-        UK3CB_M16_20Rnd_Mag_T = "hlc_m249_pip1_30Rnd";
+        //3CB Factions
+        UK3CB_M16_20rnd_556x45 = "hlc_m249_pip1_30Rnd";
+        UK3CB_M16_20rnd_556x45_G = "hlc_m249_pip1_30Rnd";
+        UK3CB_M16_20rnd_556x45_R = "hlc_m249_pip1_30Rnd";
+        UK3CB_M16_20rnd_556x45_W = "hlc_m249_pip1_30Rnd";
+        UK3CB_M16_20rnd_556x45_Y = "hlc_m249_pip1_30Rnd";
+        UK3CB_M16_20rnd_556x45_GT = "hlc_m249_pip1_30Rnd";
+        UK3CB_M16_20rnd_556x45_RT = "hlc_m249_pip1_30Rnd";
+        UK3CB_M16_20rnd_556x45_WT = "hlc_m249_pip1_30Rnd";
+        UK3CB_M16_20rnd_556x45_YT = "hlc_m249_pip1_30Rnd";
+
+        UK3CB_M16_30rnd_556x45 = "hlc_m249_pip1_30Rnd";
+        UK3CB_M16_30rnd_556x45_G = "hlc_m249_pip1_30Rnd";
+        UK3CB_M16_30rnd_556x45_R = "hlc_m249_pip1_30Rnd";
+        UK3CB_M16_30rnd_556x45_W = "hlc_m249_pip1_30Rnd";
+        UK3CB_M16_30rnd_556x45_Y = "hlc_m249_pip1_30Rnd";
+        UK3CB_M16_30rnd_556x45_GT = "hlc_m249_pip1_30Rnd";
+        UK3CB_M16_30rnd_556x45_RT = "hlc_m249_pip1_30Rnd";
+        UK3CB_M16_30rnd_556x45_WT = "hlc_m249_pip1_30Rnd";
+        UK3CB_M16_30rnd_556x45_YT = "hlc_m249_pip1_30Rnd";
+        //UK3CB BAF
         UK3CB_BAF_556_30Rnd_Blank = "hlc_m249_pip1_30Rnd";
         UK3CB_BAF_556_30Rnd = "hlc_m249_pip1_30Rnd";
         UK3CB_BAF_556_30Rnd_T = "hlc_m249_pip1_30Rnd";
@@ -791,9 +966,27 @@ class hlc_m249_pip2: hlc_lmg_minimi_railed {
         rhs_mag_30Rnd_556x45_Mk318_Stanag_Ranger = "hlc_m249_pip2_30Rnd";
         rhs_mag_30Rnd_556x45_M193_Stanag = "hlc_m249_pip2_30Rnd";
         rhs_mag_30Rnd_556x45_M196_Stanag_Tracer_Red = "hlc_m249_pip2_30Rnd";
-        //UK3CB BAF & Factions
-        UK3CB_M16_20Rnd_Mag = "hlc_m249_pip2_30Rnd";
-        UK3CB_M16_20Rnd_Mag_T = "hlc_m249_pip2_30Rnd";
+        //3CB Factions
+        UK3CB_M16_20rnd_556x45 = "hlc_m249_pip2_30Rnd";
+        UK3CB_M16_20rnd_556x45_G = "hlc_m249_pip2_30Rnd";
+        UK3CB_M16_20rnd_556x45_R = "hlc_m249_pip2_30Rnd";
+        UK3CB_M16_20rnd_556x45_W = "hlc_m249_pip2_30Rnd";
+        UK3CB_M16_20rnd_556x45_Y = "hlc_m249_pip2_30Rnd";
+        UK3CB_M16_20rnd_556x45_GT = "hlc_m249_pip2_30Rnd";
+        UK3CB_M16_20rnd_556x45_RT = "hlc_m249_pip2_30Rnd";
+        UK3CB_M16_20rnd_556x45_WT = "hlc_m249_pip2_30Rnd";
+        UK3CB_M16_20rnd_556x45_YT = "hlc_m249_pip2_30Rnd";
+
+        UK3CB_M16_30rnd_556x45 = "hlc_m249_pip2_30Rnd";
+        UK3CB_M16_30rnd_556x45_G = "hlc_m249_pip2_30Rnd";
+        UK3CB_M16_30rnd_556x45_R = "hlc_m249_pip2_30Rnd";
+        UK3CB_M16_30rnd_556x45_W = "hlc_m249_pip2_30Rnd";
+        UK3CB_M16_30rnd_556x45_Y = "hlc_m249_pip2_30Rnd";
+        UK3CB_M16_30rnd_556x45_GT = "hlc_m249_pip2_30Rnd";
+        UK3CB_M16_30rnd_556x45_RT = "hlc_m249_pip2_30Rnd";
+        UK3CB_M16_30rnd_556x45_WT = "hlc_m249_pip2_30Rnd";
+        UK3CB_M16_30rnd_556x45_YT = "hlc_m249_pip2_30Rnd";
+        //UK3CB BAF
         UK3CB_BAF_556_30Rnd_Blank = "hlc_m249_pip2_30Rnd";
         UK3CB_BAF_556_30Rnd = "hlc_m249_pip2_30Rnd";
         UK3CB_BAF_556_30Rnd_T = "hlc_m249_pip2_30Rnd";
@@ -863,9 +1056,27 @@ class hlc_m249_pip3: hlc_lmg_minimi_railed {
         rhs_mag_30Rnd_556x45_Mk318_Stanag_Ranger = "hlc_m249_pip3_30Rnd";
         rhs_mag_30Rnd_556x45_M193_Stanag = "hlc_m249_pip3_30Rnd";
         rhs_mag_30Rnd_556x45_M196_Stanag_Tracer_Red = "hlc_m249_pip3_30Rnd";
-        //UK3CB BAF & Factions
-        UK3CB_M16_20Rnd_Mag = "hlc_m249_pip3_30Rnd";
-        UK3CB_M16_20Rnd_Mag_T = "hlc_m249_pip3_30Rnd";
+        //3CB Factions
+        UK3CB_M16_20rnd_556x45 = "hlc_m249_pip3_30Rnd";
+        UK3CB_M16_20rnd_556x45_G = "hlc_m249_pip3_30Rnd";
+        UK3CB_M16_20rnd_556x45_R = "hlc_m249_pip3_30Rnd";
+        UK3CB_M16_20rnd_556x45_W = "hlc_m249_pip3_30Rnd";
+        UK3CB_M16_20rnd_556x45_Y = "hlc_m249_pip3_30Rnd";
+        UK3CB_M16_20rnd_556x45_GT = "hlc_m249_pip3_30Rnd";
+        UK3CB_M16_20rnd_556x45_RT = "hlc_m249_pip3_30Rnd";
+        UK3CB_M16_20rnd_556x45_WT = "hlc_m249_pip3_30Rnd";
+        UK3CB_M16_20rnd_556x45_YT = "hlc_m249_pip3_30Rnd";
+
+        UK3CB_M16_30rnd_556x45 = "hlc_m249_pip3_30Rnd";
+        UK3CB_M16_30rnd_556x45_G = "hlc_m249_pip3_30Rnd";
+        UK3CB_M16_30rnd_556x45_R = "hlc_m249_pip3_30Rnd";
+        UK3CB_M16_30rnd_556x45_W = "hlc_m249_pip3_30Rnd";
+        UK3CB_M16_30rnd_556x45_Y = "hlc_m249_pip3_30Rnd";
+        UK3CB_M16_30rnd_556x45_GT = "hlc_m249_pip3_30Rnd";
+        UK3CB_M16_30rnd_556x45_RT = "hlc_m249_pip3_30Rnd";
+        UK3CB_M16_30rnd_556x45_WT = "hlc_m249_pip3_30Rnd";
+        UK3CB_M16_30rnd_556x45_YT = "hlc_m249_pip3_30Rnd";
+        //UK3CB BAF
         UK3CB_BAF_556_30Rnd_Blank = "hlc_m249_pip3_30Rnd";
         UK3CB_BAF_556_30Rnd = "hlc_m249_pip3_30Rnd";
         UK3CB_BAF_556_30Rnd_T = "hlc_m249_pip3_30Rnd";
@@ -942,9 +1153,27 @@ class hlc_m249_pip4: hlc_lmg_minimi_railed {
         rhs_mag_100Rnd_556x45_M855_cmag_mixed = "hlc_m249_pip4_30Rnd";
         rhs_mag_100Rnd_556x45_Mk318_cmag = "hlc_m249_pip4_30Rnd";
         rhs_mag_100Rnd_556x45_Mk262_cmag = "hlc_m249_pip4_30Rnd";
-        //UK3CB BAF & Factions
-        UK3CB_M16_20Rnd_Mag = "hlc_m249_pip4_30Rnd";
-        UK3CB_M16_20Rnd_Mag_T = "hlc_m249_pip4_30Rnd";
+        //3CB Factions
+        UK3CB_M16_20rnd_556x45 = "hlc_m249_pip4_30Rnd";
+        UK3CB_M16_20rnd_556x45_G = "hlc_m249_pip4_30Rnd";
+        UK3CB_M16_20rnd_556x45_R = "hlc_m249_pip4_30Rnd";
+        UK3CB_M16_20rnd_556x45_W = "hlc_m249_pip4_30Rnd";
+        UK3CB_M16_20rnd_556x45_Y = "hlc_m249_pip4_30Rnd";
+        UK3CB_M16_20rnd_556x45_GT = "hlc_m249_pip4_30Rnd";
+        UK3CB_M16_20rnd_556x45_RT = "hlc_m249_pip4_30Rnd";
+        UK3CB_M16_20rnd_556x45_WT = "hlc_m249_pip4_30Rnd";
+        UK3CB_M16_20rnd_556x45_YT = "hlc_m249_pip4_30Rnd";
+
+        UK3CB_M16_30rnd_556x45 = "hlc_m249_pip4_30Rnd";
+        UK3CB_M16_30rnd_556x45_G = "hlc_m249_pip4_30Rnd";
+        UK3CB_M16_30rnd_556x45_R = "hlc_m249_pip4_30Rnd";
+        UK3CB_M16_30rnd_556x45_W = "hlc_m249_pip4_30Rnd";
+        UK3CB_M16_30rnd_556x45_Y = "hlc_m249_pip4_30Rnd";
+        UK3CB_M16_30rnd_556x45_GT = "hlc_m249_pip4_30Rnd";
+        UK3CB_M16_30rnd_556x45_RT = "hlc_m249_pip4_30Rnd";
+        UK3CB_M16_30rnd_556x45_WT = "hlc_m249_pip4_30Rnd";
+        UK3CB_M16_30rnd_556x45_YT = "hlc_m249_pip4_30Rnd";
+        //UK3CB BAF
         UK3CB_BAF_556_30Rnd_Blank = "hlc_m249_pip4_30Rnd";
         UK3CB_BAF_556_30Rnd = "hlc_m249_pip4_30Rnd";
         UK3CB_BAF_556_30Rnd_T = "hlc_m249_pip4_30Rnd";
@@ -1010,9 +1239,27 @@ class hlc_m249_pip4_grip: hlc_m249_pip4 {
         rhs_mag_30Rnd_556x45_Mk318_Stanag_Ranger = "hlc_m249_pip4_30Rnd_grip";
         rhs_mag_30Rnd_556x45_M193_Stanag = "hlc_m249_pip4_30Rnd_grip";
         rhs_mag_30Rnd_556x45_M196_Stanag_Tracer_Red = "hlc_m249_pip4_30Rnd_grip";
-        //UK3CB BAF & Factions
-        UK3CB_M16_20Rnd_Mag = "hlc_m249_pip4_30Rnd_grip";
-        UK3CB_M16_20Rnd_Mag_T = "hlc_m249_pip4_30Rnd_grip";
+        //3CB Factions
+        UK3CB_M16_20rnd_556x45 = "hlc_m249_pip4_30Rnd_grip";
+        UK3CB_M16_20rnd_556x45_G = "hlc_m249_pip4_30Rnd_grip";
+        UK3CB_M16_20rnd_556x45_R = "hlc_m249_pip4_30Rnd_grip";
+        UK3CB_M16_20rnd_556x45_W = "hlc_m249_pip4_30Rnd_grip";
+        UK3CB_M16_20rnd_556x45_Y = "hlc_m249_pip4_30Rnd_grip";
+        UK3CB_M16_20rnd_556x45_GT = "hlc_m249_pip4_30Rnd_grip";
+        UK3CB_M16_20rnd_556x45_RT = "hlc_m249_pip4_30Rnd_grip";
+        UK3CB_M16_20rnd_556x45_WT = "hlc_m249_pip4_30Rnd_grip";
+        UK3CB_M16_20rnd_556x45_YT = "hlc_m249_pip4_30Rnd_grip";
+
+        UK3CB_M16_30rnd_556x45 = "hlc_m249_pip4_30Rnd_grip";
+        UK3CB_M16_30rnd_556x45_G = "hlc_m249_pip4_30Rnd_grip";
+        UK3CB_M16_30rnd_556x45_R = "hlc_m249_pip4_30Rnd_grip";
+        UK3CB_M16_30rnd_556x45_W = "hlc_m249_pip4_30Rnd_grip";
+        UK3CB_M16_30rnd_556x45_Y = "hlc_m249_pip4_30Rnd_grip";
+        UK3CB_M16_30rnd_556x45_GT = "hlc_m249_pip4_30Rnd_grip";
+        UK3CB_M16_30rnd_556x45_RT = "hlc_m249_pip4_30Rnd_grip";
+        UK3CB_M16_30rnd_556x45_WT = "hlc_m249_pip4_30Rnd_grip";
+        UK3CB_M16_30rnd_556x45_YT = "hlc_m249_pip4_30Rnd_grip";
+        //UK3CB BAF
         UK3CB_BAF_556_30Rnd_Blank = "hlc_m249_pip4_30Rnd_grip";
         UK3CB_BAF_556_30Rnd = "hlc_m249_pip4_30Rnd_grip";
         UK3CB_BAF_556_30Rnd_T = "hlc_m249_pip4_30Rnd_grip";
@@ -1078,9 +1325,27 @@ class hlc_m249_pip4_grip2: hlc_m249_pip4 {
         rhs_mag_30Rnd_556x45_Mk318_Stanag_Ranger = "hlc_m249_pip4_30Rnd_grip2";
         rhs_mag_30Rnd_556x45_M193_Stanag = "hlc_m249_pip4_30Rnd_grip2";
         rhs_mag_30Rnd_556x45_M196_Stanag_Tracer_Red = "hlc_m249_pip4_30Rnd_grip2";
-        //UK3CB BAF & Factions
-        UK3CB_M16_20Rnd_Mag = "hlc_m249_pip4_30Rnd_grip2";
-        UK3CB_M16_20Rnd_Mag_T = "hlc_m249_pip4_30Rnd_grip2";
+        //3CB Factions
+        UK3CB_M16_20rnd_556x45 = "hlc_m249_pip4_30Rnd_grip2";
+        UK3CB_M16_20rnd_556x45_G = "hlc_m249_pip4_30Rnd_grip2";
+        UK3CB_M16_20rnd_556x45_R = "hlc_m249_pip4_30Rnd_grip2";
+        UK3CB_M16_20rnd_556x45_W = "hlc_m249_pip4_30Rnd_grip2";
+        UK3CB_M16_20rnd_556x45_Y = "hlc_m249_pip4_30Rnd_grip2";
+        UK3CB_M16_20rnd_556x45_GT = "hlc_m249_pip4_30Rnd_grip2";
+        UK3CB_M16_20rnd_556x45_RT = "hlc_m249_pip4_30Rnd_grip2";
+        UK3CB_M16_20rnd_556x45_WT = "hlc_m249_pip4_30Rnd_grip2";
+        UK3CB_M16_20rnd_556x45_YT = "hlc_m249_pip4_30Rnd_grip2";
+
+        UK3CB_M16_30rnd_556x45 = "hlc_m249_pip4_30Rnd_grip2";
+        UK3CB_M16_30rnd_556x45_G = "hlc_m249_pip4_30Rnd_grip2";
+        UK3CB_M16_30rnd_556x45_R = "hlc_m249_pip4_30Rnd_grip2";
+        UK3CB_M16_30rnd_556x45_W = "hlc_m249_pip4_30Rnd_grip2";
+        UK3CB_M16_30rnd_556x45_Y = "hlc_m249_pip4_30Rnd_grip2";
+        UK3CB_M16_30rnd_556x45_GT = "hlc_m249_pip4_30Rnd_grip2";
+        UK3CB_M16_30rnd_556x45_RT = "hlc_m249_pip4_30Rnd_grip2";
+        UK3CB_M16_30rnd_556x45_WT = "hlc_m249_pip4_30Rnd_grip2";
+        UK3CB_M16_30rnd_556x45_YT = "hlc_m249_pip4_30Rnd_grip2";
+        //UK3CB BAF
         UK3CB_BAF_556_30Rnd_Blank = "hlc_m249_pip4_30Rnd_grip2";
         UK3CB_BAF_556_30Rnd = "hlc_m249_pip4_30Rnd_grip2";
         UK3CB_BAF_556_30Rnd_T = "hlc_m249_pip4_30Rnd_grip2";
@@ -1146,9 +1411,27 @@ class hlc_m249_pip4_grip3: hlc_m249_pip4 {
         rhs_mag_30Rnd_556x45_Mk318_Stanag_Ranger = "hlc_m249_pip4_30Rnd_grip3";
         rhs_mag_30Rnd_556x45_M193_Stanag = "hlc_m249_pip4_30Rnd_grip3";
         rhs_mag_30Rnd_556x45_M196_Stanag_Tracer_Red = "hlc_m249_pip4_30Rnd_grip3";
-        //UK3CB BAF & Factions
-        UK3CB_M16_20Rnd_Mag = "hlc_m249_pip4_30Rnd_grip3";
-        UK3CB_M16_20Rnd_Mag_T = "hlc_m249_pip4_30Rnd_grip3";
+        //3CB Factions
+        UK3CB_M16_20rnd_556x45 = "hlc_m249_pip4_30Rnd_grip3";
+        UK3CB_M16_20rnd_556x45_G = "hlc_m249_pip4_30Rnd_grip3";
+        UK3CB_M16_20rnd_556x45_R = "hlc_m249_pip4_30Rnd_grip3";
+        UK3CB_M16_20rnd_556x45_W = "hlc_m249_pip4_30Rnd_grip3";
+        UK3CB_M16_20rnd_556x45_Y = "hlc_m249_pip4_30Rnd_grip3";
+        UK3CB_M16_20rnd_556x45_GT = "hlc_m249_pip4_30Rnd_grip3";
+        UK3CB_M16_20rnd_556x45_RT = "hlc_m249_pip4_30Rnd_grip3";
+        UK3CB_M16_20rnd_556x45_WT = "hlc_m249_pip4_30Rnd_grip3";
+        UK3CB_M16_20rnd_556x45_YT = "hlc_m249_pip4_30Rnd_grip3";
+
+        UK3CB_M16_30rnd_556x45 = "hlc_m249_pip4_30Rnd_grip3";
+        UK3CB_M16_30rnd_556x45_G = "hlc_m249_pip4_30Rnd_grip3";
+        UK3CB_M16_30rnd_556x45_R = "hlc_m249_pip4_30Rnd_grip3";
+        UK3CB_M16_30rnd_556x45_W = "hlc_m249_pip4_30Rnd_grip3";
+        UK3CB_M16_30rnd_556x45_Y = "hlc_m249_pip4_30Rnd_grip3";
+        UK3CB_M16_30rnd_556x45_GT = "hlc_m249_pip4_30Rnd_grip3";
+        UK3CB_M16_30rnd_556x45_RT = "hlc_m249_pip4_30Rnd_grip3";
+        UK3CB_M16_30rnd_556x45_WT = "hlc_m249_pip4_30Rnd_grip3";
+        UK3CB_M16_30rnd_556x45_YT = "hlc_m249_pip4_30Rnd_grip3";
+        //UK3CB BAF
         UK3CB_BAF_556_30Rnd_Blank = "hlc_m249_pip4_30Rnd_grip3";
         UK3CB_BAF_556_30Rnd = "hlc_m249_pip4_30Rnd_grip3";
         UK3CB_BAF_556_30Rnd_T = "hlc_m249_pip4_30Rnd_grip3";
@@ -1219,9 +1502,27 @@ class hlc_m249_SQuantoon: hlc_m249_pip4 {
         rhs_mag_30Rnd_556x45_Mk318_Stanag_Ranger = "hlc_m249_SQuantoon_30Rnd";
         rhs_mag_30Rnd_556x45_M193_Stanag = "hlc_m249_SQuantoon_30Rnd";
         rhs_mag_30Rnd_556x45_M196_Stanag_Tracer_Red = "hlc_m249_SQuantoon_30Rnd";
-        //UK3CB BAF & Factions
-        UK3CB_M16_20Rnd_Mag = "hlc_m249_SQuantoon_30Rnd";
-        UK3CB_M16_20Rnd_Mag_T = "hlc_m249_SQuantoon_30Rnd";
+        //3CB Factions
+        UK3CB_M16_20rnd_556x45 = "hlc_m249_SQuantoon_30Rnd";
+        UK3CB_M16_20rnd_556x45_G = "hlc_m249_SQuantoon_30Rnd";
+        UK3CB_M16_20rnd_556x45_R = "hlc_m249_SQuantoon_30Rnd";
+        UK3CB_M16_20rnd_556x45_W = "hlc_m249_SQuantoon_30Rnd";
+        UK3CB_M16_20rnd_556x45_Y = "hlc_m249_SQuantoon_30Rnd";
+        UK3CB_M16_20rnd_556x45_GT = "hlc_m249_SQuantoon_30Rnd";
+        UK3CB_M16_20rnd_556x45_RT = "hlc_m249_SQuantoon_30Rnd";
+        UK3CB_M16_20rnd_556x45_WT = "hlc_m249_SQuantoon_30Rnd";
+        UK3CB_M16_20rnd_556x45_YT = "hlc_m249_SQuantoon_30Rnd";
+
+        UK3CB_M16_30rnd_556x45 = "hlc_m249_SQuantoon_30Rnd";
+        UK3CB_M16_30rnd_556x45_G = "hlc_m249_SQuantoon_30Rnd";
+        UK3CB_M16_30rnd_556x45_R = "hlc_m249_SQuantoon_30Rnd";
+        UK3CB_M16_30rnd_556x45_W = "hlc_m249_SQuantoon_30Rnd";
+        UK3CB_M16_30rnd_556x45_Y = "hlc_m249_SQuantoon_30Rnd";
+        UK3CB_M16_30rnd_556x45_GT = "hlc_m249_SQuantoon_30Rnd";
+        UK3CB_M16_30rnd_556x45_RT = "hlc_m249_SQuantoon_30Rnd";
+        UK3CB_M16_30rnd_556x45_WT = "hlc_m249_SQuantoon_30Rnd";
+        UK3CB_M16_30rnd_556x45_YT = "hlc_m249_SQuantoon_30Rnd";
+        //UK3CB BAF
         UK3CB_BAF_556_30Rnd_Blank = "hlc_m249_SQuantoon_30Rnd";
         UK3CB_BAF_556_30Rnd = "hlc_m249_SQuantoon_30Rnd";
         UK3CB_BAF_556_30Rnd_T = "hlc_m249_SQuantoon_30Rnd";
@@ -1287,9 +1588,27 @@ class hlc_m249_SQuantoon_grip: hlc_m249_SQuantoon {
         rhs_mag_30Rnd_556x45_Mk318_Stanag_Ranger = "hlc_m249_SQuantoon_30Rnd_grip";
         rhs_mag_30Rnd_556x45_M193_Stanag = "hlc_m249_SQuantoon_30Rnd_grip";
         rhs_mag_30Rnd_556x45_M196_Stanag_Tracer_Red = "hlc_m249_SQuantoon_30Rnd_grip";
-        //UK3CB BAF & Factions
-        UK3CB_M16_20Rnd_Mag = "hlc_m249_SQuantoon_30Rnd_grip";
-        UK3CB_M16_20Rnd_Mag_T = "hlc_m249_SQuantoon_30Rnd_grip";
+        //3CB Factions
+        UK3CB_M16_20rnd_556x45 = "hlc_m249_SQuantoon_30Rnd_grip";
+        UK3CB_M16_20rnd_556x45_G = "hlc_m249_SQuantoon_30Rnd_grip";
+        UK3CB_M16_20rnd_556x45_R = "hlc_m249_SQuantoon_30Rnd_grip";
+        UK3CB_M16_20rnd_556x45_W = "hlc_m249_SQuantoon_30Rnd_grip";
+        UK3CB_M16_20rnd_556x45_Y = "hlc_m249_SQuantoon_30Rnd_grip";
+        UK3CB_M16_20rnd_556x45_GT = "hlc_m249_SQuantoon_30Rnd_grip";
+        UK3CB_M16_20rnd_556x45_RT = "hlc_m249_SQuantoon_30Rnd_grip";
+        UK3CB_M16_20rnd_556x45_WT = "hlc_m249_SQuantoon_30Rnd_grip";
+        UK3CB_M16_20rnd_556x45_YT = "hlc_m249_SQuantoon_30Rnd_grip";
+
+        UK3CB_M16_30rnd_556x45 = "hlc_m249_SQuantoon_30Rnd_grip";
+        UK3CB_M16_30rnd_556x45_G = "hlc_m249_SQuantoon_30Rnd_grip";
+        UK3CB_M16_30rnd_556x45_R = "hlc_m249_SQuantoon_30Rnd_grip";
+        UK3CB_M16_30rnd_556x45_W = "hlc_m249_SQuantoon_30Rnd_grip";
+        UK3CB_M16_30rnd_556x45_Y = "hlc_m249_SQuantoon_30Rnd_grip";
+        UK3CB_M16_30rnd_556x45_GT = "hlc_m249_SQuantoon_30Rnd_grip";
+        UK3CB_M16_30rnd_556x45_RT = "hlc_m249_SQuantoon_30Rnd_grip";
+        UK3CB_M16_30rnd_556x45_WT = "hlc_m249_SQuantoon_30Rnd_grip";
+        UK3CB_M16_30rnd_556x45_YT = "hlc_m249_SQuantoon_30Rnd_grip";
+        //UK3CB BAF
         UK3CB_BAF_556_30Rnd_Blank = "hlc_m249_SQuantoon_30Rnd_grip";
         UK3CB_BAF_556_30Rnd = "hlc_m249_SQuantoon_30Rnd_grip";
         UK3CB_BAF_556_30Rnd_T = "hlc_m249_SQuantoon_30Rnd_grip";
@@ -1355,9 +1674,27 @@ class hlc_m249_SQuantoon_grip2: hlc_m249_SQuantoon {
         rhs_mag_30Rnd_556x45_Mk318_Stanag_Ranger = "hlc_m249_SQuantoon_30Rnd_grip2";
         rhs_mag_30Rnd_556x45_M193_Stanag = "hlc_m249_SQuantoon_30Rnd_grip2";
         rhs_mag_30Rnd_556x45_M196_Stanag_Tracer_Red = "hlc_m249_SQuantoon_30Rnd_grip2";
-        //UK3CB BAF & Factions
-        UK3CB_M16_20Rnd_Mag = "hlc_m249_SQuantoon_30Rnd_grip2";
-        UK3CB_M16_20Rnd_Mag_T = "hlc_m249_SQuantoon_30Rnd_grip2";
+        //3CB Factions
+        UK3CB_M16_20rnd_556x45 = "hlc_m249_SQuantoon_30Rnd_grip2";
+        UK3CB_M16_20rnd_556x45_G = "hlc_m249_SQuantoon_30Rnd_grip2";
+        UK3CB_M16_20rnd_556x45_R = "hlc_m249_SQuantoon_30Rnd_grip2";
+        UK3CB_M16_20rnd_556x45_W = "hlc_m249_SQuantoon_30Rnd_grip2";
+        UK3CB_M16_20rnd_556x45_Y = "hlc_m249_SQuantoon_30Rnd_grip2";
+        UK3CB_M16_20rnd_556x45_GT = "hlc_m249_SQuantoon_30Rnd_grip2";
+        UK3CB_M16_20rnd_556x45_RT = "hlc_m249_SQuantoon_30Rnd_grip2";
+        UK3CB_M16_20rnd_556x45_WT = "hlc_m249_SQuantoon_30Rnd_grip2";
+        UK3CB_M16_20rnd_556x45_YT = "hlc_m249_SQuantoon_30Rnd_grip2";
+
+        UK3CB_M16_30rnd_556x45 = "hlc_m249_SQuantoon_30Rnd_grip2";
+        UK3CB_M16_30rnd_556x45_G = "hlc_m249_SQuantoon_30Rnd_grip2";
+        UK3CB_M16_30rnd_556x45_R = "hlc_m249_SQuantoon_30Rnd_grip2";
+        UK3CB_M16_30rnd_556x45_W = "hlc_m249_SQuantoon_30Rnd_grip2";
+        UK3CB_M16_30rnd_556x45_Y = "hlc_m249_SQuantoon_30Rnd_grip2";
+        UK3CB_M16_30rnd_556x45_GT = "hlc_m249_SQuantoon_30Rnd_grip2";
+        UK3CB_M16_30rnd_556x45_RT = "hlc_m249_SQuantoon_30Rnd_grip2";
+        UK3CB_M16_30rnd_556x45_WT = "hlc_m249_SQuantoon_30Rnd_grip2";
+        UK3CB_M16_30rnd_556x45_YT = "hlc_m249_SQuantoon_30Rnd_grip2";
+        //UK3CB BAF
         UK3CB_BAF_556_30Rnd_Blank = "hlc_m249_SQuantoon_30Rnd_grip2";
         UK3CB_BAF_556_30Rnd = "hlc_m249_SQuantoon_30Rnd_grip2";
         UK3CB_BAF_556_30Rnd_T = "hlc_m249_SQuantoon_30Rnd_grip2";
@@ -1423,9 +1760,27 @@ class hlc_m249_SQuantoon_grip3: hlc_m249_SQuantoon {
         rhs_mag_30Rnd_556x45_Mk318_Stanag_Ranger = "hlc_m249_SQuantoon_30Rnd_grip3";
         rhs_mag_30Rnd_556x45_M193_Stanag = "hlc_m249_SQuantoon_30Rnd_grip3";
         rhs_mag_30Rnd_556x45_M196_Stanag_Tracer_Red = "hlc_m249_SQuantoon_30Rnd_grip3";
-        //UK3CB BAF & Factions
-        UK3CB_M16_20Rnd_Mag = "hlc_m249_SQuantoon_30Rnd_grip3";
-        UK3CB_M16_20Rnd_Mag_T = "hlc_m249_SQuantoon_30Rnd_grip3";
+        //3CB Factions
+        UK3CB_M16_20rnd_556x45 = "hlc_m249_SQuantoon_30Rnd_grip3";
+        UK3CB_M16_20rnd_556x45_G = "hlc_m249_SQuantoon_30Rnd_grip3";
+        UK3CB_M16_20rnd_556x45_R = "hlc_m249_SQuantoon_30Rnd_grip3";
+        UK3CB_M16_20rnd_556x45_W = "hlc_m249_SQuantoon_30Rnd_grip3";
+        UK3CB_M16_20rnd_556x45_Y = "hlc_m249_SQuantoon_30Rnd_grip3";
+        UK3CB_M16_20rnd_556x45_GT = "hlc_m249_SQuantoon_30Rnd_grip3";
+        UK3CB_M16_20rnd_556x45_RT = "hlc_m249_SQuantoon_30Rnd_grip3";
+        UK3CB_M16_20rnd_556x45_WT = "hlc_m249_SQuantoon_30Rnd_grip3";
+        UK3CB_M16_20rnd_556x45_YT = "hlc_m249_SQuantoon_30Rnd_grip3";
+
+        UK3CB_M16_30rnd_556x45 = "hlc_m249_SQuantoon_30Rnd_grip3";
+        UK3CB_M16_30rnd_556x45_G = "hlc_m249_SQuantoon_30Rnd_grip3";
+        UK3CB_M16_30rnd_556x45_R = "hlc_m249_SQuantoon_30Rnd_grip3";
+        UK3CB_M16_30rnd_556x45_W = "hlc_m249_SQuantoon_30Rnd_grip3";
+        UK3CB_M16_30rnd_556x45_Y = "hlc_m249_SQuantoon_30Rnd_grip3";
+        UK3CB_M16_30rnd_556x45_GT = "hlc_m249_SQuantoon_30Rnd_grip3";
+        UK3CB_M16_30rnd_556x45_RT = "hlc_m249_SQuantoon_30Rnd_grip3";
+        UK3CB_M16_30rnd_556x45_WT = "hlc_m249_SQuantoon_30Rnd_grip3";
+        UK3CB_M16_30rnd_556x45_YT = "hlc_m249_SQuantoon_30Rnd_grip3";
+        //UK3CB BAF
         UK3CB_BAF_556_30Rnd_Blank = "hlc_m249_SQuantoon_30Rnd_grip3";
         UK3CB_BAF_556_30Rnd = "hlc_m249_SQuantoon_30Rnd_grip3";
         UK3CB_BAF_556_30Rnd_T = "hlc_m249_SQuantoon_30Rnd_grip3";

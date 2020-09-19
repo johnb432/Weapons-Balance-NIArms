@@ -13,11 +13,16 @@ class hlc_30rnd_68x43_FMJ: 30Rnd_556x45_Stanag {
 class 29rnd_300BLK_STANAG: 30Rnd_556x45_Stanag {
     mass = 10;
 };
-class 29rnd_300BLK_STANAG_S: 29rnd_300BLK_STANAG {
-    mass = 10;
-};
-class 29rnd_300BLK_STANAG_T: 29rnd_300BLK_STANAG {
-    mass = 10;
+
+class hlc_50rnd_9x19_B_9mmar: 30Rnd_556x45_Stanag {
+    displayName = "9mm Ball 50Rnd MP5 Magazine";
+    descriptionshort = "Caliber: 9x19mm Parrabellum (Ball)<br/>Rounds: 50<br/>Used in: MP5";
+    mass = 16.5;
+    model = "\hlc_core\mesh\magazines\50rnd_556NATO_X15.p3d";
+    modelSpecial = "\hlc_core\mesh\magazines\proxies\50rnd_556NATO_X15";
+    modelSpecialIsProxy = 1;
+    picture = "\hlc_core\tex\ui\ammo\stanag\m_x15_EPR_ca.paa";
+    scope = 2;
 };
 
 class hlc_50rnd_300BLK_STANAG_EPR: 29rnd_300BLK_STANAG {
@@ -28,35 +33,35 @@ class hlc_50Rnd_792x57_B_MG42: 30Rnd_556x45_Stanag {
     mass = 31;
 };
 class hlc_50Rnd_762x51_B_MG3: hlc_50Rnd_792x57_B_MG42 {
-    mass = 26.5;
+    mass = 25.41;
 };
 class hlc_50Rnd_762x51_Barrier_MG3: hlc_50Rnd_762x51_B_MG3 {
-    mass = 26.5;
+    mass = 25.41;
 };
 class hlc_50Rnd_762x51_M_MG3: hlc_50Rnd_762x51_B_MG3 {
-    mass = 26.5;
+    mass = 25.41;
 };
 class hlc_50Rnd_762x51_mdim_MG3: hlc_50Rnd_762x51_B_MG3 {
-    mass = 26.5;
+    mass = 25.41;
 };
 class hlc_50Rnd_762x51_T_MG3: hlc_50Rnd_762x51_B_MG3 {
-    mass = 26.5;
+    mass = 25.41;
 };
 
 class hlc_100Rnd_762x51_Barrier_MG3: hlc_50Rnd_762x51_Barrier_MG3 {
-    mass = 34;
+    mass = 32.34;
 };
 class hlc_100Rnd_762x51_B_MG3: hlc_50Rnd_762x51_B_MG3 {
-    mass = 34;
+    mass = 32.34;
 };
 class hlc_100Rnd_762x51_M_MG3: hlc_50Rnd_762x51_M_MG3 {
-    mass = 34;
+    mass = 32.34;
 };
 class hlc_100Rnd_762x51_mdim_MG3: hlc_50Rnd_762x51_mdim_MG3 {
-    mass = 34;
+    mass = 32.34;
 };
 class hlc_100Rnd_762x51_T_MG3: hlc_50Rnd_762x51_T_MG3 {
-    mass = 34;
+    mass = 32.34;
 };
 
 class hlc_250Rnd_762x51_B_MG3: hlc_50Rnd_762x51_B_MG3 {
@@ -132,38 +137,15 @@ class hlc_30rnd_556x45_tdim_HK33: hlc_30rnd_556x45_b_HK33 {
 };
 
 class hlc_200rnd_556x45_M_SAW: 30Rnd_556x45_Stanag {
-    mass = 52;
-    //model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m249_box_mag";
-    //modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_box_200rnd";
-};
-class hlc_200rnd_556x45_B_SAW: hlc_200rnd_556x45_M_SAW {
-    mass = 52;
-    //model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m249_box_mag";
-    //modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_box_200rnd";
-};
-class hlc_200rnd_556x45_Mdim_SAW: hlc_200rnd_556x45_M_SAW {
-    mass = 52;
-    //model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m249_box_mag";
-    //modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_box_200rnd";
-};
-class hlc_200rnd_556x45_T_SAW: hlc_200rnd_556x45_M_SAW {
-    mass = 52;
-    //model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m249_box_mag";
-    //modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_box_200rnd";
+    mass = 51.65;
+    reloadAction = "GestureReloadM200";
 };
 
 class hlc_100Rnd_762x51_B_M60E4: 30Rnd_556x45_Stanag {
-    mass = 34;
-};
-class hlc_100Rnd_762x51_M_M60E4: hlc_100Rnd_762x51_B_M60E4 {
-    mass = 34;
-};
-class hlc_100Rnd_762x51_T_M60E4: hlc_100Rnd_762x51_B_M60E4 {
-    mass = 34;
+    mass = 32.34;
 };
 class hlc_100Rnd_762x51_Barrier_M60E4: hlc_100Rnd_762x51_B_M60E4 {
     displayName = "7.62mm SOST 100Rnd M13-linked belt (Tracers Every 4)";
-    mass = 34;
 };
 
 class hlc_200Rnd_762x51_B_M60E4: 30Rnd_556x45_Stanag {
