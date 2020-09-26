@@ -151,6 +151,9 @@ class hlc_100Rnd_762x51_Barrier_M60E4: hlc_100Rnd_762x51_B_M60E4 {
 class hlc_200Rnd_762x51_B_M60E4: 30Rnd_556x45_Stanag {
     mass = 62;
 };
+class hlc_200Rnd_762x51_Barrier_M60E4: hlc_200Rnd_762x51_B_M60E4 {
+    displayName = "7.62mm SOST 200Rnd M13-linked belt (Tracers Every 4)";
+};
 
 class hlc_10rnd_12g_buck_S12: 30Rnd_556x45_Stanag {
     descriptionshort = "Caliber: 12 Gauge 00-Buck<br/>Type: Lead Pellets<br/>Rounds: 8";
