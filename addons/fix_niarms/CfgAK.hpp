@@ -5,19 +5,19 @@ class hlc_ak_base: Rifle_Base_F {
 class hlc_rifle_ak12: hlc_ak_base {
     displayName = "Izhmash AK-12";
     class WeaponSlotsInfo: WeaponSlotsInfo {
-        mass = 73;
+        mass = 77;
     };
 };
 class hlc_rifle_ak12GL: hlc_rifle_ak12 {
     displayName = "Izhmash AK-12 (GL)";
     class WeaponSlotsInfo {
-        mass = 106;
+        mass = 110;
     };
 };
 class hlc_rifle_aku12: hlc_rifle_ak12 {
     displayName = "Izhmash AK-12K";
     class WeaponSlotsInfo: WeaponSlotsInfo {
-        mass = 67;
+        mass = 71;
     };
 };
 class hlc_rifle_RPK12: hlc_rifle_ak12 {
@@ -73,19 +73,19 @@ class hlc_rifle_aks74_MTK: hlc_rifle_aks74 {
 class hlc_rifle_ak74m: hlc_rifle_ak74 {
     displayName = "Izhmash AK-74M";
     class WeaponSlotsInfo: WeaponSlotsInfo {
-        mass = 74.8;
+        mass = 79.5;
     };
 };
 class hlc_rifle_ak74m_gl: hlc_rifle_ak74m {
     displayName = "Izhmash AK-74M (GL)";
     class WeaponSlotsInfo: WeaponSlotsInfo {
-        mass = 107.8;
+        mass = 112.5;
     };
 };
 class hlc_rifle_ak74m_MTK: hlc_rifle_ak74m {
     displayName = "Izhmash AK-74M (MTK)";
     class WeaponSlotsInfo: WeaponSlotsInfo {
-        mass = 78.8;
+        mass = 83.5;
     };
 };
 
@@ -176,6 +176,7 @@ class hlc_rifle_rpk74n: hlc_ak_base {
 };
 
 class hlc_rifle_saiga12k: hlc_ak_base {
+    displayName = "Saiga-12K";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 79.6;
     };

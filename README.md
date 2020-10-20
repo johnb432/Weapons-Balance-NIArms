@@ -1,9 +1,33 @@
+# Changelog for magazine_compatibility 18.10.2020
+
+- Weapon changes:
+    - NIArms:
+        - Izhmash AK-12:
+            - Changed weight from 3.31kg to 3.49kg
+        - Izhmash AK-12 (GL):
+            - Changed weight from 4.81kg to 4.99kg
+        - Izhmash AK-12K:
+            - Changed weight from 3.04kg to 3.22kg
+        - Izhmash AK-74M:
+            - Changed weight from 3.39kg to 3.61kg
+        - Izhmash AK-74M (GL):
+            - Changed weight from 4.89kg to 5.10kg
+        - Izhmash AK-74M (MTK):
+            - Changed weight from 3.57kg to 3.79kg
+        - Saiga-12S:
+            - Changed name to "Saiga-12K"
+
+- MagazineWells:
+    - CBA:
+         - .300WN AICS:
+             - Added 6x NIArms 5Rnd mags
+
 # Changelog for Weapons balance 23.8.2020
 
 - New additions:
     - Change barrel option for AUGs and ACRs as ACE interaction if ACE is loaded
     - Added Quick-change barrels for the ACR (works the same as the AUG barrels)
-    - Added NIArms 50Rnd drum mag
+    - Added NIArms 50Rnd 9mm drum mag
 
 - Weapon changes:
     - NIArms:
