@@ -372,6 +372,7 @@ class hlc_100Rnd_762x54_B_PKM : 30Rnd_556x45_Stanag {
     initspeed = 825;
     lastroundstracer = 1;
     mass = 43;
+    modelSpecial = "";
     picture = "\hlc_core\tex\ui\ammo\m_pkm100ball_ca.paa";
     scope = 2;
     tracersevery = 0;
@@ -386,6 +387,7 @@ class hlc_100Rnd_762x54_M_PKM : 30Rnd_556x45_Stanag {
     initspeed = 798;
     lastroundstracer = 1;
     mass = 43;
+    modelSpecial = "";
     picture = "\hlc_core\tex\ui\ammo\m_pkm100mixed_ca.paa";
     scope = 2;
     tracersevery = 4;
@@ -400,6 +402,7 @@ class hlc_100Rnd_762x54_T_PKM : 30Rnd_556x45_Stanag {
     initspeed = 798;
     lastroundstracer = 1;
     mass = 43;
+    modelSpecial = "";
     picture = "\hlc_core\tex\ui\ammo\m_pkm100tracer_ca.paa";
     scope = 2;
     tracersevery = 1;
@@ -414,6 +417,7 @@ class hlc_250Rnd_762x54_B_PKM : 30Rnd_556x45_Stanag {
     initspeed = 825;
     lastroundstracer = 1;
     mass = 91;
+    modelSpecial = "";
     picture = "\hlc_core\tex\ui\ammo\m_pkm250ball_ca.paa";
     scope = 2;
     tracersevery = 0;
@@ -428,6 +432,7 @@ class hlc_250Rnd_762x54_M_PKM : 30Rnd_556x45_Stanag {
     initspeed = 798;
     lastroundstracer = 1;
     mass = 91;
+    modelSpecial = "";
     picture = "\hlc_core\tex\ui\ammo\m_pkm250mixed_ca.paa";
     scope = 2;
     tracersevery = 4;
@@ -442,6 +447,7 @@ class hlc_250Rnd_762x54_T_PKM : 30Rnd_556x45_Stanag {
     initspeed = 798;
     lastroundstracer = 1;
     mass = 91;
+    modelSpecial = "";
     picture = "\hlc_core\tex\ui\ammo\m_pkm250tracer_ca.paa";
     scope = 2;
     tracersevery = 1;
@@ -457,6 +463,7 @@ class hlc_100Rnd_762x54_AP_PKM : 30Rnd_556x45_Stanag {
     lastroundstracer = 3;
     picture = "\hlc_core\tex\ui\ammo\m_pkm100ap_ca.paa";
     mass = 43;
+    modelSpecial = "";
     scope = 2;
     tracersevery = 0;
 };

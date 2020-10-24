@@ -9,7 +9,7 @@
    	1: STRING - Barrel classname that is being swapped in place
 
    	Example:
-   		[player,"hlc_barrel_compact_ACR_556"] call WB_fnc_barrelswitchACR;
+   	[player,"hlc_barrel_compact_ACR_556"] call WB_fnc_barrelswitchACR;
 
    	Returns:
    	Nothing
@@ -21,14 +21,14 @@ params ["_unit", "_replaceBarrel"];
 private _primaryWeap = primaryWeapon _unit;
 private _weaponClasses = getArray (configFile >> "CfgWeapons" >> _primaryWeap >> "HLC_CompatibleBarrels_Classes");
 
-if (count _weaponClasses == 6 && {_replaceBarrel == "hlc_barrel_full_ACR_68" || {_replaceBarrel == "hlc_barrel_full_ACR_556"}}) exitWith {
+if (count _weaponClasses == 6 && {_replaceBarrel == "hlc_barrel_full_ACR_68" || _replaceBarrel == "hlc_barrel_full_ACR_556"}) exitWith {
     hint "You can't put long barrels on grenade launcher variants!";
 };
 
 //Animation for changing barrel
 _unit playActionNow "HLC_GestureSwapBarrelAUG";
 _unit say3D "hlc_barrelswapaug";
-_unit setVariable ["isInProgress", true];
+_unit setVariable ["barrelSwitchInProgress", true];
 
 [{
     params ["_unit", "_replaceBarrel", "_primaryWeap", "_weaponClasses"];
@@ -75,7 +75,7 @@ _unit setVariable ["isInProgress", true];
     private _compatItems = [primaryWeapon _unit] call CBA_fnc_compatibleItems;
 
     {
-        if !(_x == "") then {
+        if (_x != "") then {
             if (_x in _compatItems) then {
                 _unit addPrimaryWeaponItem _x;
             } else {
@@ -86,5 +86,5 @@ _unit setVariable ["isInProgress", true];
 
     //Need to run this otherwise they'll switch to their handgun
     _unit selectWeapon (primaryWeapon _unit);
-    _unit setVariable ["isInProgress", false];
+    _unit setVariable ["barrelSwitchInProgress", false];
 }, [_unit, _replaceBarrel, _primaryWeap, _weaponClasses], 4.7] call CBA_fnc_waitAndExecute; //4.7s is the time for the animation to complete

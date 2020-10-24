@@ -116,17 +116,8 @@ class asdg_OpticSideMount: asdg_OpticRail {
     class compatibleItems {};
 };
 
-class rhs_russian_rifle_scopes_slot: asdg_OpticSideMount {
-    class compatibleItems: compatibleItems {
-        hlc_optic_pso1 = 1;
-        hlc_optic_goshawk = 1;
-        hlc_optic_kobra = 1;
-        hlc_optic_1p29 = 1;
-    };
-};
-
-class SlotInfo;
-class rhs_russian_svd_scopes_slot: SlotInfo {
+class asdg_OpticSideRail_SVD;
+class rhs_russian_svd_scopes_slot: asdg_OpticSideRail_SVD {
     class compatibleItems {
         hlc_optic_pso1 = 1;
         hlc_optic_goshawk = 1;

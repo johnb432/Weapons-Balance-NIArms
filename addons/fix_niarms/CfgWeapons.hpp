@@ -38,7 +38,9 @@ class hlc_rifle_psg1: hlc_g3_base {
     class WeaponSlotsInfo: WeaponSlotsInfo {};
 };
 class hlc_rifle_psg1A1: hlc_rifle_psg1 {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo: WeaponSlotsInfo {
+        class Cowsslot: asdg_OpticRail1913_3CB_G3 {};
+    };
 };
 class hlc_rifle_PSG1A1_RIS: hlc_rifle_psg1A1 {
     class WeaponSlotsInfo: WeaponSlotsInfo {
@@ -49,6 +51,7 @@ class hlc_rifle_PSG1A1_RIS: hlc_rifle_psg1A1 {
 class hlc_rifle_g3sg1: hlc_g3_base {
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 113;
+        class Cowsslot: asdg_OpticRail1913_3CB_G3 {};
     };
 };
 class hlc_rifle_g3sg1ris: hlc_rifle_g3sg1 {
@@ -62,7 +65,9 @@ class hlc_rifle_hk51: hlc_rifle_g3sg1 {
     };
 };
 class hlc_rifle_g3a3: hlc_rifle_g3sg1 {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo: WeaponSlotsInfo {
+        class Cowsslot: asdg_OpticRail1913_3CB_G3 {};
+    };
 };
 class hlc_rifle_g3a3ris: hlc_rifle_g3a3 {
     class WeaponSlotsInfo: WeaponSlotsInfo {

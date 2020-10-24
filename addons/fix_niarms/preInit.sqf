@@ -1357,11 +1357,3 @@ hlc_barrel_full_ACR_68_compatible_weapons = [
     "hlc_rifle_ACR_Full_tan_x15_grip2",
     "hlc_rifle_ACR_Full_tan_x15_grip3"
 ];
-
-if (!isClass (configFile >> "CfgPatches" >> "ace_interaction")) then {
-	   HLC_ShowBarrelActions = true;
-    HLC_ShowBarrelAceActions = false;
-} else {
-	   HLC_ShowBarrelActions = false;
-    HLC_ShowBarrelAceActions = true;
-};

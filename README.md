@@ -19,8 +19,8 @@
 
 - MagazineWells:
     - CBA:
-         - .300WN AICS:
-             - Added 6x NIArms 5Rnd mags
+        - .300WN AICS:
+            - Added 6x NIArms 5Rnd mags
 
 # Changelog for Weapons balance 23.8.2020
 
