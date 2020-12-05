@@ -8,7 +8,7 @@
    		[player] call WB_fnc_checkShowAceActions;
 
    	Returns:
-   	Nothing
+   	Boolean
 */
 params ["_unit"];
 

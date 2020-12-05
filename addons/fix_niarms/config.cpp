@@ -31,7 +31,8 @@ class CfgPatches {
         };
         authors[] = {
             "johnb43",
-            "ThePointForward"
+            "ThePointForward",
+            "Blutze"
         };
     };
 };
@@ -74,6 +75,8 @@ class CfgWeapons {
     class Rifle_Base_F: Rifle {
         class WeaponSlotsInfo {};
     };
+
+    class ItemCore;
 
     #include "CfgWeapons.hpp"
     #include "CfgACR.hpp"

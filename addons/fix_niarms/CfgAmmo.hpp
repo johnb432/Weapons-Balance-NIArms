@@ -5,4 +5,12 @@ class CfgAmmo {
         nvgOnly = 0;
         tracerscale = 1.2;
     };
+
+    class B_762x51_Ball;
+    class HLC_GP11_FMJ: B_762x51_Ball {
+        ACE_bulletLength = 35.0012;
+    };
+    class HLC_GP11_APBT: B_762x51_Ball {
+        ACE_bulletLength = 35.0012;
+    };
 };

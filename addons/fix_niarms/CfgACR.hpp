@@ -70,17 +70,26 @@ class hlc_rifle_ACR_Carb_black: hlc_rifle_ACR_SBR_tan {
         mass = 80.8;
     };
 };
+class hlc_rifle_ACR_Carb_black_x15: hlc_rifle_ACR_Carb_black {
+    model = "hlc_wp_acr\mesh\acr\ACR_Carbine_x15.p3d";
+};
 class hlc_rifle_ACR_Carb_green: hlc_rifle_ACR_Carb_black {
     HLC_CompatibleBarrels_Classes[] = {"hlc_rifle_ACR_SBR_green","hlc_rifle_ACR_carb_green","hlc_rifle_ACR_MID_green","hlc_rifle_ACR_Full_green","hlc_rifle_ACR68_SBR_green","hlc_rifle_ACR68_carb_green","hlc_rifle_ACR68_MID_green","hlc_rifle_ACR68_full_green"};
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 80.8;
     };
 };
+class hlc_rifle_ACR_Carb_green_x15: hlc_rifle_ACR_Carb_green {
+    model = "hlc_wp_acr\mesh\acr\ACR_Carbine_x15.p3d";
+};
 class hlc_rifle_ACR_Carb_tan: hlc_rifle_ACR_Carb_black {
     HLC_CompatibleBarrels_Classes[] = {"hlc_rifle_ACR_SBR_tan","hlc_rifle_ACR_carb_tan","hlc_rifle_ACR_MID_tan","hlc_rifle_ACR_Full_tan","hlc_rifle_ACR68_SBR_tan","hlc_rifle_ACR68_carb_tan","hlc_rifle_ACR68_MID_tan","hlc_rifle_ACR68_full_tan"};
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 80.8;
     };
+};
+class hlc_rifle_ACR_Carb_tan_x15: hlc_rifle_ACR_Carb_tan {
+    model = "hlc_wp_acr\mesh\acr\ACR_Carbine_x15.p3d";
 };
 
 class hlc_rifle_ACR_GL_Carb_black: hlc_rifle_ACR_Carb_black {
@@ -340,7 +349,6 @@ class hlc_rifle_ACR68_full_tan: hlc_rifle_ACR68_full_black {
     };
 };
 
-class ItemCore;
 class hlc_barrel_compact_ACR_556: Itemcore {
     dlc = "Niarms_acr";
     author = "johnb43";

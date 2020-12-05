@@ -32,6 +32,7 @@ class hlc_rifle_auga1carb_t: hlc_rifle_auga1carb {
 
 class hlc_rifle_aughbar: hlc_rifle_aug {
     modes[] = {"Single","FullAuto","fullauto_medium","single_medium_optics1","single_far_optics2"};
+    UiPicture = "\a3\weapons_f\data\ui\icon_mg_ca.paa";
     class Single: Single {
         showToPlayer = 1;
     };

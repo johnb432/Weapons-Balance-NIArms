@@ -1,3 +1,28 @@
+# Changelog for magazine_compatibility 05.12.2020
+
+- Fixed ACR Barrel change ACE self interaction configs that broke to ACE 3.13.5 update
+- NIArms scopes have been altered to use ACE ranging only:
+    - Kahles ZF95 (Picatinny)
+    - Nightforce ATACR F1 variants (Picatinny)
+    - Zeiss Diavari-DA (G3)
+    - Trijcon Accupoint TR20 (G3)
+- NIArms scopes have been altered to use vanilla ranging only:
+    - Pilad VOMZ variants (Picatinny)
+    - Anschutz Diopter (FN30-11)
+
+- Weapon changes:
+    - NIArms:
+        - All weapons containing "H&K" in their name have been renamed to "HK"
+            - Caused several errors in displays
+        - HK G3s:
+            - Added 7.62x51mm G3 Drum mags Magwell
+        - M134D:
+            - Changed icon for fullauto firing mode
+        - HK G36K-KSK (GL):
+            - Changed a value so it is usable now
+        - AUG HBAR variants:
+            - Changed squad icon on DUI to AR type
+
 # Changelog for magazine_compatibility 18.10.2020
 
 - Weapon changes:

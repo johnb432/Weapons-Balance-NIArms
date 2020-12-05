@@ -130,4 +130,3 @@ class hlc_rifle_samr2: hlc_rifle_SAMR {
         mass = 87;
     };
 };
-
