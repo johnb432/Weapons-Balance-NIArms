@@ -1,3 +1,30 @@
+# Changelog for magazine_compatibility 31.12.2020
+
+- Addition of 3x NIArms/custom SCAR-H 20Rnd mags
+- Addition of 1x NIArms/custom Sten 32Rnd mag
+- Fixed disappearance of NIArms M60 in saved loadouts
+- Changed RHS AK scopes configs on weapons to better fit the individual weapons
+
+- Weapon changes:
+    - NIArms:
+        - M16A1:
+            - Changed weight from 2.95kg to 3.11kg
+        - M16A1 (GL):
+            - Changed weight from 4.45kg to 4.60kg
+
+- MagazineWells:
+    - CBA:
+        - 7.62 SCAR-H:
+            - Added 3x NIArms/custom 20Rnd mags
+        - 9x19 Sten:
+            - Added 1x NIArms/custom 32Rnd mag
+
+- Weight balancing:
+    - NIArms:
+        - All (3x) 30Rnd .303 Bren mags from 0.54kg to 0.89kg
+        - All (3x) 30Rnd .303 Lee-Enfield clips from 0.20kg to 0.26kg
+
+
 # Changelog for magazine_compatibility 05.12.2020
 
 - Fixed ACR Barrel change ACE self interaction configs that broke to ACE 3.13.5 update

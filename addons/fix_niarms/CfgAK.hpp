@@ -30,6 +30,13 @@ class hlc_rifle_RPK12: hlc_rifle_ak12 {
 
 class hlc_rifle_ak74: hlc_ak_base {
     displayName = "Izhmash AK-74N";
+    rhs_1p29_type = "rhs_acc_1p29";
+    rhs_pgo7v_type = "rhs_acc_pgo7v_ak";
+    rhs_pgo7v2_type = "rhs_acc_pgo7v2_ak";
+    rhs_pgo7v3_type = "rhs_acc_pgo7v3_ak";
+    rhs_pkas_type = "rhs_acc_pkas";
+    rhs_pso1m2_type = "rhs_acc_pso1m2_ak";
+    rhs_pso1m21_type = "rhs_acc_pso1m21_ak";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 73;
     };
@@ -91,6 +98,13 @@ class hlc_rifle_ak74m_MTK: hlc_rifle_ak74m {
 
 class hlc_rifle_aks74u: hlc_ak_base {
     displayName = "Izhmash AKS-74UN";
+    rhs_1p29_type = "rhs_acc_1p29";
+    rhs_pgo7v_type = "rhs_acc_pgo7v_ak";
+    rhs_pgo7v2_type = "rhs_acc_pgo7v2_ak";
+    rhs_pgo7v3_type = "rhs_acc_pgo7v3_ak";
+    rhs_pkas_type = "rhs_acc_pkas";
+    rhs_pso1m2_type = "rhs_acc_pso1m2_ak";
+    rhs_pso1m21_type = "rhs_acc_pso1m21_ak";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 60.6;
     };
@@ -104,6 +118,13 @@ class hlc_rifle_aks74u_MTK: hlc_rifle_aks74u {
 
 class hlc_rifle_ak47: hlc_ak_base {
     displayName = "Izhmash AK-47";
+    rhs_1p29_type = "rhs_acc_1p29";
+    rhs_pgo7v_type = "rhs_acc_pgo7v_ak";
+    rhs_pgo7v2_type = "rhs_acc_pgo7v2_ak";
+    rhs_pgo7v3_type = "rhs_acc_pgo7v3_ak";
+    rhs_pkas_type = "rhs_acc_pkas";
+    rhs_pso1m2_type = "rhs_acc_pso1m2_ak";
+    rhs_pso1m21_type = "rhs_acc_pso1m21_ak";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 76.5;
     };
@@ -128,6 +149,13 @@ class hlc_rifle_akmgl: hlc_rifle_akm {
 };
 
 class hlc_rifle_slr107u: hlc_ak_base {
+    rhs_1p29_type = "rhs_acc_1p29";
+    rhs_pgo7v_type = "rhs_acc_pgo7v_ak";
+    rhs_pgo7v2_type = "rhs_acc_pgo7v2_ak";
+    rhs_pgo7v3_type = "rhs_acc_pgo7v3_ak";
+    rhs_pkas_type = "rhs_acc_pkas";
+    rhs_pso1m2_type = "rhs_acc_pso1m2_ak";
+    rhs_pso1m21_type = "rhs_acc_pso1m21_ak";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 61;
     };
@@ -162,6 +190,13 @@ class hlc_rifle_RK62: hlc_ak_base {
 
 class hlc_rifle_rpk: hlc_ak_base {
     displayName = "Molot RPKN";
+    rhs_1p29_type = "rhs_acc_1p29";
+    rhs_pgo7v_type = "rhs_acc_pgo7v_ak";
+    rhs_pgo7v2_type = "rhs_acc_pgo7v2_ak";
+    rhs_pgo7v3_type = "rhs_acc_pgo7v3_ak";
+    rhs_pkas_type = "rhs_acc_pkas";
+    rhs_pso1m2_type = "rhs_acc_pso1m2";
+    rhs_pso1m21_type = "rhs_acc_pso1m21_svd";
     modes[] = {"FullAuto","Single","AI_long","AI_close","AI_short","AI_medium","AI_far","AI_toofar","AI_far_optic1","AI_toofar_optic1","AI_far_optic2","AI_toofar_optic2"};
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 107;
@@ -169,6 +204,13 @@ class hlc_rifle_rpk: hlc_ak_base {
 };
 class hlc_rifle_rpk74n: hlc_ak_base {
     displayName = "Molot RPK-74N";
+    rhs_1p29_type = "rhs_acc_1p29";
+    rhs_pgo7v_type = "rhs_acc_pgo7v_ak";
+    rhs_pgo7v2_type = "rhs_acc_pgo7v2_ak";
+    rhs_pgo7v3_type = "rhs_acc_pgo7v3_ak";
+    rhs_pkas_type = "rhs_acc_pkas";
+    rhs_pso1m2_type = "rhs_acc_pso1m2";
+    rhs_pso1m21_type = "rhs_acc_pso1m21_svd";
     modes[] = {"FullAuto","Single","AI_long","AI_close","AI_short","AI_medium","AI_far","AI_toofar","AI_far_optic1","AI_toofar_optic1","AI_far_optic2","AI_toofar_optic2"};
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 101;
@@ -177,6 +219,13 @@ class hlc_rifle_rpk74n: hlc_ak_base {
 
 class hlc_rifle_saiga12k: hlc_ak_base {
     displayName = "Saiga-12K";
+    rhs_1p29_type = "rhs_acc_1p29";
+    rhs_pgo7v_type = "rhs_acc_pgo7v_ak";
+    rhs_pgo7v2_type = "rhs_acc_pgo7v2_ak";
+    rhs_pgo7v3_type = "rhs_acc_pgo7v3_ak";
+    rhs_pkas_type = "rhs_acc_pkas";
+    rhs_pso1m2_type = "rhs_acc_pso1m2";
+    rhs_pso1m21_type = "rhs_acc_pso1m21_svd";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 79.6;
     };

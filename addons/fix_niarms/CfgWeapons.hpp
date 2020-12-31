@@ -246,6 +246,14 @@ class hlc_lmg_MG3_optic: hlc_lmg_MG3 {
     };
 };
 
+class hlc_M60e4_base: Rifle_Base_F {};
+class hlc_lmg_m60: hlc_M60e4_base {
+    delete nia_magSwitch;
+};
+class hlc_lmg_M60E4: hlc_M60e4_base {
+    delete nia_magSwitch;
+};
+
 class hlc_Springfield_base;
 class hlc_rifle_M1903A1_unertl: hlc_Springfield_base {
     displayName = "M1903A1 (Sniper)";

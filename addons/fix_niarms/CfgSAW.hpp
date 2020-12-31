@@ -154,6 +154,19 @@ class hlc_lmg_minimipara_railed: hlc_lmg_minimipara {
         rhs_mag_30Rnd_556x45_M193_Stanag = "hlc_lmg_minimipara_railed_30Rnd";
         rhs_mag_30Rnd_556x45_M196_Stanag_Tracer_Red = "hlc_lmg_minimipara_railed_30Rnd";
 
+        rhs_mag_30Rnd_556x45_M855_PMAG_Tan = "hlc_lmg_minimipara_railed_30Rnd";
+        rhs_mag_30Rnd_556x45_M855_PMAG = "hlc_lmg_minimipara_railed_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_PMAG_Tan = "hlc_lmg_minimipara_railed_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_PMAG = "hlc_lmg_minimipara_railed_30Rnd";
+        rhs_mag_30Rnd_556x45_M855_PMAG_Tracer_Red = "hlc_lmg_minimipara_railed_30Rnd";
+        rhs_mag_30Rnd_556x45_M855_PMAG_Tan_Tracer_Red = "hlc_lmg_minimipara_railed_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red = "hlc_lmg_minimipara_railed_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_PMAG_Tan_Tracer_Red = "hlc_lmg_minimipara_railed_30Rnd";
+        rhs_mag_30Rnd_556x45_Mk262_PMAG = "hlc_lmg_minimipara_railed_30Rnd";
+        rhs_mag_30Rnd_556x45_Mk262_PMAG_Tan = "hlc_lmg_minimipara_railed_30Rnd";
+        rhs_mag_30Rnd_556x45_Mk318_PMAG = "hlc_lmg_minimipara_railed_30Rnd";
+        rhs_mag_30Rnd_556x45_Mk318_PMAG_Tan = "hlc_lmg_minimipara_railed_30Rnd";
+
         rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Orange = "hlc_lmg_minimipara_railed_30Rnd";
         rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Green = "hlc_lmg_minimipara_railed_30Rnd";
         rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Yellow = "hlc_lmg_minimipara_railed_30Rnd";
@@ -658,6 +671,19 @@ class hlc_lmg_M249E1: hlc_lmg_minimipara {
         rhs_mag_30Rnd_556x45_Mk318_Stanag_Ranger = "hlc_lmg_M249E1_30Rnd";
         rhs_mag_30Rnd_556x45_M193_Stanag = "hlc_lmg_M249E1_30Rnd";
         rhs_mag_30Rnd_556x45_M196_Stanag_Tracer_Red = "hlc_lmg_M249E1_30Rnd";
+
+        rhs_mag_30Rnd_556x45_M855_PMAG_Tan = "hlc_lmg_M249E1_30Rnd";
+        rhs_mag_30Rnd_556x45_M855_PMAG = "hlc_lmg_M249E1_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_PMAG_Tan = "hlc_lmg_M249E1_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_PMAG = "hlc_lmg_M249E1_30Rnd";
+        rhs_mag_30Rnd_556x45_M855_PMAG_Tracer_Red = "hlc_lmg_M249E1_30Rnd";
+        rhs_mag_30Rnd_556x45_M855_PMAG_Tan_Tracer_Red = "hlc_lmg_M249E1_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red = "hlc_lmg_M249E1_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_PMAG_Tan_Tracer_Red = "hlc_lmg_M249E1_30Rnd";
+        rhs_mag_30Rnd_556x45_Mk262_PMAG = "hlc_lmg_M249E1_30Rnd";
+        rhs_mag_30Rnd_556x45_Mk262_PMAG_Tan = "hlc_lmg_M249E1_30Rnd";
+        rhs_mag_30Rnd_556x45_Mk318_PMAG = "hlc_lmg_M249E1_30Rnd";
+        rhs_mag_30Rnd_556x45_Mk318_PMAG_Tan = "hlc_lmg_M249E1_30Rnd";
 
         rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Orange = "hlc_lmg_M249E1_30Rnd";
         rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Green = "hlc_lmg_M249E1_30Rnd";

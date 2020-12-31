@@ -5,7 +5,7 @@ class CfgVehicles {
             class ACE_Equipment {
                 class Change_Barrel {
                     displayName = "Change Barrel";
-                    condition = "[_player] call FKM_fnc_checkShowAceActions";
+                    condition = "[_player] call WB_fnc_checkShowAceActions";
 
                     class hlc_switch_barrel_standard {
                         displayName = "Change Barrel (Standard)";
@@ -36,25 +36,25 @@ class CfgVehicles {
                     class hlc_switch_barrel_compact_ACR_556 {
                         displayName = "Change Barrel (Compact/5.56)";
                         condition = "HLC_ShowBarrelAceActions && ((currentweapon _player) == (primaryweapon _player)) && {(primaryweapon _player in hlc_barrel_compact_ACR_556_compatible_weapons) && ('hlc_barrel_compact_ACR_556' in items _player)}";
-                        statement = "[_player,'hlc_barrel_compact_ACR_556'] call FKM_fnc_barrelswitch_ACR";
+                        statement = "[_player,'hlc_barrel_compact_ACR_556'] call WB_fnc_barrelswitch_ACR";
                     };
 
                     class hlc_switch_barrel_carbine_ACR_556 {
                         displayName = "Change Barrel (Carbine/5.56)";
                         condition = "HLC_ShowBarrelAceActions && ((currentweapon _player) == (primaryweapon _player)) && {(primaryweapon _player in hlc_barrel_carbine_ACR_556_compatible_weapons) && ('hlc_barrel_carbine_ACR_556' in items _player)}";
-                        statement = "[_player,'hlc_barrel_carbine_ACR_556'] call FKM_fnc_barrelswitch_ACR";
+                        statement = "[_player,'hlc_barrel_carbine_ACR_556'] call WB_fnc_barrelswitch_ACR";
                     };
 
                     class hlc_switch_barrel_mid_ACR_556 {
                         displayName = "Change Barrel (Mid/5.56)";
                         condition = "HLC_ShowBarrelAceActions && ((currentweapon _player) == (primaryweapon _player)) && {(primaryweapon _player in hlc_barrel_mid_ACR_556_compatible_weapons) && ('hlc_barrel_mid_ACR_556' in items _player)}";
-                        statement = "[_player,'hlc_barrel_mid_ACR_556'] call FKM_fnc_barrelswitch_ACR";
+                        statement = "[_player,'hlc_barrel_mid_ACR_556'] call WB_fnc_barrelswitch_ACR";
                     };
 
                     class hlc_switch_barrel_full_ACR_556 {
                         displayName = "Change Barrel (Long/5.56)";
                         condition = "HLC_ShowBarrelAceActions && ((currentweapon _player) == (primaryweapon _player)) && {(primaryweapon _player in hlc_barrel_full_ACR_556_compatible_weapons) && ('hlc_barrel_full_ACR_556' in items _player)}";
-                        statement = "[_player,'hlc_barrel_full_ACR_556'] call FKM_fnc_barrelswitch_ACR";
+                        statement = "[_player,'hlc_barrel_full_ACR_556'] call WB_fnc_barrelswitch_ACR";
                     };
 
 
@@ -62,25 +62,25 @@ class CfgVehicles {
                     class hlc_switch_barrel_compact_ACR_68 {
                         displayName = "Change Barrel (Compact/6.8)";
                         condition = "HLC_ShowBarrelAceActions && ((currentweapon _player) == (primaryweapon _player)) && {(primaryweapon _player in hlc_barrel_compact_ACR_68_compatible_weapons) && ('hlc_barrel_compact_ACR_68' in items _player)}";
-                        statement = "[_player,'hlc_barrel_compact_ACR_68'] call FKM_fnc_barrelswitch_ACR";
+                        statement = "[_player,'hlc_barrel_compact_ACR_68'] call WB_fnc_barrelswitch_ACR";
                     };
 
                     class hlc_switch_barrel_carbine_ACR_68 {
                         displayName = "Change Barrel (Carbine/6.8)";
                         condition = "HLC_ShowBarrelAceActions && ((currentweapon _player) == (primaryweapon _player)) && {(primaryweapon _player in hlc_barrel_carbine_ACR_68_compatible_weapons) && ('hlc_barrel_carbine_ACR_68' in items _player)}";
-                        statement = "[_player,'hlc_barrel_carbine_ACR_68'] call FKM_fnc_barrelswitch_ACR";
+                        statement = "[_player,'hlc_barrel_carbine_ACR_68'] call WB_fnc_barrelswitch_ACR";
                     };
 
                     class hlc_switch_barrel_mid_ACR_68 {
                         displayName = "Change Barrel (Mid/6.8)";
                         condition = "HLC_ShowBarrelAceActions && ((currentweapon _player) == (primaryweapon _player)) && {(primaryweapon _player in hlc_barrel_mid_ACR_68_compatible_weapons) && ('hlc_barrel_mid_ACR_68' in items _player)}";
-                        statement = "[_player,'hlc_barrel_mid_ACR_68'] call FKM_fnc_barrelswitch_ACR";
+                        statement = "[_player,'hlc_barrel_mid_ACR_68'] call WB_fnc_barrelswitch_ACR";
                     };
 
                     class hlc_switch_barrel_full_ACR_68 {
                         displayName = "Change Barrel (Long/6.8)";
                         condition = "HLC_ShowBarrelAceActions && ((currentweapon _player) == (primaryweapon _player)) && {(primaryweapon _player in hlc_barrel_full_ACR_68_compatible_weapons) && ('hlc_barrel_full_ACR_68' in items _player)}";
-                        statement = "[_player,'hlc_barrel_full_ACR_68'] call FKM_fnc_barrelswitch_ACR";
+                        statement = "[_player,'hlc_barrel_full_ACR_68'] call WB_fnc_barrelswitch_ACR";
                     };
                 };
             };

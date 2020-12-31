@@ -100,12 +100,12 @@ class hlc_wp_m16a2: Rifle_Base_F {
 };
 class hlc_wp_m16A1: hlc_wp_m16a2 {
     class WeaponSlotsInfo: WeaponSlotsInfo {
-        mass = 65;
+        mass = 68.5;
     };
 };
 class hlc_rifle_A1m203: hlc_wp_m16A1 {
     class WeaponSlotsInfo: WeaponSlotsInfo {
-        mass = 98;
+        mass = 101.5;
     };
 };
 class hlc_rifle_m203: hlc_wp_m16a2 {

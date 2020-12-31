@@ -104,6 +104,14 @@ class CfgMagazineWells {
         };
     };
 
+    class CBA_762x51_SCAR {
+        WB_Magazines[] += {
+            "hlc_20rnd_762x51_B_SCAR",
+            "hlc_20rnd_762x51_T_SCAR",
+            "hlc_20rnd_762x51_S_SCAR"
+        };
+    };
+
     class CBA_762x54R_LINKS {
         WB_Magazines[] += {
             "hlc_100Rnd_762x54_B_PKM",
@@ -136,6 +144,12 @@ class CfgMagazineWells {
     class CBA_9x19_MP5 {
         WB_Magazines[] += {
             "hlc_50rnd_9x19_B_9mmar"
+        };
+    };
+
+    class CBA_9x19_STEN {
+        WB_Magazines[] += {
+            "hlc_32rnd_9x19_B_sten"
         };
     };
 

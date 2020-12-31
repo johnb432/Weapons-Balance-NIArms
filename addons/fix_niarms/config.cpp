@@ -1,6 +1,6 @@
 class CfgPatches {
     class WB_fix_niarms {
-        name = "WB - Fix NIArms";
+        name = "Weapons balance -Fix NIArms";
         units[] = {};
         weapons[] = {};
         requiredVersion = 1.96;
@@ -53,7 +53,7 @@ class Extended_PostInit_EventHandlers {
 class CfgFunctions {
     class WB {
         class common {
-            class barrelswitchACR {file = "\fix_niarms\fnc_barrelswitchACR.sqf";};
+            class barrelswitch_ACR {file = "\fix_niarms\fnc_barrelswitch_ACR.sqf";};
             class checkShowAceActions {file = "\fix_niarms\fnc_checkShowAceActions.sqf";};
         };
     };
@@ -100,7 +100,6 @@ class CfgMagazines {
     class hlc_20Rnd_762x51_B_fal;
     class hlc_50Rnd_45ACP_B_1921;
 
-    #include "CfgMagazines.hpp"
     #include "Cfg545AKmags.hpp"
     #include "Cfg762AKmags.hpp"
     #include "Cfg762NATOmags.hpp"
@@ -108,4 +107,5 @@ class CfgMagazines {
     #include "CfgAUGmags.hpp"
     #include "CfgG36mags.hpp"
     #include "CfgSG550mags.hpp"
+    #include "CfgMagazines.hpp"
 };
