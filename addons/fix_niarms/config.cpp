@@ -1,6 +1,6 @@
 class CfgPatches {
     class WB_fix_niarms {
-        name = "Weapons balance -Fix NIArms";
+        name = "Weapons balance - Fix NIArms";
         units[] = {};
         weapons[] = {};
         requiredVersion = 1.96;
@@ -15,19 +15,19 @@ class CfgPatches {
             "hlcweapons_FN3011",
             "hlcweapons_g3",
             "hlcweapons_G36",
+            "hlcweapons_M134",
             "hlcweapons_M14",
             "hlcweapons_M16A2",
             "hlcweapons_M60E4",
             "hlcweapons_MG3s",
-            "hlcweapons_M134",
             "hlcweapons_MP5",
-            "niaweapons_226",
             "hlcweapons_saw",
-            "hlcweapons_stgw57",
+            "hlcweapons_SG550",
             "hlcweapons_Springfield1903",
-            "niaweapons_C96",
+            "hlcweapons_stgw57",
+            "niaweapons_226",
             "niarms_416",
-            "hlcweapons_SG550"
+            "niaweapons_C96"
         };
         authors[] = {
             "johnb43",
@@ -53,14 +53,19 @@ class Extended_PostInit_EventHandlers {
 class CfgFunctions {
     class WB {
         class common {
-            class barrelswitch_ACR {file = "\fix_niarms\fnc_barrelswitch_ACR.sqf";};
-            class checkShowAceActions {file = "\fix_niarms\fnc_checkShowAceActions.sqf";};
+            class barrelswitch_ACR {
+                file = "\fix_niarms\fnc_barrelswitch_ACR.sqf";
+            };
+            class checkShowAceActions {
+                file = "\fix_niarms\fnc_checkShowAceActions.sqf";
+            };
         };
     };
 };
 
 #include "CfgAcc.hpp"
 #include "CfgAmmo.hpp"
+#include "CfgAmmoBelts.hpp"
 #include "CfgVehicles.hpp"
 #include "CfgMagazineWells.hpp"
 
@@ -78,18 +83,21 @@ class CfgWeapons {
 
     class ItemCore;
 
-    #include "CfgWeapons.hpp"
-    #include "CfgACR.hpp"
-    #include "CfgAK.hpp"
-    #include "CfgAR15.hpp"
-    #include "CfgAUG.hpp"
-    #include "CfgAWM.hpp"
-    #include "CfgFAL.hpp"
-    #include "CfgG36.hpp"
-    #include "CfgHK416.hpp"
-    #include "CfgMP5.hpp"
-    #include "CfgSAW.hpp"
-    #include "CfgSG550.hpp"
+    #include "CfgWeapMisc.hpp"
+    #include "CfgWeapACR.hpp"
+    #include "CfgWeapAK.hpp"
+    #include "CfgWeapAR15.hpp"
+    #include "CfgWeapAUG.hpp"
+    #include "CfgWeapAWM.hpp"
+    #include "CfgWeapFAL.hpp"
+    #include "CfgWeapG3.hpp"
+    #include "CfgWeapG36.hpp"
+    #include "CfgWeapHK416.hpp"
+    #include "CfgWeapM14.hpp"
+    #include "CfgWeapMG.hpp"
+    #include "CfgWeapMP5.hpp"
+    #include "CfgWeapSAW.hpp"
+    #include "CfgWeapSG550.hpp"
 };
 
 class CfgMagazines {
@@ -100,12 +108,20 @@ class CfgMagazines {
     class hlc_20Rnd_762x51_B_fal;
     class hlc_50Rnd_45ACP_B_1921;
 
-    #include "Cfg545AKmags.hpp"
-    #include "Cfg762AKmags.hpp"
-    #include "Cfg762NATOmags.hpp"
-    #include "CfgAR15mags.hpp"
-    #include "CfgAUGmags.hpp"
-    #include "CfgG36mags.hpp"
-    #include "CfgSG550mags.hpp"
-    #include "CfgMagazines.hpp"
+    #include "CfgMagAK545.hpp"
+    #include "CfgMagAK762.hpp"
+    #include "CfgMagAUG.hpp"
+    #include "CfgMagG36.hpp"
+    #include "CfgMagMG3.hpp"
+    #include "CfgMagMisc.hpp"
+    #include "CfgMagNATO762.hpp"
+    #include "CfgMagRifleMisc.hpp"
+    #include "CfgMagSG550.hpp"
+    #include "CfgMagSTANAG.hpp"
+
+    //New additions
+    #include "CfgMag303.hpp"
+    #include "CfgMagMauser.hpp"
+    #include "CfgMagPKM.hpp"
+    #include "CfgMagMisc2.hpp"
 };

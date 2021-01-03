@@ -1,3 +1,7 @@
+# Changelog for magazine_compatibility 03.01.2021
+
+- Addition of belt splitting if 3CB BAF and ACE are loaded
+
 # Changelog for magazine_compatibility 31.12.2020
 
 - Addition of 3x NIArms/custom SCAR-H 20Rnd mags
