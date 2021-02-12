@@ -59,7 +59,7 @@ class hlc_75rnd_792_T_MG34 : hlc_75rnd_792_B_MG34 {
     displayNameShort = "7.92x57mm Tracer";
     mass = 39;
     picture = "\hlc_core\tex\ui\ammo\m_mg34tracer_ca.paa";
-    tracersEvery = 3;
+    tracersEvery = 1;
 };
 class hlc_75rnd_792_AP_MG34 : hlc_75rnd_792_B_MG34 {
     ammo = "HLC_792x57_AP";

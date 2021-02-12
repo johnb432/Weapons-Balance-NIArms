@@ -56,9 +56,6 @@ class CfgFunctions {
             class barrelswitch_ACR {
                 file = "\fix_niarms\fnc_barrelswitch_ACR.sqf";
             };
-            class checkShowAceActions {
-                file = "\fix_niarms\fnc_checkShowAceActions.sqf";
-            };
         };
     };
 };

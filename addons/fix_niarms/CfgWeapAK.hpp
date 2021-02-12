@@ -117,7 +117,7 @@ class hlc_rifle_aks74u_MTK: hlc_rifle_aks74u {
 };
 
 class hlc_rifle_ak47: hlc_ak_base {
-    displayName = "Izhmash AK-47";
+    displayName = "Izhmash AK-47N";
     rhs_1p29_type = "rhs_acc_1p29";
     rhs_pgo7v_type = "rhs_acc_pgo7v_ak";
     rhs_pgo7v2_type = "rhs_acc_pgo7v2_ak";

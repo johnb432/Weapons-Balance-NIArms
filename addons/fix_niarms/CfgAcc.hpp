@@ -80,13 +80,13 @@ class asdg_OpticRail: asdg_SlotInfo {
     class compatibleItems {};
 };
 
-class asdg_OpticRail1913_3CB_FNFAL: asdg_OpticRail {
+class UK3CB_OpticRail1913_FNFAL: asdg_OpticRail {
     class compatibleItems {
         hlc_optic_pvs4fal = 1;
         hlc_optic_suit = 1;
     };
 };
-class asdg_OpticRail1913_3CB_G3: asdg_OpticRail {
+class UK3CB_OpticRail1913_G3: asdg_OpticRail {
     class compatibleItems {
         hlc_optic_pvs4g3 = 1;
         hlc_optic_stanagzf_g3 = 1;
@@ -97,7 +97,7 @@ class asdg_OpticRail1913_3CB_G3: asdg_OpticRail {
         hlc_optic_zfsg1 = 1;
     };
 };
-class asdg_OpticRail1913_3CB_M14: asdg_OpticRail {
+class UK3CB_OpticRail1913_M14: asdg_OpticRail {
     class compatibleItems {
         hlc_optic_pvs4m14 = 1;
         hlc_optic_lrt_m14 = 1;
@@ -128,7 +128,7 @@ class asdg_MuzzleSlot: asdg_SlotInfo {
     class compatibleItems {};
 };
 
-class asdg_MuzzleSlot_556_3CB_HK33: asdg_MuzzleSlot {
+class UK3CB_MuzzleSlot_556_HK33: asdg_MuzzleSlot {
     class compatibleItems {
         hlc_muzzle_556nato_m42000 = 1;
         hlc_muzzle_snds_rotex3p = 1;
@@ -141,7 +141,7 @@ class asdg_MuzzleSlot_556_3CB_HK33: asdg_MuzzleSlot {
     };
 };
 
-class asdg_MuzzleSlot_762_3CB_G3: asdg_MuzzleSlot {
+class UK3CB_MuzzleSlot_762_G3: asdg_MuzzleSlot {
     class compatibleItems {
         hlc_muzzle_snds_rotex3p = 1;
         hlc_muzzle_gunfighter_comp = 1;
@@ -151,7 +151,7 @@ class asdg_MuzzleSlot_762_3CB_G3: asdg_MuzzleSlot {
         hlc_muzzle_sf3p_762r = 1;
     };
 };
-class asdg_MuzzleSlot_762_3CB_M14: asdg_MuzzleSlot {
+class UK3CB_MuzzleSlot_762_M14: asdg_MuzzleSlot {
     class compatibleItems {
         hlc_muzzle_snds_rotex3p = 1;
         hlc_muzzle_gunfighter_comp = 1;

@@ -1,6 +1,27 @@
 # Changelog for magazine_compatibility 03.01.2021
 
+- Updated to comply with 3CB Faction update
 - Addition of belt splitting if 3CB BAF and ACE are loaded
+
+- Weapon changes:
+    - NIArms:
+        - AK-47:
+            - Changed name to "Izhmash AK-47N"
+
+- MagazineWells:
+    - CBA:
+        - 5.45 AK:
+            - Added 3x NIArms 30Rnd mixed mags
+        - 7.62x51 FAL:
+            - Added 1x NIArms 20Rnd mag
+        - 7.62x51 SIG AMT:
+            - Added 1x NIArms 20Rnd mag
+        - 7.63x25 C96:
+            - Added 1x NIArms 10Rnd mag
+
+- Models/Icons/Names:
+    - NIArms:
+        - All (8x) VOG25 Grenades renamed to show what they are
 
 # Changelog for magazine_compatibility 31.12.2020
 
@@ -18,8 +39,16 @@
 
 - MagazineWells:
     - CBA:
+        - 5.45 AK:
+            - Added 3x NIArms 30Rnd mixed mags
+        - 7.62x51 FAL:
+            - Added 1x NIArms 20Rnd mag
         - 7.62 SCAR-H:
             - Added 3x NIArms/custom 20Rnd mags
+        - 7.62x51 SIG AMT:
+            - Added 1x NIArms 20Rnd mag
+        - 7.63x25 C96:
+            - Added 1x NIArms 10Rnd mag
         - 9x19 Sten:
             - Added 1x NIArms/custom 32Rnd mag
 
@@ -27,6 +56,10 @@
     - NIArms:
         - All (3x) 30Rnd .303 Bren mags from 0.54kg to 0.89kg
         - All (3x) 30Rnd .303 Lee-Enfield clips from 0.20kg to 0.26kg
+
+- Models/Icons/Names:
+    - NIArms:
+        - All (8x) VOG25 Grenades renamed to show what they are
 
 
 # Changelog for magazine_compatibility 05.12.2020

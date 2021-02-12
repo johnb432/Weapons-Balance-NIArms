@@ -25,6 +25,32 @@ class hlc_5rnd_300WM_T_AWM: hlc_5rnd_300WM_FMJ_AWM {
     mass = 2.6;
 };
 
+class 1Rnd_HE_Grenade_shell;
+class hlc_VOG25_AK: 1Rnd_HE_Grenade_shell {
+    displayName = "VOG25P (HE)";
+};
+class hlc_GRD_White: 1Rnd_HE_Grenade_shell {
+    displayname = "GRD-40 (White Smoke)";
+};
+class hlc_GRD_blue: hlc_GRD_White {
+    displayname = "GRD-40 (Blue Smoke)";
+};
+class hlc_GRD_green: hlc_GRD_White {
+    displayname = "GRD-40 (Green Smoke)";
+};
+class hlc_GRD_orange: hlc_GRD_White {
+    displayname = "GRD-40 (Orange Smoke)";
+};
+class hlc_GRD_purple: hlc_GRD_White {
+    displayname = "GRD-40 (Purple Smoke)";
+};
+class hlc_GRD_yellow: hlc_GRD_White {
+    displayname = "GRD-40 (Yellow Smoke)";
+};
+class hlc_GRD_Red: hlc_GRD_White {
+    displayname = "GRD-40 (Red Smoke)";
+};
+
 class hlc_50rnd_9x19_B_9mmar: 30Rnd_556x45_Stanag {
     displayName = "9mm Ball 50Rnd MP5 Magazine";
     descriptionShort = "Caliber: 9x19mm Parrabellum (Ball)<br/>Rounds: 50<br/>Used in: MP5";
