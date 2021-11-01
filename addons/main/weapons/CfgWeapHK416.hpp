@@ -5,12 +5,14 @@ class hlc_rifle_416D145: hlc_HK416_base {
     displayName = "HK416 D14.5";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 77;
+        class CowsSlot: asdg_OpticRail1913_long {};
     };
 };
 class hlc_rifle_416D145_CAG: hlc_rifle_416D145 {
     displayName = "HK416 D14.5 (CAG)";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 77;
+        class CowsSlot: asdg_OpticRail1913_long {};
     };
 };
 class hlc_rifle_416D145_gl: hlc_rifle_416D145 {
@@ -42,6 +44,7 @@ class hlc_rifle_416D10: hlc_rifle_416D145 {
     displayName = "HK416 D10";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 68.8;
+        class CowsSlot: asdg_OpticRail1913_long {};
     };
 };
 class hlc_rifle_416D10_tan: hlc_rifle_416D10 {
@@ -60,12 +63,14 @@ class hlc_rifle_416D10C: hlc_rifle_416D10 {
     displayName = "HK416 D10C";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 68.8;
+        class CowsSlot: asdg_OpticRail1913 {};
     };
 };
 class hlc_rifle_416D10C_PTC: hlc_rifle_416D10 {
     displayName = "HK416 D10C (PTC)";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 68.8;
+        class CowsSlot: asdg_OpticRail1913 {};
     };
 };
 class hlc_rifle_416D10_gl: hlc_rifle_416D10 {
@@ -78,6 +83,7 @@ class hlc_rifle_416D10_RAHG: hlc_rifle_416D10 {
     displayName = "HK416 D10 (RAHG)";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 68.8;
+        class CowsSlot: asdg_OpticRail1913_long {};
     };
 };
 class hlc_rifle_416D10_geissele: hlc_rifle_416D10_RAHG {
@@ -101,6 +107,9 @@ class hlc_rifle_416D10_ptato: hlc_rifle_416D10_geissele {
 
 class hlc_rifle_416C: hlc_rifle_416D10 {
     displayName = "HK416C";
+    class WeaponSlotsInfo: WeaponSlotsInfo {
+        class CowsSlot: asdg_OpticRail1913 {};
+    };
 };
 class hlc_rifle_BAB: hlc_rifle_416C {
     displayName = "HK416C (Team Bab)";
@@ -110,6 +119,7 @@ class hlc_rifle_416D165: hlc_rifle_416D145 {
     displayName = "HK416 D16.5";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 78.5;
+        class CowsSlot: asdg_OpticRail1913_long {};
     };
 };
 class hlc_rifle_416D165_gl: hlc_rifle_416D165 {
@@ -135,6 +145,7 @@ class hlc_rifle_416D20: hlc_rifle_416D145 {
     displayName = "HK416 D20";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 84.9;
+        class CowsSlot: asdg_OpticRail1913_long {};
     };
 };
 class hlc_rifle_416D20_tan: hlc_rifle_416D20 {
@@ -154,6 +165,7 @@ class hlc_rifle_416N: hlc_rifle_416D165 {
     displayName = "HK416N";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 77;
+        class CowsSlot: asdg_OpticRail1913_long {};
     };
 };
 class hlc_rifle_416N_gl: hlc_rifle_416N {
@@ -163,5 +175,6 @@ class hlc_rifle_416N_gl: hlc_rifle_416N {
 class hlc_rifle_M27IAR: hlc_rifle_416D145 {
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 79.2;
+        class CowsSlot: asdg_OpticRail1913_long {};
     };
 };

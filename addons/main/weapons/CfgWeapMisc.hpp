@@ -31,9 +31,24 @@ class hlc_rifle_amt: hlc_rifle_sig5104 {
     };
 };
 
+class hlc_FN3011_base: Rifle_Base_F {
+    class WeaponSlotsInfo: WeaponSlotsInfo {};
+};
+class hlc_rifle_FN3011Tactical: hlc_FN3011_base {
+    class WeaponSlotsInfo: WeaponSlotsInfo {
+        class CowsSlot: asdg_OpticRail1913_long {};
+    };
+};
+
 class hlc_Springfield_base;
+class hlc_rifle_M1903A1: hlc_Springfield_base {
+    displayName = "M1903A1 Springfield";
+};
+class hlc_rifle_M1903A1OMR: hlc_rifle_M1903A1 {
+    displayName = "M1903A1 Springfield ""Guthrie""";
+};
 class hlc_rifle_M1903A1_unertl: hlc_Springfield_base {
-    displayName = "M1903A1 (Sniper)";
+    displayName = "M1903A1 Springfield (Sniper)";
 };
 
 class hlc_grip_saw_grip1: bipod_01_F_snd {

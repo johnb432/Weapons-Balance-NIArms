@@ -12,17 +12,20 @@ class hlc_rifle_honeybase: hlc_rifle_Bushmaster300 {
 class hlc_rifle_honeybadger: hlc_rifle_honeybase {
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 61;
+        class CowsSlot: asdg_OpticRail1913_long {};
     };
 };
 
 class hlc_rifle_bcmjack: hlc_ar15_base {
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 71;
+        class CowsSlot: asdg_OpticRail1913_long {};
     };
 };
 class hlc_rifle_bcmblackjack: hlc_rifle_bcmjack {
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 71;
+        class CowsSlot: asdg_OpticRail1913_long {};
     };
 };
 

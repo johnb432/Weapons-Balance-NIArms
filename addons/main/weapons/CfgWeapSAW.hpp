@@ -2028,6 +2028,7 @@ class hlc_m249_SQuantoon_grip3: hlc_m249_SQuantoon {
 class hlc_lmg_mk46: hlc_lmg_minimi_railed {
     class WeaponSlotsInfo {
         mass = 154.4;
+        class CowsSlot: asdg_OpticRail1913_long {};
         class GripodSlot: nia_rifle_gripod_slot {};
         class UnderBarrelSlot: WB_rifle_grips_slot {};
     };
@@ -2035,6 +2036,7 @@ class hlc_lmg_mk46: hlc_lmg_minimi_railed {
 class hlc_lmg_mk46mod1: hlc_lmg_mk46 {
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 152.4;
+        class CowsSlot: asdg_OpticRail1913 {};
         class GripodSlot: nia_rifle_gripod_slot {};
         class UnderBarrelSlot: WB_rifle_grips_slot {};
     };
@@ -2043,11 +2045,13 @@ class hlc_lmg_mk46mod1: hlc_lmg_mk46 {
 class hlc_lmg_mk48: hlc_saw_base {
     class WeaponSlotsInfo {
         mass = 182.6;
+        class CowsSlot: asdg_OpticRail1913_long {};
     };
 };
 class hlc_lmg_mk48mod1: hlc_lmg_mk48 {
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 186.6;
+        class CowsSlot: asdg_OpticRail1913 {};
         class GripodSlot: nia_rifle_gripod_slot {};
         class UnderBarrelSlot: WB_rifle_grips_slot {};
     };

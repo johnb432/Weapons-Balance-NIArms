@@ -12,6 +12,12 @@ class hlc_rifle_SG550_GL: hlc_rifle_SG550 {
 class hlc_rifle_SG550_TAC: hlc_rifle_SG550 {
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 94;
+        class CowsSlot: asdg_OpticRail1913_long {};
+    };
+};
+class hlc_rifle_SG550_TAC_GL: hlc_rifle_SG550 {
+    class WeaponSlotsInfo: WeaponSlotsInfo {
+        class CowsSlot: asdg_OpticRail1913_long {};
     };
 };
 
@@ -28,11 +34,13 @@ class hlc_rifle_SG551SB_RIS: hlc_rifle_SG551SB {
 class hlc_rifle_SG551SB_TAC: hlc_rifle_SG551SB {
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 84;
+        class CowsSlot: asdg_OpticRail1913_long {};
     };
 };
 class hlc_rifle_SG551SB_TAC_GL: hlc_rifle_SG551SB {
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 117;
+        class CowsSlot: asdg_OpticRail1913_long {};
     };
 };
 class hlc_rifle_SG551LB: hlc_rifle_SG551SB {
@@ -48,11 +56,13 @@ class hlc_rifle_SG551LB_RIS: hlc_rifle_SG551LB {
 class hlc_rifle_SG551LB_TAC: hlc_rifle_SG551LB {
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 87;
+        class CowsSlot: asdg_OpticRail1913_long {};
     };
 };
 class hlc_rifle_SG551LB_TAC_GL: hlc_rifle_SG551LB {
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 120;
+        class CowsSlot: asdg_OpticRail1913_long {};
     };
 };
 

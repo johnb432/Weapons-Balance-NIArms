@@ -1,5 +1,7 @@
 class hlc_AWC_base: Rifle_Base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo: WeaponSlotsInfo {
+        class CowsSlot: asdg_OpticRail1913_long {};
+    };
 };
 class hlc_rifle_awcovert: hlc_AWC_base {
     class WeaponSlotsInfo: WeaponSlotsInfo {

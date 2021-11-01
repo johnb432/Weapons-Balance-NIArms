@@ -5,6 +5,7 @@ class hlc_fal_base: Rifle_Base_F {
 
 class hlc_rifle_SLR: hlc_fal_base {
     class WeaponSlotsInfo: WeaponSlotsInfo {
+        delete CowsSlot;
         class CowsSlot: asdg_OpticRailL1A1 {};
     };
 };
@@ -23,6 +24,7 @@ class hlc_rifle_FAL5061: hlc_fal_base {
     displayName = "FN FAL 50.62";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 95;
+        delete CowsSlot;
         class CowsSlot: asdg_OpticRailL1A1 {};
     };
 };
@@ -70,9 +72,14 @@ class hlc_rifle_STG58F: hlc_fal_base {
     };
 };
 
-class hlc_rifle_falosw;
+class hlc_rifle_falosw: hlc_fal_base {
+    class WeaponSlotsInfo: WeaponSlotsInfo {
+        class CowsSlot: asdg_OpticRail1913_long {};
+    };
+};
 class hlc_rifle_osw_GL: hlc_rifle_falosw {
     class WeaponSlotsInfo {
         mass = 122;
+        class CowsSlot: asdg_OpticRail1913_long {};
     };
 };

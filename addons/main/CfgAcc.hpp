@@ -127,7 +127,6 @@ class rhs_russian_svd_scopes_slot: asdg_OpticSideRail_SVD {
 class asdg_MuzzleSlot: asdg_SlotInfo {
     class compatibleItems {};
 };
-
 class UK3CB_MuzzleSlot_556_HK33: asdg_MuzzleSlot {
     class compatibleItems {
         hlc_muzzle_556nato_m42000 = 1;
@@ -151,6 +150,7 @@ class UK3CB_MuzzleSlot_762_G3: asdg_MuzzleSlot {
         hlc_muzzle_sf3p_762r = 1;
     };
 };
+
 class UK3CB_MuzzleSlot_762_M14: asdg_MuzzleSlot {
     class compatibleItems {
         hlc_muzzle_snds_rotex3p = 1;
@@ -173,3 +173,49 @@ class asdg_MuzzleSlot_9MM_SMG: asdg_MuzzleSlot {
     };
 };
 
+class asdg_MuzzleSlot_45ACP_SMG: asdg_MuzzleSlot {
+    class compatibleItems {
+        hlc_muzzle_agendasix10mm = 1;
+    };
+};
+
+class MuzzleSlot;
+class MuzzleSlot_545R: MuzzleSlot {
+    class compatibleItems {
+        hlc_muzzle_snds_arsenalcomp = 1;
+        hlc_muzzle_545sup_ak = 1;
+        hlc_muzzle_sf3p_762r = 1;
+    };
+};
+
+class MuzzleSlot_556: MuzzleSlot {
+    class compatibleItems {
+        hlc_muzzle_556nato_m42000 = 1;
+        hlc_muzzle_snds_rotex3p = 1;
+        hlc_muzzle_556nato_rotexiiic_grey = 1;
+        hlc_muzzle_556nato_rotexiiic_tan = 1;
+        hlc_muzzle_gunfighter_comp = 1;
+        hlc_muzzle_556nato_kac = 1;
+        hlc_muzzle_kx3_comp = 1;
+        hlc_muzzle_sf3p_556 = 1;
+    };
+};
+
+class MuzzleSlot_762: MuzzleSlot {
+    class compatibleItems {
+        hlc_muzzle_snds_rotex3p = 1;
+        hlc_muzzle_gunfighter_comp = 1;
+        hlc_muzzle_mag58_brake = 1;
+        hlc_muzzle_kx3_comp = 1;
+        hlc_muzzle_300blk_kac = 1;
+        hlc_muzzle_sf3p_762r = 1;
+    };
+};
+
+class MuzzleSlot_762R: MuzzleSlot {
+    class compatibleItems {
+        hlc_muzzle_snds_arsenalcomp = 1;
+        hlc_muzzle_762sup_ak = 1;
+        hlc_muzzle_sf3p_762 = 1;
+    };
+};

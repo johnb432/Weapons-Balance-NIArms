@@ -1,3 +1,8 @@
+#include "script_component.hpp"
+
+if (!hasInterface) exitWith {};
+
+// Called in postInit because it's overwritten by NIArms if it is done in preInit
 hlc_barrel_standard_compatible_weapons = [
     "hlc_rifle_auga1carb",
     "hlc_rifle_auga1carb_t",

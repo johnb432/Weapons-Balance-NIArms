@@ -4,7 +4,7 @@ class hlc_30Rnd_303_B_bren : hlc_50Rnd_45ACP_B_1921 {
     author = "Toadie, johnb43";
     count = 30;
     descriptionShort = "Caliber: .303British Ball<br/>Rounds: 30<br/>Used in: Bren";
-    displayName = "30Rnd .303 Ball Bren Mag";
+    displayName = "30Rnd .303 Bren Mag";
     displayNameShort = ".303 Ball";
     initSpeed = 840;
     lastRoundsTracer = 1;
@@ -42,7 +42,7 @@ class hlc_10Rnd_303_B_enfield : hlc_30Rnd_303_B_bren {
     count = 10;
     scope = 2;
     descriptionShort = "Caliber: .303British Ball<br/>Rounds: 10<br/>Used in: SMLE,No.4,No.5";
-    displayName = "10Rnd .303 Ball Lee-Enfield Clip";
+    displayName = "10Rnd .303 Lee-Enfield Clip";
     initSpeed = 744;
     mass = 5.65;
     displayNameShort = ".303 Ball";

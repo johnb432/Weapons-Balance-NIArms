@@ -1,3 +1,13 @@
+#include "script_component.hpp"
+
+if (!hasInterface) exitWith {};
+
+ADDON = false;
+
+PREP_RECOMPILE_START;
+#include "XEH_PREP.hpp"
+PREP_RECOMPILE_END;
+
 hlc_barrel_compact_ACR_556_compatible_weapons = [
     "hlc_rifle_ACR68_SBR_black",
     "hlc_rifle_ACR68_SBR_black_grip",
@@ -1357,3 +1367,5 @@ hlc_barrel_full_ACR_68_compatible_weapons = [
     "hlc_rifle_ACR_Full_tan_x15_grip2",
     "hlc_rifle_ACR_Full_tan_x15_grip3"
 ];
+
+ADDON = true;

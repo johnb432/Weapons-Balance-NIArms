@@ -32,7 +32,7 @@ class hlc_5Rnd_50BMG_B_TAC50: hlc_50Rnd_45ACP_B_1921 {
     author = "Toadie, johnb43";
     count = 5;
     descriptionShort = "Caliber: .50 BMG Ball<br/>Rounds: 5<br/>Used in: TAC-50";
-    displayName = "TAC-50 Ball 5rnd .50BMG";
+    displayName = "TAC-50 5rnd .50BMG";
     displayNameShort = ".50 BMG Ball";
     lastRoundsTracer = 0;
     initSpeed = 1024;
@@ -76,7 +76,7 @@ class hlc_32rnd_9x19_B_sten: hlc_50Rnd_45ACP_B_1921 {
     ammo = "HLC_9x19_Ball";
     count = 32;
     descriptionShort = "Caliber: 9x19mm Ball<br/>Rounds: 32<br/>Used in: Sten";
-    displayName = "32Rnd 9x19mm Ball Sten Mag";
+    displayName = "32Rnd 9x19mm Sten Mag";
     displayNameShort = "9x19mm Ball";
     initSpeed = 365;
     lastRoundsTracer = 1;
