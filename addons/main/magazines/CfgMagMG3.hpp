@@ -58,6 +58,9 @@ class hlc_50Rnd_792x57_T_MG42: hlc_50Rnd_792x57_B_MG42 {
 class hlc_50Rnd_792x57_AP_MG42: hlc_50Rnd_792x57_B_MG42 {
     mass = 31;
 };
+class hlc_100Rnd_792x57_AP_MG42: hlc_50Rnd_792x57_AP_MG42 {
+    mass = 48;
+};
 class hlc_100Rnd_792x57_B_MG42: hlc_50Rnd_792x57_B_MG42 {
     mass = 48;
 };
@@ -71,6 +74,7 @@ class hlc_200Rnd_792x57_AP_MG42: hlc_50Rnd_792x57_AP_MG42 {
     mass = 74;
 };
 class hlc_200Rnd_792x57_B_MG42: hlc_50Rnd_792x57_B_MG42 {
+    displayname = "7.92mm FMJ 200Rnd Gurt34-Linked Belt";
     mass = 74;
 };
 class hlc_200Rnd_792x57_M_MG42: hlc_50Rnd_792x57_M_MG42 {

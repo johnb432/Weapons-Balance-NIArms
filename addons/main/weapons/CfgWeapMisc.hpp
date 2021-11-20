@@ -31,6 +31,15 @@ class hlc_rifle_amt: hlc_rifle_sig5104 {
     };
 };
 
+class sp_fwa_sig510_base;
+class sp_fwa_sig510: sp_fwa_sig510_base {
+    displayName = "SIG 510";
+    magazineWell[] += {"CBA_75x55_STGW57"};
+    class WeaponSlotsInfo {
+        mass = 125.6;
+    };
+};
+
 class hlc_FN3011_base: Rifle_Base_F {
     class WeaponSlotsInfo: WeaponSlotsInfo {};
 };

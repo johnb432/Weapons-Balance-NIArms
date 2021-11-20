@@ -1,5 +1,8 @@
 #include "script_component.hpp"
 
+// TODO: redo existing NIArms ace barrel stats
+// look for .300 mags in new vs old
+
 class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
@@ -27,14 +30,17 @@ class CfgPatches {
             "hlcweapons_SG550",
             "hlcweapons_Springfield1903",
             "hlcweapons_stgw57",
+            "hlcweapons_XM8",
             "niaweapons_226",
             "niarms_416",
-            "niaweapons_C96"
+            "niaweapons_C96",
+            "sp_fwa_mas"
         };
         authors[] = {
             "johnb43",
             "ThePointForward",
-            "Blutze"
+            "Blutze",
+            "Garfield0003"
         };
         url = "https://github.com/johnb432/Weapons-Balance-NIArms";
         VERSION_CONFIG;
@@ -96,6 +102,7 @@ class CfgWeapons {
     #include "weapons\CfgWeapMP5.hpp"
     #include "weapons\CfgWeapSAW.hpp"
     #include "weapons\CfgWeapSG550.hpp"
+    #include "weapons\CfgWeapXM8.hpp"
 };
 
 class CfgMagazines {

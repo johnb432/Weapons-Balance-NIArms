@@ -1,3 +1,13 @@
+# Changelog for Weapons balance 20.11.2021
+
+1.1.0.1
+
+- Support for "New" NIArms All-in-One
+- Numerous fixes to get values to previous balanced values.
+- Weapon Changes
+    - NIArms:
+        - Adjusted weight & names of entire XM8 family
+
 # Changelog for Weapons balance 31.10.2021
 
 1.1.0.0

@@ -1,4 +1,74 @@
 class CfgMagazineWells {
+    class AK_545x39 {
+        WB_Magazines[] += {
+            "hlc_30Rnd_545x39_B_AK",
+            "hlc_30Rnd_545x39_T_AK",
+            "hlc_30Rnd_545x39_EP_AK",
+            "hlc_30Rnd_545x39_S_AK",
+            "hlc_30Rnd_545x39_B_AK_plum",
+            "hlc_30Rnd_545x39_T_AK_plum",
+            "hlc_30Rnd_545x39_EP_AK_plum",
+            "hlc_30Rnd_545x39_S_AK_plum",
+            "hlc_30Rnd_545x39_B_AK_black",
+            "hlc_30Rnd_545x39_T_AK_black",
+            "hlc_30Rnd_545x39_EP_AK_black",
+            "hlc_30Rnd_545x39_S_AK_black",
+            "hlc_30Rnd_545x39_m_ak",
+            "hlc_30Rnd_545x39_m_ak_Black",
+            "hlc_30Rnd_545x39_m_ak_Plum",
+            "hlc_45Rnd_545x39_b_rpk",
+            "hlc_45Rnd_545x39_t_rpk",
+            "hlc_45Rnd_545x39_m_rpk",
+            "hlc_45Rnd_545x39_EP_rpk",
+            "hlc_45Rnd_545x39_b_rpkm",
+            "hlc_45Rnd_545x39_t_rpkm",
+            "hlc_45Rnd_545x39_m_rpkm",
+            "hlc_45Rnd_545x39_EP_rpkm",
+            "hlc_60Rnd_545x39_b_rpk",
+            "hlc_60Rnd_545x39_t_rpk",
+            "hlc_60Rnd_545x39_m_rpk",
+            "hlc_60Rnd_545x39_EP_rpk"
+        };
+    };
+
+    class AK_762x39 {
+        WB_Magazines[] += {
+            "hlc_30Rnd_762x39_b_ak",
+            "hlc_30Rnd_762x39_t_ak",
+            "hlc_30rnd_762x39_m_ak",
+            "hlc_30rnd_762x39_s_ak",
+            "hlc_30Rnd_762x39_AP_ak",
+            "hlc_30Rnd_762x39_b_ak_6L10",
+            "hlc_30Rnd_762x39_t_ak_6L10",
+            "hlc_30rnd_762x39_m_ak_6L10",
+            "hlc_30rnd_762x39_s_ak_6L10",
+            "hlc_30Rnd_762x39_AP_ak_6L10",
+            "hlc_30Rnd_762x39_b_ak_Valmet",
+            "hlc_30Rnd_762x39_t_ak_Valmet",
+            "hlc_30rnd_762x39_m_ak_Valmet",
+            "hlc_30rnd_762x39_s_ak_Valmet",
+            "hlc_30Rnd_762x39_AP_ak_Valmet",
+            "hlc_30Rnd_762x39_b_ak_PMAG",
+            "hlc_30Rnd_762x39_t_ak_PMAG",
+            "hlc_30rnd_762x39_m_ak_PMAG",
+            "hlc_30rnd_762x39_s_ak_PMAG",
+            "hlc_30Rnd_762x39_AP_ak_PMAG",
+            "hlc_30Rnd_762x39_b_ak_PMAGD",
+            "hlc_30Rnd_762x39_t_ak_PMAGD",
+            "hlc_30rnd_762x39_m_ak_PMAGD",
+            "hlc_30rnd_762x39_s_ak_PMAGD",
+            "hlc_30Rnd_762x39_AP_ak_PMAGD",
+            "hlc_40Rnd_762x39_b_rpk",
+            "hlc_45Rnd_762x39_m_rpk",
+            "HLC_45rnd_762x39_T_RPK",
+            "hlc_45Rnd_762x39_AP_rpk",
+            "hlc_75Rnd_762x39_b_rpk",
+            "hlc_75Rnd_762x39_m_rpk",
+            "hlc_75Rnd_762x39_t_rpk",
+            "hlc_75Rnd_762x39_AP_rpk"
+        };
+    };
+
     class CBA_12g_SAIGA {
         WB_Magazines[] += {
             "hlc_10rnd_12g_buck_S12",
@@ -79,6 +149,13 @@ class CfgMagazineWells {
         WB_Magazines[] += {
             "hlc_50Rnd_57x28_JHP_P90",
             "hlc_50Rnd_57x28_FMJ_P90"
+        };
+    };
+
+    class CBA_75x55_STGW57 {
+        WB_Magazines[] += {
+            "sp_fwa_24rnd_75x55_sig510",
+            "sp_fwa_24rnd_75x55_sig510_tracer"
         };
     };
 
@@ -206,6 +283,15 @@ class CfgMagazineWells {
         };
     };
 
+    class M249_556x45 {
+        WB_Magazines[] += {
+            "hlc_200rnd_556x45_M_SAW",
+            "hlc_200rnd_556x45_B_SAW",
+            "hlc_200rnd_556x45_T_SAW",
+            "hlc_200rnd_556x45_Mdim_SAW"
+        };
+    };
+
     class PK_762x54R {
         WB_Magazines[] += {
             "hlc_100Rnd_762x54_B_PKM",
@@ -216,6 +302,56 @@ class CfgMagazineWells {
             "hlc_250Rnd_762x54_M_PKM",
             "hlc_250Rnd_762x54_T_PKM",
             "hlc_250Rnd_762x54_AP_PKM"
+        };
+    };
+
+    class STANAG_556x45 {
+        WB_Magazines[] += {
+            "hlc_30rnd_556x45_EPR",
+            "hlc_30rnd_556x45_SOST",
+            "hlc_30rnd_556x45_SPR",
+            "hlc_30rnd_556x45_S",
+            "hlc_30rnd_556x45_M",
+            "hlc_30rnd_556x45_t",
+            "hlc_30rnd_556x45_MDim",
+            "hlc_30rnd_556x45_TDim",
+            "hlc_30rnd_556x45_EPR_PMAG",
+            "hlc_30rnd_556x45_SOST_PMAG",
+            "hlc_30rnd_556x45_SPR_PMAG",
+            "hlc_30rnd_556x45_S_PMAG",
+            "hlc_30rnd_556x45_M_PMAG",
+            "hlc_30rnd_556x45_t_PMAG",
+            "hlc_30rnd_556x45_MDim_PMAG",
+            "hlc_30rnd_556x45_TDim_PMAG",
+            "hlc_30rnd_556x45_EPR_STANAGHD",
+            "hlc_30rnd_556x45_SOST_STANAGHD",
+            "hlc_30rnd_556x45_SPR_STANAGHD",
+            "hlc_30rnd_556x45_S_STANAGHD",
+            "hlc_30rnd_556x45_M_STANAGHD",
+            "hlc_30rnd_556x45_t_STANAGHD",
+            "hlc_30rnd_556x45_MDim_STANAGHD",
+            "hlc_30rnd_556x45_TDim_STANAGHD",
+            "hlc_30rnd_556x45_EPR_L5",
+            "hlc_30rnd_556x45_SOST_L5",
+            "hlc_30rnd_556x45_SPR_L5",
+            "hlc_30rnd_556x45_S_L5",
+            "hlc_30rnd_556x45_M_L5",
+            "hlc_30rnd_556x45_t_L5",
+            "hlc_30rnd_556x45_MDim_L5",
+            "hlc_30rnd_556x45_TDim_L5",
+            "hlc_30rnd_556x45_EPR_EMAG",
+            "hlc_30rnd_556x45_SOST_EMAG",
+            "hlc_30rnd_556x45_SPR_EMAG",
+            "hlc_30rnd_556x45_S_EMAG",
+            "hlc_30rnd_556x45_M_EMAG",
+            "hlc_30rnd_556x45_t_EMAG",
+            "hlc_30rnd_556x45_MDim_EMAG",
+            "hlc_30rnd_556x45_TDim_EMAG",
+            "hlc_50rnd_556x45_EPR",
+            "hlc_50rnd_556x45_SOST",
+            "hlc_50rnd_556x45_SPR",
+            "hlc_50rnd_556x45_M",
+            "hlc_50rnd_556x45_MDim"
         };
     };
 
