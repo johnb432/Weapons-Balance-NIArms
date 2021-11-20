@@ -1,5 +1,5 @@
 This collection of mods aims to rebalance other mods.
-This rebalancing balances items from NIArms All in One:
+This rebalancing balances items from NIArms All in One (V14 Onwards):
 [list]
 [*] Weapon weight balancing
 [*] Magazine weight balancing

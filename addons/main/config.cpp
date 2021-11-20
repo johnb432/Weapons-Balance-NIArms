@@ -49,9 +49,9 @@ class CfgPatches {
 
 class CfgMods {
     class PREFIX {
-        name = "Weapons Balance - NIArms";
+        name = "Weapons Balance - NIArms (New)";
         author = "johnb43";
-        tooltipOwned = "Weapons Balance - NIArms";
+        tooltipOwned = "Weapons Balance - NIArms (New)";
         hideName = 0;
         hidePicture = 0;
         actionName = "Github";
