@@ -7,6 +7,9 @@ class hlc_smg_mp5a2: hlc_MP5_base {
         mass = 63.8;
     };
 };
+class hlc_smg_mp5A2_Sfire: hlc_smg_mp5a2 {
+    scopeArsenal = 0;
+};
 class hlc_smg_mp5a2_tac: hlc_smg_mp5a2 {
     displayName = "HK MP5A2 (TAC)";
     class WeaponSlotsInfo: WeaponSlotsInfo {

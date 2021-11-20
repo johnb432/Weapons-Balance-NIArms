@@ -1,9 +1,9 @@
 class hlc_5rnd_3006_1903: 30Rnd_556x45_Stanag {
-    mass = 3;
+    mass = 2.8;
 };
 class hlc_5rnd_3006_T_1903: hlc_5rnd_3006_1903 {
     ammo = "HLC_3006_T";
-    mass = 3;
+    mass = 2.8;
 };
 
 class hlc_5rnd_300WM_FMJ_AWM: 30Rnd_556x45_Stanag {
@@ -51,6 +51,24 @@ class hlc_GRD_Red: hlc_GRD_White {
     displayname = "GRD-40 (Red Smoke)";
 };
 
+class 30Rnd_9x21_Mag;
+class hlc_30Rnd_10mm_B_MP5: 30Rnd_9x21_Mag {
+    mass = 10;
+};
+class hlc_30Rnd_10mm_JHP_MP5: 30Rnd_9x21_Mag {
+    mass = 10;
+};
+
+class hlc_30Rnd_9x19_B_MP5: 30Rnd_9x21_Mag {
+    mass = 10;
+};
+class hlc_30Rnd_9x19_GD_MP5: 30Rnd_9x21_Mag {
+    mass = 10;
+};
+class hlc_30Rnd_9x19_SD_MP5: 30Rnd_9x21_Mag {
+    mass = 10;
+};
+
 class hlc_50rnd_9x19_B_9mmar: 30Rnd_556x45_Stanag {
     displayName = "9mm Ball 50Rnd MP5 Magazine";
     descriptionShort = "Caliber: 9x19mm Parrabellum (Ball)<br/>Rounds: 50<br/>Used in: MP5";
@@ -66,28 +84,59 @@ class hlc_200rnd_556x45_M_SAW: 30Rnd_556x45_Stanag {
     mass = 51.65;
     reloadAction = "GestureReloadM200";
 };
+class hlc_200rnd_556x45_B_SAW: hlc_200rnd_556x45_M_SAW {
+    mass = 51.65;
+};
+class hlc_200rnd_556x45_Mdim_SAW: hlc_200rnd_556x45_M_SAW {
+    mass = 51.65;
+};
+class hlc_200rnd_556x45_T_SAW: hlc_200rnd_556x45_M_SAW {
+    mass = 51.65;
+};
 
 class hlc_100Rnd_762x51_B_M60E4: 30Rnd_556x45_Stanag {
     mass = 32.34;
 };
+class hlc_100Rnd_762x51_Mdim_M60E4: hlc_100Rnd_762x51_B_M60E4 {
+    mass = 32.34;
+};
+class hlc_100Rnd_762x51_M_M60E4: hlc_100Rnd_762x51_B_M60E4 {
+    mass = 32.34;
+};
 class hlc_100Rnd_762x51_Barrier_M60E4: hlc_100Rnd_762x51_B_M60E4 {
     displayName = "7.62mm SOST 100Rnd M13-linked belt (Tracers Every 4)";
+    mass = 32.34;
+};
+class hlc_100Rnd_762x51_T_M60E4: hlc_100Rnd_762x51_B_M60E4 {
+    mass = 32.34;
 };
 
 class hlc_200Rnd_762x51_B_M60E4: 30Rnd_556x45_Stanag {
     mass = 62;
 };
+class hlc_200Rnd_762x51_Mdim_M60E4: hlc_200Rnd_762x51_B_M60E4 {
+    mass = 62;
+};
+class hlc_200Rnd_762x51_M_M60E4: hlc_200Rnd_762x51_B_M60E4 {
+    mass = 62;
+};
 class hlc_200Rnd_762x51_Barrier_M60E4: hlc_200Rnd_762x51_B_M60E4 {
     displayName = "7.62mm SOST 200Rnd M13-linked belt (Tracers Every 4)";
+    mass = 62;
+};
+class hlc_200Rnd_762x51_T_M60E4: hlc_200Rnd_762x51_B_M60E4 {
+    mass = 62;
 };
 
 class hlc_10rnd_12g_buck_S12: 30Rnd_556x45_Stanag {
     descriptionShort = "Caliber: 12 Gauge 00-Buck<br/>Type: Lead Pellets<br/>Rounds: 8";
     displayName = "12 Gauge Buckshot 8Rnd Saiga Magazine";
+    mass = 9.5;
 };
 class hlc_10rnd_12g_slug_S12: 30Rnd_556x45_Stanag {
     descriptionShort = "Caliber: 12 Gauge Slug<br/>Type: Single-piece Lead Slug<br/>Rounds: 8";
     displayName = "12 Gauge Slug 8Rnd Saiga Magazine";
+    mass = 9.5;
 };
 class hlc_12rnd_12g_buck_S12: hlc_10rnd_12g_buck_S12 {
     author = "Toadie, johnb43";
