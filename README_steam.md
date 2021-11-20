@@ -10,6 +10,6 @@ This rebalancing balances items from NIArms All in One:
 [*]and further changes
 [/list]
 
-Visit the [url=https://github.com/johnb432/Weapons-Balance-NIArms]GitHub[/url] to get all the changed items.
+Visit the [url=https://github.com/johnb432/Weapons-Balance-NIArms/tree/old-AIO]GitHub[/url] to get all the changed items.
 
 Credit to all the various mod authors.
