@@ -107,22 +107,36 @@ class hlc_optic_PVS4M14: hlc_optic_PVS4base {
 class optic_lrps: ItemCore {
     class ItemInfo: InventoryOpticsItem_Base_F {};
 };
+class hlc_optic_VOMZ: optic_lrps {
+    ACE_ScopeAdjust_Vertical[] = {0,0};
+    ACE_ScopeAdjust_Horizontal[] = {0,0};
+};
 class hlc_optic_ZF95Base: optic_lrps {
     class ItemInfo: ItemInfo {
         class OpticsModes {
             class Snip {
-                discreteDistance[] = {100};
+                discreteDistance[] = {300};
+                discreteDistanceInitIndex = 0;
+            };
+        };
+    };
+};
+class hlc_optic_leupoldm3a: optic_lrps {
+    class ItemInfo: ItemInfo {
+        class OpticsModes {
+            class Snip {
+                discreteDistance[] = {300};
                 discreteDistanceInitIndex = 0;
             };
         };
     };
 };
 
-class hlc_optic_ATACR_Offset: hlc_optic_ZF95Base {
-    class ItemInfo: ItemInfo {
+class hlc_optic_ATACR_Offset: ItemCore {
+    class ItemInfo: InventoryOpticsItem_Base_F {
         class OpticsModes {
-            class Snip {
-                discreteDistance[] = {100};
+            class ATACR {
+                discreteDistance[] = {300};
                 discreteDistanceInitIndex = 0;
             };
         };
@@ -130,18 +144,11 @@ class hlc_optic_ATACR_Offset: hlc_optic_ZF95Base {
 };
 
 class optic_dms;
-class hlc_optic_VOMZ: optic_dms {
-    ACE_ScopeAdjust_Vertical[] = {0,0};
-    ACE_ScopeAdjust_Horizontal[] = {0,0};
-    ACE_ScopeAdjust_VerticalIncrement = 0;
-    ACE_ScopeAdjust_HorizontalIncrement = 0;
-};
-
 class HLC_Optic_ZFSG1: optic_dms {
     class ItemInfo: InventoryOpticsItem_Base_F {
         class OpticsModes {
             class Snip {
-                discreteDistance[] = {100};
+                discreteDistance[] = {300};
                 discreteDistanceInitIndex = 0;
             };
         };
@@ -151,7 +158,7 @@ class hlc_optic_accupoint_g3: HLC_Optic_ZFSG1 {
     class ItemInfo: InventoryOpticsItem_Base_F {
         class OpticsModes {
             class Snip {
-                discreteDistance[] = {100};
+                discreteDistance[] = {300};
                 discreteDistanceInitIndex = 0;
             };
         };
@@ -159,9 +166,7 @@ class hlc_optic_accupoint_g3: HLC_Optic_ZFSG1 {
 };
 
 class optic_hamr;
-class hlc_optic_angschutz: optic_hamr {
+class hlc_optic_ANGSCHUTZ: optic_hamr {
     ACE_ScopeAdjust_Vertical[] = {0,0};
     ACE_ScopeAdjust_Horizontal[] = {0,0};
-    ACE_ScopeAdjust_VerticalIncrement = 0;
-    ACE_ScopeAdjust_HorizontalIncrement = 0;
 };

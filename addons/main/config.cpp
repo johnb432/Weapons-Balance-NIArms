@@ -1,7 +1,6 @@
 #include "script_component.hpp"
 
 // TODO: redo existing NIArms ace barrel stats
-// look for .300 mags in new vs old
 
 class CfgPatches {
     class ADDON {

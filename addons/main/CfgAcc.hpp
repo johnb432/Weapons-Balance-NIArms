@@ -10,8 +10,11 @@ class UnderBarrelSlot_rail: UnderBarrelSlot {
 class nia_rifle_grips_slot: UnderBarrelSlot {
     displayName = "Gripod slot";
     class compatibleItems {
+        hlc_grip_AFG = 1;
         hlc_grip_AFG2 = 1;
         hlc_grip_PMVFG = 1;
+        hlc_grip_PMVFG_Black = 1;
+        hlc_grip_PMVFG_Tan = 1;
         HLC_bipod_UTGShooters = 1;
     };
 };
@@ -25,8 +28,11 @@ class WB_rifle_grips_slot: asdg_SlotInfo {
     iconPinpoint = "Bottom";
     linkProxy = "\a3\data_f_mark\Proxies\Weapon_Slots\UNDERBARREL";
     class compatibleItems {
+        hlc_grip_AFG = 1;
         hlc_grip_AFG2 = 1;
         hlc_grip_PMVFG = 1;
+        hlc_grip_PMVFG_Black = 1;
+        hlc_grip_PMVFG_Tan = 1;
         hlc_grip_saw_grip1 = 1;
         hlc_grip_saw_grip2 = 1;
     };
@@ -34,8 +40,11 @@ class WB_rifle_grips_slot: asdg_SlotInfo {
 
 class rhs_rifle_gripod_slot: UnderBarrelSlot {
     class compatibleItems {
+        hlc_grip_AFG = 1;
         hlc_grip_AFG2 = 1;
         hlc_grip_PMVFG = 1;
+        hlc_grip_PMVFG_Black = 1;
+        hlc_grip_PMVFG_Tan = 1;
     };
 };
 

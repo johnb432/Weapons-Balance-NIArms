@@ -1,3 +1,10 @@
+# Changelog for Weapons balance 25.12.2021
+
+1.1.0.2
+
+- Fixed all scope adjustments.
+- Added grip compatibility.
+
 # Changelog for Weapons balance 20.11.2021
 
 1.1.0.1
