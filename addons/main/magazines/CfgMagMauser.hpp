@@ -1,4 +1,4 @@
-//Kar98k Clips
+// Kar98k Clips
 class hlc_5Rnd_792_B_Kar98 : hlc_10Rnd_303_B_enfield {
     ammo = "HLC_792x57_Ball";
     count = 5;
@@ -36,7 +36,7 @@ class hlc_5Rnd_792_AP_Kar98 : hlc_10Rnd_303_B_enfield {
     tracersEvery = 0;
 };
 
-//MG34 Boxes
+// MG34 Boxes
 class hlc_75rnd_792_B_MG34 : hlc_5Rnd_792_B_Kar98 {
     ACE_isBelt = 1;
     count = 75;

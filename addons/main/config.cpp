@@ -99,6 +99,8 @@ class CfgWeapons {
     #include "weapons\CfgWeapM14.hpp"
     #include "weapons\CfgWeapMG.hpp"
     #include "weapons\CfgWeapMP5.hpp"
+    #include "weapons\CfgWeapMuzzle.hpp"
+    #include "weapons\CfgWeapOptic.hpp"
     #include "weapons\CfgWeapSAW.hpp"
     #include "weapons\CfgWeapSG550.hpp"
     #include "weapons\CfgWeapXM8.hpp"

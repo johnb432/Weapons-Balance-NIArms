@@ -1,3 +1,8 @@
+# Changelog for Weapons balance 2.1.2022
+
+1.1.0.3
+- Fixed issue with flash hiders making weapons overheat too quickly when using ACE overheat.
+
 # Changelog for Weapons balance 25.12.2021
 
 1.1.0.2

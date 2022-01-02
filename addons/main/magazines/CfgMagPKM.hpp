@@ -1,4 +1,4 @@
-//PKM boxes
+// PKM boxes
 class hlc_100Rnd_762x54_B_PKM: 30Rnd_556x45_Stanag {
     ACE_isBelt = 1;
     ammo = "HLC_762x54_ball";

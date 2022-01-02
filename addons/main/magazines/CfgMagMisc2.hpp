@@ -1,4 +1,4 @@
-//P90 Magazines
+// P90 Magazines
 class hlc_50Rnd_57x28_JHP_P90: 30Rnd_556x45_Stanag {
     ammo = "HLC_57x28mm_JHP";
     author = "Toadie, johnb43";
@@ -26,7 +26,7 @@ class hlc_50Rnd_57x28_FMJ_P90: hlc_50Rnd_57x28_JHP_P90 {
     tracersEvery = 0;
 };
 
-//TAC50 Magazines
+// TAC50 Magazines
 class hlc_5Rnd_50BMG_B_TAC50: hlc_50Rnd_45ACP_B_1921 {
     ammo = "B_127x99_Ball";
     author = "Toadie, johnb43";
@@ -71,7 +71,7 @@ class hlc_5Rnd_50BMG_Raufoss_TAC50: hlc_5Rnd_50BMG_B_TAC50 {
     picture = "\hlc_core\tex\ui\ammo\m_tac50raufoss_ca.paa";
 };
 
-//Sten Magazines
+// Sten Magazines
 class hlc_32rnd_9x19_B_sten: hlc_50Rnd_45ACP_B_1921 {
     ammo = "HLC_9x19_Ball";
     count = 32;
@@ -86,7 +86,7 @@ class hlc_32rnd_9x19_B_sten: hlc_50Rnd_45ACP_B_1921 {
     tracersEvery = 2;
 };
 
-//SCAR Magazines
+// SCAR Magazines
 class hlc_20Rnd_762x51_T_fal;
 class hlc_20rnd_762x51_B_SCAR: hlc_20Rnd_762x51_B_fal {
     descriptionShort = "Caliber: 7.62x51mm NATO<br/>Rounds: 20<br/>Used in: SCAR-H (Mk17)";

@@ -1,4 +1,4 @@
-//Bren Gun Magazines
+// Bren Gun Magazines
 class hlc_30Rnd_303_B_bren : hlc_50Rnd_45ACP_B_1921 {
     ammo = "HLC_303Brit_B";
     author = "Toadie, johnb43";
@@ -37,7 +37,7 @@ class hlc_30Rnd_303_AP_bren : hlc_30Rnd_303_B_bren {
     tracersEvery = 1;
 };
 
-//Lee-Enfield Stipper Clips
+// Lee-Enfield Stipper Clips
 class hlc_10Rnd_303_B_enfield : hlc_30Rnd_303_B_bren {
     count = 10;
     scope = 2;
