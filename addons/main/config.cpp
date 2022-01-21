@@ -6,7 +6,14 @@ class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {};
-        weapons[] = {};
+        weapons[] = {
+            "hlc_rifle_aek972", "hlc_rifle_aek972_mtk", "hlc_rifle_aek972worn",
+            "hlc_rifle_aek973", "hlc_rifle_aek973_mtk", "hlc_rifle_aek973worn",
+            "hlc_rifle_ak19", "hlc_rifle_ak19GL", "hlc_rifle_aku19",
+            "hlc_rifle_ak19_grip", "hlc_rifle_ak19_grip2", "hlc_rifle_ak19_grip3",
+            "hlc_rifle_aku19_grip", "hlc_rifle_aku19_grip2", "hlc_rifle_aku19_grip3",
+            "hlc_rifle_RK62_rail"
+        };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "hlcweapons_core",
@@ -47,18 +54,23 @@ class CfgPatches {
 };
 
 class CfgMods {
-    class PREFIX {
+    class Mod_Base;
+    class PREFIX: Mod_Base {
         name = "Weapons Balance - NIArms (New)";
         author = "johnb43";
+        tooltip = "Weapons Balance - NIArms (New)";
         tooltipOwned = "Weapons Balance - NIArms (New)";
         hideName = 0;
         hidePicture = 0;
+        dir = "@wb_niarms";
         actionName = "Github";
         action = "https://github.com/johnb432/Weapons-Balance-NIArms";
         description = "A collection of balancing mods made by johnb43.";
         overview = "A collection of balancing mods made by johnb43.";
         picture = "\z\wb_niarms\addons\main\ui\logo_weapons_balance.paa"; // http://getdrawings.com/get-drawing#gun-drawing-in-pencil-27.jpg, http://getdrawings.com/get-drawing#gun-drawing-in-pencil-17.png
         logo = "\z\wb_niarms\addons\main\ui\logo_weapons_balance.paa";
+        logoOver = "\z\wb_niarms\addons\main\ui\logo_weapons_balance.paa";
+        logoSmall = "\z\wb_niarms\addons\main\ui\logo_weapons_balance.paa";
         overviewPicture = "\z\wb_niarms\addons\main\ui\logo_weapons_balance.paa";
     };
 };
@@ -77,6 +89,8 @@ class Mode_Burst;
 class asdg_OpticRail1913;
 class asdg_OpticRail1913_long;
 class nia_rifle_gripod_slot;
+class asdg_MuzzleSlot_762R;
+class asdg_OpticSideRail_AK;
 
 class CfgWeapons {
     class Rifle;
@@ -89,6 +103,7 @@ class CfgWeapons {
     #include "weapons\CfgWeapMisc.hpp"
     #include "weapons\CfgWeapACR.hpp"
     #include "weapons\CfgWeapAK.hpp"
+    #include "weapons\CfgWeapAKNew.hpp"
     #include "weapons\CfgWeapAR15.hpp"
     #include "weapons\CfgWeapAUG.hpp"
     #include "weapons\CfgWeapAWM.hpp"
@@ -121,9 +136,12 @@ class CfgMagazines {
     #include "magazines\CfgMagRifleMisc.hpp"
     #include "magazines\CfgMagSG550.hpp"
     #include "magazines\CfgMagSTANAG.hpp"
+    #include "magazines\CfgMagAK556.hpp"
 
     //New additions
     #include "magazines\CfgMag303.hpp"
+    #include "magazines\CfgMagAK545New.hpp"
+    #include "magazines\CfgMagAK762New.hpp"
     #include "magazines\CfgMagMauser.hpp"
     #include "magazines\CfgMagPKM.hpp"
     #include "magazines\CfgMagMisc2.hpp"

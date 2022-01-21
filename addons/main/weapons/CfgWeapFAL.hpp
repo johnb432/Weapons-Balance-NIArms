@@ -15,6 +15,7 @@ class hlc_rifle_L1A1SLR: hlc_rifle_SLR {
     };
 };
 class hlc_rifle_c1A1: hlc_rifle_SLR {
+    displayName = "C1A1";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         class CowsSlot: asdg_OpticRailL1A1 {};
     };

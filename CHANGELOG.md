@@ -1,3 +1,10 @@
+# Changelog for Weapons balance 21.1.2022
+
+1.1.0.4
+- Removed manufacturer's names from lots of weapons.
+- Added AEK-972, AEK-973 & AK-19 weapons.
+- Added 5.56 AK, 5.45 & 7.62 IR-DIM magazines.
+
 # Changelog for Weapons balance 2.1.2022
 
 1.1.0.3

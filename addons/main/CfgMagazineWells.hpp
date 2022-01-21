@@ -16,6 +16,12 @@ class CfgMagazineWells {
             "hlc_30Rnd_545x39_m_ak",
             "hlc_30Rnd_545x39_m_ak_Black",
             "hlc_30Rnd_545x39_m_ak_Plum",
+            "hlc_30Rnd_545x39_Mdim_ak",
+            "hlc_30Rnd_545x39_Tdim_ak",
+            "hlc_30Rnd_545x39_Mdim_ak_Black",
+            "hlc_30Rnd_545x39_Tdim_ak_Black",
+            "hlc_30Rnd_545x39_Mdim_ak_Plum",
+            "hlc_30Rnd_545x39_Tdim_ak_Plum",
             "hlc_45Rnd_545x39_b_rpk",
             "hlc_45Rnd_545x39_t_rpk",
             "hlc_45Rnd_545x39_m_rpk",
@@ -24,10 +30,16 @@ class CfgMagazineWells {
             "hlc_45Rnd_545x39_t_rpkm",
             "hlc_45Rnd_545x39_m_rpkm",
             "hlc_45Rnd_545x39_EP_rpkm",
+            "hlc_45Rnd_545x39_Mdim_rpk",
+            "hlc_45Rnd_545x39_Tdim_rpk",
+            "hlc_45Rnd_545x39_Mdim_rpkm",
+            "hlc_45Rnd_545x39_Tdim_rpkm",
             "hlc_60Rnd_545x39_b_rpk",
             "hlc_60Rnd_545x39_t_rpk",
             "hlc_60Rnd_545x39_m_rpk",
-            "hlc_60Rnd_545x39_EP_rpk"
+            "hlc_60Rnd_545x39_EP_rpk",
+            "hlc_60Rnd_545x39_Mdim_rpk",
+            "hlc_60Rnd_545x39_Tdim_rpk"
         };
     };
 
@@ -58,14 +70,28 @@ class CfgMagazineWells {
             "hlc_30rnd_762x39_m_ak_PMAGD",
             "hlc_30rnd_762x39_s_ak_PMAGD",
             "hlc_30Rnd_762x39_AP_ak_PMAGD",
+            "hlc_30Rnd_762x39_MDim_ak_6L10",
+            "hlc_30Rnd_762x39_TDim_ak_6L10",
+            "hlc_30Rnd_762x39_MDim_ak",
+            "hlc_30Rnd_762x39_TDim_ak",
+            "hlc_30Rnd_762x39_MDim_ak_PMAG",
+            "hlc_30Rnd_762x39_TDim_ak_PMAG",
+            "hlc_30Rnd_762x39_MDim_ak_PMAGD",
+            "hlc_30Rnd_762x39_TDim_ak_PMAGD",
+            "hlc_30Rnd_762x39_MDim_ak_Valmet",
+            "hlc_30Rnd_762x39_TDim_ak_Valmet",
             "hlc_40Rnd_762x39_b_rpk",
             "hlc_45Rnd_762x39_m_rpk",
             "HLC_45rnd_762x39_T_RPK",
             "hlc_45Rnd_762x39_AP_rpk",
+            "hlc_45Rnd_762x39_MDim_rpk",
+            "hlc_45Rnd_762x39_TDim_rpk",
             "hlc_75Rnd_762x39_b_rpk",
             "hlc_75Rnd_762x39_m_rpk",
             "hlc_75Rnd_762x39_t_rpk",
-            "hlc_75Rnd_762x39_AP_rpk"
+            "hlc_75Rnd_762x39_AP_rpk",
+            "hlc_75Rnd_762x39_MDim_rpk",
+            "hlc_75Rnd_762x39_TDim_rpk"
         };
     };
 
@@ -125,7 +151,37 @@ class CfgMagazineWells {
         WB_Magazines[] += {
             "hlc_30Rnd_545x39_m_ak",
             "hlc_30Rnd_545x39_m_ak_Black",
-            "hlc_30Rnd_545x39_m_ak_Plum"
+            "hlc_30Rnd_545x39_m_ak_Plum",
+            "hlc_30Rnd_545x39_Mdim_ak",
+            "hlc_30Rnd_545x39_Tdim_ak",
+            "hlc_30Rnd_545x39_Mdim_ak_Black",
+            "hlc_30Rnd_545x39_Tdim_ak_Black",
+            "hlc_30Rnd_545x39_Mdim_ak_Plum",
+            "hlc_30Rnd_545x39_Tdim_ak_Plum"
+        };
+    };
+
+    class CBA_545x39_RPK {
+        WB_Magazines[] += {
+            "hlc_45Rnd_545x39_Mdim_rpk",
+            "hlc_45Rnd_545x39_Tdim_rpk",
+            "hlc_45Rnd_545x39_Mdim_rpkm",
+            "hlc_45Rnd_545x39_Tdim_rpkm",
+            "hlc_60Rnd_545x39_Mdim_rpk",
+            "hlc_60Rnd_545x39_Tdim_rpk"
+        };
+    };
+
+    class CBA_556x45_AK {
+        WB_Magazines[] += {
+            "hlc_30Rnd_556x45_EPR_AK",
+            "hlc_30Rnd_556x45_MDim_AK",
+            "hlc_30Rnd_556x45_M_AK",
+            "hlc_30Rnd_556x45_TDim_AK",
+            "hlc_30Rnd_556x45_SPR_AK",
+            "hlc_30Rnd_556x45_SOST_AK",
+            "hlc_30Rnd_556x45_S_AK",
+            "hlc_30Rnd_556x45_T_AK"
         };
     };
 
@@ -156,6 +212,30 @@ class CfgMagazineWells {
         WB_Magazines[] += {
             "sp_fwa_24rnd_75x55_sig510",
             "sp_fwa_24rnd_75x55_sig510_tracer"
+        };
+    };
+
+    class CBA_762x39_AK {
+        WB_Magazines[] += {
+            "hlc_30Rnd_762x39_MDim_ak_6L10",
+            "hlc_30Rnd_762x39_TDim_ak_6L10",
+            "hlc_30Rnd_762x39_MDim_ak",
+            "hlc_30Rnd_762x39_TDim_ak",
+            "hlc_30Rnd_762x39_MDim_ak_PMAG",
+            "hlc_30Rnd_762x39_TDim_ak_PMAG",
+            "hlc_30Rnd_762x39_MDim_ak_PMAGD",
+            "hlc_30Rnd_762x39_TDim_ak_PMAGD",
+            "hlc_30Rnd_762x39_MDim_ak_Valmet",
+            "hlc_30Rnd_762x39_TDim_ak_Valmet"
+        };
+    };
+
+    class CBA_762x39_RPK {
+        WB_Magazines[] += {
+            "hlc_45Rnd_762x39_MDim_rpk",
+            "hlc_45Rnd_762x39_TDim_rpk",
+            "hlc_75Rnd_762x39_MDim_rpk",
+            "hlc_75Rnd_762x39_TDim_rpk"
         };
     };
 

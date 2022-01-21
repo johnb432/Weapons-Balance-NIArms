@@ -13,4 +13,14 @@ class CfgAmmo {
     class HLC_GP11_APBT: B_762x51_Ball {
         ACE_bulletLength = 35.0012;
     };
+
+    class FH_545x39_Tracer;
+    class FH_545x39_Tracer_Dim: FH_545x39_Tracer {
+        nvgOnly = 1;
+    };
+
+    class HLC_762x39_Tracer;
+    class HLC_762x39_Tracer_Dim: HLC_762x39_Tracer {
+        nvgOnly = 1;
+    };
 };
