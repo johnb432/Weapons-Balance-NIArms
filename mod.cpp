@@ -4,7 +4,6 @@ tooltip = "Weapons Balance - NIArms (New)";
 tooltipOwned = "Weapons Balance - NIArms (New)";
 hideName = 0;
 hidePicture = 0;
-dir = "@wb_niarms";
 actionName = "Github";
 action = "https://github.com/johnb432/Weapons-Balance-NIArms";
 description = "A collection of balancing mods made by johnb43.";

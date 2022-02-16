@@ -4,117 +4,67 @@ class hlc_100Rnd_762x54_B_PKM: 30Rnd_556x45_Stanag {
     ammo = "HLC_762x54_ball";
     author = "Toadie, johnb43";
     count = 100;
-    descriptionShort = "Caliber: 7.62x54mm Ball<br/>Rounds: 100<br/>Used in: PKM";
-    displayName = "7.62mm FMJ 100Rnd Maxim-Link Belt";
-    displayNameShort = "7.62x54mm Ball";
+    descriptionShort = "Caliber: 7.62x54mmR 57-N-323S<br/>Type: FMJ<br/>Rounds: 100<br/>Used in: PK";
+    displayName = "100Rnd 7.62x54 57-N-323S Belt";
+    displayNameShort = "FMJ";
     initSpeed = 825;
-    lastRoundsTracer = 1;
     mass = 43;
     modelSpecial = "";
     picture = "\hlc_core\tex\ui\ammo\m_pkm100ball_ca.paa";
     scope = 2;
     tracersEvery = 0;
 };
-class hlc_100Rnd_762x54_M_PKM: 30Rnd_556x45_Stanag {
-    ACE_isBelt = 1;
-    ammo = "HLC_762x54_tracer";
-    author = "Toadie, johnb43";
-    count = 100;
-    descriptionShort = "Caliber: 7.62x54mm Ball/Tracer Mix<br/>Rounds: 100<br/>Used in: PKM";
-    displayName = "7.62mm FMJ 100Rnd Maxim-Link Belt (Tracers every 4)";
-    displayNameShort = "7.62x54mm Ball/Tracer";
-    initSpeed = 798;
-    lastRoundsTracer = 1;
-    mass = 43;
-    modelSpecial = "";
-    picture = "\hlc_core\tex\ui\ammo\m_pkm100mixed_ca.paa";
-    scope = 2;
-    tracersEvery = 4;
-};
-class hlc_100Rnd_762x54_T_PKM: 30Rnd_556x45_Stanag {
-    ACE_isBelt = 1;
-    ammo = "HLC_762x54_tracer";
-    author = "Toadie, johnb43";
-    count = 100;
-    descriptionShort = "Caliber: 7.62x54mm 7T2 Tracer<br/>Rounds: 100<br/>Used in: PKM";
-    displayName = "7.62mm Tracers 100Rnd Maxim-Link Belt";
-    displayNameShort = "7.62x54mm 7T2 Tracer";
-    initSpeed = 798;
-    lastRoundsTracer = 1;
-    mass = 43;
-    modelSpecial = "";
-    picture = "\hlc_core\tex\ui\ammo\m_pkm100tracer_ca.paa";
-    scope = 2;
-    tracersEvery = 1;
-};
-class hlc_250Rnd_762x54_B_PKM: 30Rnd_556x45_Stanag {
-    ACE_isBelt = 1;
-    ammo = "HLC_762x54_ball";
-    author = "Toadie, johnb43";
+class hlc_250Rnd_762x54_B_PKM: hlc_100Rnd_762x54_B_PKM {
     count = 250;
-    descriptionShort = "Caliber: 7.62x54mm Ball<br/>Rounds: 250<br/>Used in: PKM";
-    displayName = "7.62mm FMJ 250Rnd Maxim-Link Belt";
-    displayNameShort = "7.62x54mm Ball";
-    initSpeed = 825;
-    lastRoundsTracer = 1;
+    descriptionShort = "Caliber: 7.62x54mmR 57-N-323S<br/>Type: FMJ<br/>Rounds: 250<br/>Used in: PK";
+    displayName = "250Rnd 7.62x54 57-N-323S Belt";
     mass = 91;
-    modelSpecial = "";
     picture = "\hlc_core\tex\ui\ammo\m_pkm250ball_ca.paa";
-    scope = 2;
-    tracersEvery = 0;
 };
-class hlc_250Rnd_762x54_M_PKM: 30Rnd_556x45_Stanag {
-    ACE_isBelt = 1;
+class hlc_100Rnd_762x54_T_PKM: hlc_100Rnd_762x54_B_PKM {
     ammo = "HLC_762x54_tracer";
-    author = "Toadie, johnb43";
-    count = 250;
-    descriptionShort = "Caliber: 7.62x54mm Ball/Tracer Mix<br/>Rounds: 250<br/>Used in: PKM";
-    displayName = "7.62mm FMJ 250Rnd Maxim-Link Belt (Tracers Every 4)";
-    displayNameShort = "7.62x54mm Ball/Tracer";
+    descriptionShort = "Caliber: 7.62x54mmR 7T2<br/>Type: Tracer<br/>Rounds: 100<br/>Used in: PK";
+    displayName = "100Rnd 7.62x54 7T2 Belt (Green Tracer)";
+    displayNameShort = "Tracer";
     initSpeed = 798;
     lastRoundsTracer = 1;
-    mass = 91;
-    modelSpecial = "";
-    picture = "\hlc_core\tex\ui\ammo\m_pkm250mixed_ca.paa";
-    scope = 2;
-    tracersEvery = 4;
-};
-class hlc_250Rnd_762x54_T_PKM: 30Rnd_556x45_Stanag {
-    ACE_isBelt = 1;
-    ammo = "HLC_762x54_tracer";
-    author = "Toadie, johnb43";
-    count = 250;
-    descriptionShort = "Caliber: 7.62x54mm 7T2 Tracer<br/>Rounds: 250<br/>Used in: PKM";
-    displayName = "7.62mm Tracers 250Rnd Maxim-Link Belt";
-    displayNameShort = "7.62x54mm 7T2 Tracer";
-    initSpeed = 798;
-    lastRoundsTracer = 1;
-    mass = 91;
-    modelSpecial = "";
-    picture = "\hlc_core\tex\ui\ammo\m_pkm250tracer_ca.paa";
-    scope = 2;
+    picture = "\hlc_core\tex\ui\ammo\m_pkm100tracer_ca.paa";
     tracersEvery = 1;
 };
-class hlc_100Rnd_762x54_AP_PKM: 30Rnd_556x45_Stanag {
-    ACE_isBelt = 1;
+class hlc_250Rnd_762x54_T_PKM: hlc_100Rnd_762x54_T_PKM {
+    count = 250;
+    descriptionShort = "Caliber: 7.62x54mmR 7T2<br/>Type: Tracer<br/>Rounds: 250<br/>Used in: PK";
+    displayName = "250Rnd 7.62x54 7T2 Belt (Green Tracer)";
+    mass = 91;
+    picture = "\hlc_core\tex\ui\ammo\m_pkm250tracer_ca.paa";
+};
+class hlc_100Rnd_762x54_M_PKM: hlc_100Rnd_762x54_T_PKM {
+    descriptionShort = "Caliber: 7.62x54mmR 57-N-323S/7T2<br/>Type: FMJ/Tracer<br/>Rounds: 100<br/>Used in: PK";
+    displayName = "100Rnd 7.62x54 57-N-323S Belt (Green Tracer Mixed)";
+    displayNameShort = "FMJ/Tracer";
+    picture = "\hlc_core\tex\ui\ammo\m_pkm100mixed_ca.paa";
+    tracersEvery = 3;
+};
+class hlc_250Rnd_762x54_M_PKM: hlc_100Rnd_762x54_M_PKM {
+    count = 250;
+    descriptionShort = "Caliber: 7.62x54mmR 57-N-323S/7T2<br/>Type: FMJ/Tracer<br/>Rounds: 250<br/>Used in: PK";
+    displayName = "250Rnd 7.62x54 57-N-323S Belt (Green Tracer Mixed)";
+    mass = 91;
+    picture = "\hlc_core\tex\ui\ammo\m_pkm250mixed_ca.paa";
+};
+
+class hlc_100Rnd_762x54_AP_PKM: hlc_100Rnd_762x54_B_PKM {
     ammo = "HLC_762x54_AP";
-    author = "Toadie, johnb43";
-    count = 100;
-    descriptionShort = "Caliber: 7.62x54mm 7N13 AP<br/>Rounds: 100<br/>Used in: PKM";
-    displayName = "7.62mm AP 100Rnd Maxim-Link Belt";
-    displayNameShort = "7.62x54mm 7N13 AP";
+    descriptionShort = "Caliber: 7.62x54mmR 7N13<br/>Type: AP<br/>Rounds: 100<br/>Used in: PK";
+    displayName = "100Rnd 7.62x54 7N13 Belt";
+    displayNameShort = "AP";
     initSpeed = 825;
-    lastRoundsTracer = 3;
     picture = "\hlc_core\tex\ui\ammo\m_pkm100ap_ca.paa";
-    mass = 43;
-    modelSpecial = "";
-    scope = 2;
-    tracersEvery = 0;
 };
 class hlc_250Rnd_762x54_AP_PKM: hlc_100Rnd_762x54_AP_PKM {
     count = 250;
-    descriptionShort = "Caliber: 7.62x54mm 7N13 AP<br/>Rounds: 250<br/>Used in: PKM";
-    displayName = "7.62mm AP 250Rnd Maxim-Link Belt";
+    descriptionShort = "Caliber: 7.62x54mmR 7N13<br/>Type: AP<br/>Rounds: 250<br/>Used in: PK";
+    displayName = "250Rnd 7.62x54 7N13 Belt";
     mass = 91;
     picture = "\hlc_core\tex\ui\ammo\m_pkm250ap_ca.paa";
 };

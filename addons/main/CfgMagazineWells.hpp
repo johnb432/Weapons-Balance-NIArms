@@ -125,6 +125,7 @@ class CfgMagazineWells {
     class CBA_303B_BREN {
         WB_Magazines[] += {
             "hlc_30Rnd_303_B_bren",
+            "hlc_30Rnd_303_M_bren",
             "hlc_30Rnd_303_T_bren",
             "hlc_30Rnd_303_AP_bren"
         };
@@ -319,6 +320,7 @@ class CfgMagazineWells {
     class CBA_792x57_LINKS {
         WB_Magazines[] += {
             "hlc_75rnd_792_B_MG34",
+            "hlc_75rnd_792_M_MG34",
             "hlc_75rnd_792_T_MG34",
             "hlc_75rnd_792_AP_MG34"
         };

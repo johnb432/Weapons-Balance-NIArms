@@ -1,3 +1,8 @@
+# Changelog for Weapons balance 16.2.2022
+
+1.1.0.5
+- Renamed some magazines to more accurately fit their contents.
+
 # Changelog for Weapons balance 21.1.2022
 
 1.1.0.4
