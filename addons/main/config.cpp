@@ -117,7 +117,7 @@ class CfgMagazines {
     #include "magazines\CfgMagSTANAG.hpp"
     #include "magazines\CfgMagAK556.hpp"
 
-    //New additions
+    // New additions
     #include "magazines\CfgMag303.hpp"
     #include "magazines\CfgMagAK545New.hpp"
     #include "magazines\CfgMagAK762New.hpp"
