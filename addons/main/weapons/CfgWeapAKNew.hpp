@@ -6,7 +6,7 @@
     rhs_grip2_change = QUOTE(DOUBLES(type,grip2));\
     rhs_grip3_change = QUOTE(DOUBLES(type,grip3))
 
-class hlc_rifle_ak19_grip;
+class hlc_rifle_ak12_grip;
 class hlc_rifle_ak12_grip2;
 class hlc_rifle_ak12_grip3;
 class hlc_rifle_ak19: hlc_rifle_ak12 {

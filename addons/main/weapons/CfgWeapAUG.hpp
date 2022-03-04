@@ -77,7 +77,7 @@ class hlc_rifle_augsrhbar_t: hlc_rifle_augsrhbar {
     };
 };
 
-class hlc_rifle_augpara: hlc_rifle_aug {
+class hlc_rifle_augpara: hlc_aug_base {
     modes[] = {"Single","FullAuto","fullauto_medium","single_medium_optics1","single_far_optics2"};
     class Single: Single {
         showToPlayer = 1;
@@ -166,7 +166,7 @@ class hlc_rifle_augsrcarb_t: hlc_rifle_augsrcarb {
     };
 };
 
-class hlc_rifle_auga2para: hlc_rifle_aug {
+class hlc_rifle_auga2para: hlc_aug_base {
     modes[] = {"Single","FullAuto","fullauto_medium","single_medium_optics1","single_far_optics2"};
     class Single: Single {
         showToPlayer = 1;

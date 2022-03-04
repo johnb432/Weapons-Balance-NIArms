@@ -1,4 +1,4 @@
-class hlc_XM8_base: Rifle_Base_F {
+class hlc_XM8_base: hlc_G36_base {
     class WeaponSlotsInfo: WeaponSlotsInfo {};
 };
 

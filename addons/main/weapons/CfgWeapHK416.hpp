@@ -66,7 +66,7 @@ class hlc_rifle_416D10C: hlc_rifle_416D10 {
         class CowsSlot: asdg_OpticRail1913 {};
     };
 };
-class hlc_rifle_416D10C_PTC: hlc_rifle_416D10 {
+class hlc_rifle_416D10C_PTC: hlc_rifle_416D10C {
     displayName = "HK416 D10C (PTC)";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 68.8;

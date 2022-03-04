@@ -49,7 +49,7 @@ class hlc_24Rnd_75x55_B_stgw: 30Rnd_556x45_Stanag {
 class hlc_24Rnd_75x55_ap_stgw: hlc_24Rnd_75x55_B_stgw {
     mass = 20;
 };
-class hlc_24Rnd_75x55_T_stgw: hlc_24Rnd_75x55_B_stgw {
+class hlc_24Rnd_75x55_T_stgw: hlc_24Rnd_75x55_ap_stgw {
     mass = 20;
 };
 
