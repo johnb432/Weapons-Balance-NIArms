@@ -4,7 +4,9 @@ class hlc_g3_base: Rifle_Base_F {
 };
 class hlc_rifle_psg1: hlc_g3_base {
     displayName = "HK PSG1";
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo: WeaponSlotsInfo {
+        class MuzzleSlot: MuzzleSlot_762 {};
+    };
 };
 class hlc_rifle_psg1A1: hlc_rifle_psg1 {
     displayName = "HK PSG1A1";
@@ -61,12 +63,14 @@ class hlc_rifle_g3ka4: hlc_rifle_g3a3 {
     displayName = "HK G3KA4 (RAS)";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 96.9;
+        class CharmSlot {};
     };
 };
 class HLC_Rifle_g3ka4_GL: hlc_rifle_g3ka4 {
     displayName = "HK G3KA4 (RAS/GL)";
     class WeaponSlotsInfo {
         mass = 129.9;
+        class PointerSlot: asdg_FrontSideRail {};
     };
 };
 
@@ -92,6 +96,7 @@ class hlc_rifle_hk33a2RIS: hlc_rifle_hk33a2 {
     displayName = "HK33A2 (RIS)";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 85.5;
+        class CharmSlot {};
     };
 };
 class hlc_rifle_hk33a2RIS_GL: hlc_rifle_hk33a2RIS {

@@ -46,7 +46,7 @@ class hlc_rifle_aughbar_t: hlc_rifle_aughbar {
     modes[] = {"Single","FullAuto","fullauto_medium","single_medium_optics1","single_far_optics2"};
 };
 class hlc_rifle_auga2lsw: hlc_rifle_aughbar {
-    modes[] = {"Single","FullAuto","close","short","medium","far_optic1","far_optic2"};
+    modes[] = {"Single","FullAuto","fullauto_medium","single_medium_optics1","single_far_optics2"};
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 86;
     };

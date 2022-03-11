@@ -70,6 +70,7 @@ class asdg_OpticRail1913_long;
 class nia_rifle_gripod_slot;
 class asdg_MuzzleSlot_762R;
 class asdg_OpticSideRail_AK;
+class asdg_FrontSideRail;
 
 class CfgWeapons {
     class Rifle;
