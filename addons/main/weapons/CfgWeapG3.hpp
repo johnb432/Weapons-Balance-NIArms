@@ -103,6 +103,8 @@ class hlc_rifle_hk33a2RIS_GL: hlc_rifle_hk33a2RIS {
     displayName = "HK33A2 (RIS/GL)";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 118.5;
+        class GripodSlot {};
+        class UnderBarrelSlot {};
     };
 };
 class hlc_rifle_hk33ka3: hlc_rifle_hk33a2 {

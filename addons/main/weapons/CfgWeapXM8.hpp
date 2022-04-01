@@ -141,9 +141,6 @@ class hlc_rifle_XM8_MWSF_DMAR: hlc_rifle_XM8_DMAR {
         mass = 84;
     };
 };
-class hlc_rifle_XM8_MWSF_DMAR_custom: hlc_rifle_XM8_MWSF_DMAR {
-    displayName = "XM8 MWSF (DMAR/Custom)";
-};
 class HLC_Rifle_XM8_MWSF_DMAR_Green: HLC_Rifle_XM8_MWSF_DMAR {
     displayName = "XM8 MWSF (DMAR/Green)";
 };
@@ -220,9 +217,6 @@ class hlc_rifle_XM8_Proto_DMAR: hlc_rifle_XM8_DMAR {
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 71;
     };
-};
-class hlc_rifle_XM8_Proto_DMAR_custom: hlc_rifle_XM8_Proto_DMAR {
-    displayName = "XM8 Prototype (DMAR/Custom)";
 };
 class hlc_rifle_XM8_Proto_DMAR_green: hlc_rifle_XM8_Proto_DMAR {
     displayName = "XM8 Prototype (DMAR/Green)";
