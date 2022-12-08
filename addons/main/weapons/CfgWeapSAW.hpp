@@ -1,5 +1,5 @@
 class hlc_saw_base: Rifle_Base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class hlc_lmg_minimipara: hlc_saw_base {
     magazineWell[] += {"CBA_556x45_STANAG_2D","CBA_556x45_STANAG_2D_XL"};

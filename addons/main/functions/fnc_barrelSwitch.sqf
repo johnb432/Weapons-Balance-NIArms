@@ -23,7 +23,7 @@ private _weapon = currentWeapon _unit;
 private _weaponConfig = configFile >> "CfgWeapons" >> _weapon;
 private _weaponClasses = getArray (_weaponConfig >> "HLC_CompatibleBarrels_Classes");
 
-if (count _weaponClasses isEqualTo 6 && {toLower _replaceBarrel in ["hlc_barrel_full_acr_556", "hlc_barrel_full_acr_68"]}) exitWith {
+if (count _weaponClasses == 6 && {toLower _replaceBarrel in ["hlc_barrel_full_acr_556", "hlc_barrel_full_acr_68"]}) exitWith {
     hint "You can't put long barrels on grenade launcher variants!";
 };
 
@@ -34,7 +34,7 @@ private _index = if (count _weaponClasses > 6) then {
     ["hlc_barrel_compact_ACR_556","hlc_barrel_carbine_ACR_556","hlc_barrel_mid_ACR_556","hlc_barrel_compact_ACR_68","hlc_barrel_carbine_ACR_68","hlc_barrel_mid_ACR_68"] findIf {_x == _replaceBarrel};
 };
 
-if (_index isEqualTo -1) exitWith {};
+if (_index == -1) exitWith {};
 
 [_unit, [_weapon, _weaponClasses select _index, 4.7], {
     (_this select 0) params ["_unit", "", "", "", "_isSuccess"];
@@ -49,5 +49,6 @@ if (_index isEqualTo -1) exitWith {};
     // Remove new barrel and add old barrel
     _unit removeItem _replaceBarrel;
     [_unit, getText (_weaponConfig >> "HLC_CurrentBarrel"), true] call CBA_fnc_addItem;
-    nil;
+
+    nil
 }, [_replaceBarrel, _weaponConfig], [true, false]] call FUNC(switchWeaponVariant);

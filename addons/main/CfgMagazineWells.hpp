@@ -242,7 +242,8 @@ class CfgMagazineWells {
 
     class CBA_762x51_FAL {
         MAGAZINE_WELL[] += {
-            "hlc_20rnd_762x51_MDIM_FAL"
+            "hlc_20rnd_762x51_MDIM_FAL",
+            "hlc_20rnd_762x51_M_FAL"
         };
     };
 
@@ -280,7 +281,39 @@ class CfgMagazineWells {
         MAGAZINE_WELL[] += {
             "hlc_20rnd_762x51_B_SCAR",
             "hlc_20rnd_762x51_T_SCAR",
-            "hlc_20rnd_762x51_S_SCAR"
+            "hlc_20rnd_762x51_S_SCAR",
+            "hlc_20rnd_762x51_MDIM_SCARH",
+            "hlc_20Rnd_762x51_MDIM_SCARH_camo",
+            "hlc_20Rnd_762x51_MDIM_SCARH_MW2",
+            "hlc_20Rnd_762x51_MDIM_SCARH_tan",
+            "hlc_20rnd_762x51_M_SCARH",
+            "hlc_20Rnd_762x51_M_SCARH_camo",
+            "hlc_20Rnd_762x51_M_SCARH_MW2",
+            "hlc_20Rnd_762x51_M_SCARH_tan",
+            "hlc_20Rnd_762x51_B_SCARH",
+            "hlc_20Rnd_762x51_B_SCARH_camo",
+            "hlc_20Rnd_762x51_B_SCARH_MW2",
+            "hlc_20Rnd_762x51_B_SCARH_Tan",
+            "hlc_20Rnd_762x51_TDim_SCARH",
+            "hlc_20Rnd_762x51_TDim_SCARH_camo",
+            "hlc_20Rnd_762x51_TDIM_SCARH_MW2",
+            "hlc_20Rnd_762x51_TDim_SCARH_tan",
+            "hlc_20Rnd_762x51_mk316_SCARH",
+            "hlc_20Rnd_762x51_mk316_SCARH_camo",
+            "hlc_20Rnd_762x51_mk316_SCARH_MW2",
+            "hlc_20Rnd_762x51_mk316_SCARH_tan",
+            "hlc_20Rnd_762x51_barrier_SCARH",
+            "hlc_20Rnd_762x51_barrier_SCARH_camo",
+            "hlc_20Rnd_762x51_barrier_SCARH_MW2",
+            "hlc_20Rnd_762x51_barrier_SCARH_tan",
+            "hlc_20Rnd_762x51_S_SCARH",
+            "hlc_20Rnd_762x51_S_SCARH_camo",
+            "hlc_20Rnd_762x51_S_SCARH_MW2",
+            "hlc_20Rnd_762x51_S_SCARH_tan",
+            "hlc_20Rnd_762x51_T_SCARH",
+            "hlc_20Rnd_762x51_T_SCARH_camo",
+            "hlc_20Rnd_762x51_T_SCARH_MW2",
+            "hlc_20Rnd_762x51_T_SCARH_tan"
         };
     };
 

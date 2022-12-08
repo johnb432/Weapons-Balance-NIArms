@@ -1,5 +1,5 @@
 class hlc_G36_base: Rifle_Base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class hlc_rifle_G36A1: hlc_G36_base {
     displayName = "HK G36A1";

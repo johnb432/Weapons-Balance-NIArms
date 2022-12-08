@@ -33,6 +33,7 @@ class CfgPatches {
             "hlcweapons_MG3s",
             "hlcweapons_MP5",
             "hlcweapons_saw",
+            "hlcweapons_SCAR",
             "hlcweapons_SG550",
             "hlcweapons_Springfield1903",
             "hlcweapons_stgw57",
@@ -75,7 +76,7 @@ class asdg_FrontSideRail;
 class CfgWeapons {
     class Rifle;
     class Rifle_Base_F: Rifle {
-        class WeaponSlotsInfo {};
+        class WeaponSlotsInfo;
     };
 
     class ItemCore;
@@ -97,6 +98,7 @@ class CfgWeapons {
     #include "weapons\CfgWeapMuzzle.hpp"
     #include "weapons\CfgWeapOptic.hpp"
     #include "weapons\CfgWeapSAW.hpp"
+    #include "weapons\CfgWeapSCAR.hpp"
     #include "weapons\CfgWeapSG550.hpp"
     #include "weapons\CfgWeapXM8.hpp"
 };
@@ -114,6 +116,7 @@ class CfgMagazines {
     #include "magazines\CfgMagMisc.hpp"
     #include "magazines\CfgMagNATO762.hpp"
     #include "magazines\CfgMagRifleMisc.hpp"
+    #include "magazines\CfgMagSCAR.hpp"
     #include "magazines\CfgMagSG550.hpp"
     #include "magazines\CfgMagSTANAG.hpp"
     #include "magazines\CfgMagAK556.hpp"

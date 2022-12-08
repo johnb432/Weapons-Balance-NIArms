@@ -3,14 +3,14 @@ class hlc_aug_base: Rifle_Base_F {
     class Single: Mode_SemiAuto {
         showToPlayer = 1;
     };
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class hlc_rifle_aug: hlc_aug_base {
     modes[] = {"Single","FullAuto","fullauto_medium","single_medium_optics1","single_far_optics2"};
     class Single: Single {
         showToPlayer = 1;
     };
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class hlc_rifle_auga1_b: hlc_rifle_aug {
     HLC_CompatibleBarrels_Classes[] = {"hlc_rifle_auga1_b","hlc_rifle_auga1carb_B","hlc_rifle_aughbar_B","hlc_rifle_augpara_b"};
@@ -36,7 +36,7 @@ class hlc_rifle_aughbar: hlc_rifle_aug {
     class Single: Single {
         showToPlayer = 1;
     };
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class hlc_rifle_aughbar_B: hlc_rifle_aughbar {
     HLC_CompatibleBarrels_Classes[] = {"hlc_rifle_auga1_b","hlc_rifle_auga1carb_B","hlc_rifle_aughbar_B","hlc_rifle_augpara_b"};

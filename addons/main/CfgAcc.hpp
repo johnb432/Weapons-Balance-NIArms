@@ -19,10 +19,6 @@ class nia_rifle_grips_slot: UnderBarrelSlot {
     };
 };
 
-class asdg_UnderSlot: asdg_SlotInfo {
-    class compatibleItems {};
-};
-
 class WB_rifle_grips_slot: asdg_SlotInfo {
     iconPicture = "\a3\weapons_f_mark\Data\UI\attachment_under";
     iconPinpoint = "Bottom";
@@ -86,7 +82,7 @@ class CowsSlot_Rail: CowsSlot {
 };
 
 class asdg_OpticRail: asdg_SlotInfo {
-    class compatibleItems {};
+    class compatibleItems;
 };
 
 class UK3CB_OpticRail1913_FNFAL: asdg_OpticRail {
@@ -121,10 +117,6 @@ class asdg_OpticRailL1A1: asdg_OpticRail {
     };
 };
 
-class asdg_OpticSideMount: asdg_OpticRail {
-    class compatibleItems {};
-};
-
 class asdg_OpticSideRail_SVD;
 class rhs_russian_svd_scopes_slot: asdg_OpticSideRail_SVD {
     class compatibleItems {
@@ -134,7 +126,7 @@ class rhs_russian_svd_scopes_slot: asdg_OpticSideRail_SVD {
 };
 
 class asdg_MuzzleSlot: asdg_SlotInfo {
-    class compatibleItems {};
+    class compatibleItems;
 };
 class UK3CB_MuzzleSlot_556_HK33: asdg_MuzzleSlot {
     class compatibleItems {
@@ -146,6 +138,7 @@ class UK3CB_MuzzleSlot_556_HK33: asdg_MuzzleSlot {
         hlc_muzzle_556nato_kac = 1;
         hlc_muzzle_kx3_comp = 1;
         hlc_muzzle_sf3p_556 = 1;
+        hlc_muzzle_oemdevice_556 = 1;
     };
 };
 
@@ -157,6 +150,15 @@ class UK3CB_MuzzleSlot_762_G3: asdg_MuzzleSlot {
         hlc_muzzle_kx3_comp = 1;
         hlc_muzzle_300blk_kac = 1;
         hlc_muzzle_sf3p_762r = 1;
+        hlc_muzzle_aac_762sdn6 = 1;
+        hlc_muzzle_miter18t = 1;
+        hlc_muzzle_aac_scarh = 1;
+        hlc_muzzle_brevis = 1;
+        hlc_muzzle_17sbrake = 1;
+        hlc_muzzle_oemdevice = 1;
+        hlc_muzzle_fsc30 = 1;
+        hlc_muzzle_cherrybomb = 1;
+        hlc_muzzle_thunderchicken = 1;
     };
 };
 
@@ -168,6 +170,15 @@ class UK3CB_MuzzleSlot_762_M14: asdg_MuzzleSlot {
         hlc_muzzle_kx3_comp = 1;
         hlc_muzzle_300blk_kac = 1;
         hlc_muzzle_sf3p_762r = 1;
+        hlc_muzzle_aac_762sdn6 = 1;
+        hlc_muzzle_miter18t = 1;
+        hlc_muzzle_aac_scarh = 1;
+        hlc_muzzle_brevis = 1;
+        hlc_muzzle_17sbrake = 1;
+        hlc_muzzle_oemdevice = 1;
+        hlc_muzzle_fsc30 = 1;
+        hlc_muzzle_cherrybomb = 1;
+        hlc_muzzle_thunderchicken = 1;
     };
 };
 
@@ -207,6 +218,7 @@ class MuzzleSlot_556: MuzzleSlot {
         hlc_muzzle_556nato_kac = 1;
         hlc_muzzle_kx3_comp = 1;
         hlc_muzzle_sf3p_556 = 1;
+        hlc_muzzle_oemdevice_556 = 1;
     };
 };
 
@@ -218,6 +230,15 @@ class MuzzleSlot_762: MuzzleSlot {
         hlc_muzzle_kx3_comp = 1;
         hlc_muzzle_300blk_kac = 1;
         hlc_muzzle_sf3p_762r = 1;
+        hlc_muzzle_aac_762sdn6 = 1;
+        hlc_muzzle_miter18t = 1;
+        hlc_muzzle_aac_scarh = 1;
+        hlc_muzzle_brevis = 1;
+        hlc_muzzle_17sbrake = 1;
+        hlc_muzzle_oemdevice = 1;
+        hlc_muzzle_fsc30 = 1;
+        hlc_muzzle_cherrybomb = 1;
+        hlc_muzzle_thunderchicken = 1;
     };
 };
 

@@ -1,5 +1,5 @@
 class hlc_M14_base: Rifle_Base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class hlc_rifle_M14: hlc_M14_base {
     class WeaponSlotsInfo: WeaponSlotsInfo {

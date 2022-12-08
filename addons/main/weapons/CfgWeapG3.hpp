@@ -1,6 +1,6 @@
 class hlc_g3_base: Rifle_Base_F {
     magazineWell[] += {"CBA_762x51_G3_L","CBA_762x51_G3_XL"};
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class hlc_rifle_psg1: hlc_g3_base {
     displayName = "HK PSG1";
@@ -42,7 +42,7 @@ class hlc_rifle_hk51: hlc_rifle_g3sg1 {
 };
 class hlc_rifle_g3a3: hlc_rifle_g3sg1 {
     displayName = "HK G3A3";
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class hlc_rifle_g3a3ris: hlc_rifle_g3a3 {
     displayName = "HK G3A3 (RIS)";

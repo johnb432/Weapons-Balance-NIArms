@@ -1,5 +1,5 @@
 class hlc_ar15_base: Rifle_Base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class hlc_rifle_Bushmaster300: hlc_ar15_base {
     class WeaponSlotsInfo: WeaponSlotsInfo {
@@ -7,7 +7,7 @@ class hlc_rifle_Bushmaster300: hlc_ar15_base {
     };
 };
 class hlc_rifle_honeybase: hlc_rifle_Bushmaster300 {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class hlc_rifle_honeybadger: hlc_rifle_honeybase {
     class WeaponSlotsInfo: WeaponSlotsInfo {

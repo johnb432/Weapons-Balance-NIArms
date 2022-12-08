@@ -7,7 +7,7 @@ class hlc_ak_base: Rifle_Base_F {
     class hlc_GP25: hlc_GP30 {
         displayname = "GP-25";
     };
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 
 class hlc_rifle_ak12: hlc_ak_base {

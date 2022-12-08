@@ -1,5 +1,5 @@
 class hlc_XM8_base: hlc_G36_base {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 
 class HLC_rifle_XM8_Carbine: hlc_XM8_base {

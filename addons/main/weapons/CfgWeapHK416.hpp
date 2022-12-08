@@ -1,5 +1,5 @@
 class hlc_HK416_base: Rifle_Base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class hlc_rifle_416D145: hlc_HK416_base {
     displayName = "HK416 D14.5";

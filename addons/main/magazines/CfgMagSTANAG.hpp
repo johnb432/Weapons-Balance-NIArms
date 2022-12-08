@@ -108,6 +108,31 @@ class hlc_30rnd_556x45_TDim_L5: hlc_30rnd_556x45_EPR_L5 {
     mass = 9.35;
 };
 
+class hlc_30rnd_556x45_EPR_SCAR: hlc_30rnd_556x45_EPR {
+    mass = 9.35;
+};
+class hlc_30rnd_556x45_MDim_SCAR: hlc_30rnd_556x45_EPR_SCAR {
+    mass = 9.35;
+};
+class hlc_30rnd_556x45_M_SCAR: hlc_30rnd_556x45_EPR_SCAR {
+    mass = 9.35;
+};
+class hlc_30rnd_556x45_TDim_SCAR: hlc_30rnd_556x45_EPR_SCAR {
+    mass = 9.35;
+};
+class hlc_30rnd_556x45_SPR_SCAR: hlc_30rnd_556x45_EPR_SCAR {
+    mass = 9.35;
+};
+class hlc_30rnd_556x45_SOST_SCAR: hlc_30rnd_556x45_EPR_SCAR {
+    mass = 9.35;
+};
+class hlc_30rnd_556x45_S_SCAR: hlc_30rnd_556x45_EPR_SCAR {
+    mass = 9.35;
+};
+class hlc_30rnd_556x45_t_SCAR: hlc_30rnd_556x45_EPR_SCAR {
+    mass = 9.35;
+};
+
 class hlc_50rnd_556x45_EPR: hlc_30rnd_556x45_EPR {
     mass = 22.5;
 };

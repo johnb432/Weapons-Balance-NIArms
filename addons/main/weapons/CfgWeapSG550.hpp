@@ -1,5 +1,5 @@
 class hlc_sg550_base: Rifle_Base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class hlc_rifle_SG550: hlc_sg550_base {
     class WeaponSlotsInfo: WeaponSlotsInfo {

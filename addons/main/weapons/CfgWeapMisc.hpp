@@ -1,5 +1,5 @@
 class hlc_STGW_base: Rifle_Base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class hlc_rifle_STGW57: hlc_STGW_base {
     class WeaponSlotsInfo: WeaponSlotsInfo {
@@ -37,7 +37,7 @@ class sp_fwa_sig510: sp_fwa_sig510_base {
 };
 
 class hlc_FN3011_base: Rifle_Base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class hlc_rifle_FN3011Tactical: hlc_FN3011_base {
     class WeaponSlotsInfo: WeaponSlotsInfo {

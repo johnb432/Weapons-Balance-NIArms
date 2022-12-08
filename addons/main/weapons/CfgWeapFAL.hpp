@@ -1,6 +1,6 @@
 class hlc_fal_base: Rifle_Base_F {
     magazineWell[] += {"CBA_762x51_FAL_L"};
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 
 class hlc_rifle_SLR: hlc_fal_base {
@@ -75,6 +75,7 @@ class hlc_rifle_STG58F: hlc_fal_base {
 
 class hlc_rifle_falosw: hlc_fal_base {
     class WeaponSlotsInfo: WeaponSlotsInfo {
+        mass = 89;
         class CowsSlot: asdg_OpticRail1913_long {};
     };
 };

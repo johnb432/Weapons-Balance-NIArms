@@ -105,10 +105,5 @@ hlc_barrel_9mm_compatible_weapons = [
     "hlc_rifle_auga2lsw_b"
 ];
 
-if (isClass (configFile >> "CfgPatches" >> "ace_interaction")) then {
-    HLC_ShowBarrelActions = false;
-    HLC_ShowBarrelAceActions = true;
-} else {
-    HLC_ShowBarrelActions = true;
-    HLC_ShowBarrelAceActions = false;
-};
+HLC_ShowBarrelAceActions = isClass (configFile >> "CfgPatches" >> "ace_interaction");
+HLC_ShowBarrelActions = !HLC_ShowBarrelAceActions;

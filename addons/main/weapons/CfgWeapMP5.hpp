@@ -1,5 +1,5 @@
 class hlc_MP5_base: Rifle_Base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class hlc_smg_mp5a2: hlc_MP5_base {
     displayName = "HK MP5A2";

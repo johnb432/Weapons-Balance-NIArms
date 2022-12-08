@@ -1,9 +1,9 @@
-//5.56mm
+// 5.56mm
 class hlc_acr_base: Rifle_Base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class hlc_acr556_base: hlc_acr_base {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class hlc_rifle_ACR_SBR_tan: hlc_acr556_base {
     HLC_CompatibleBarrels_Classes[] = {"hlc_rifle_ACR_SBR_tan","hlc_rifle_ACR_carb_tan","hlc_rifle_ACR_MID_tan","hlc_rifle_ACR_Full_tan","hlc_rifle_ACR68_SBR_tan","hlc_rifle_ACR68_carb_tan","hlc_rifle_ACR68_MID_tan","hlc_rifle_ACR68_full_tan"};
@@ -185,7 +185,7 @@ class hlc_rifle_ACR_Full_black_grip3: hlc_rifle_ACR_full_black {};
 class hlc_rifle_ACR_Full_green_grip3: hlc_rifle_ACR_full_green {};
 class hlc_rifle_ACR_Full_tan_grip3: hlc_rifle_ACR_full_tan {};
 
-//6.8mm
+// 6.8mm
 class hlc_rifle_ACR68_SBR_tan: hlc_acr_base {
     HLC_CompatibleBarrels_Classes[] = {"hlc_rifle_ACR_SBR_tan","hlc_rifle_ACR_carb_tan","hlc_rifle_ACR_MID_tan","hlc_rifle_ACR_Full_tan","hlc_rifle_ACR68_SBR_tan","hlc_rifle_ACR68_carb_tan","hlc_rifle_ACR68_MID_tan","hlc_rifle_ACR68_full_tan"};
     HLC_CurrentBarrel = "hlc_barrel_compact_ACR_68";

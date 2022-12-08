@@ -87,27 +87,18 @@ class hlc_32rnd_9x19_B_sten: hlc_50Rnd_45ACP_B_1921 {
 };
 
 // SCAR Magazines
-class hlc_20Rnd_762x51_T_fal;
-class hlc_20rnd_762x51_B_SCAR: hlc_20Rnd_762x51_B_fal {
-    descriptionShort = "Caliber: 7.62x51mm NATO<br/>Rounds: 20<br/>Used in: SCAR-H (Mk17)";
+class hlc_20Rnd_762x51_B_SCARH_Tan;
+class hlc_20rnd_762x51_B_SCAR: hlc_20Rnd_762x51_B_SCARH_Tan {
     displayName = "20Rnd 7.62x51mm SCAR-H Mag";
-    displayNameShort = "7.62mm Ball";
-    initSpeed = 714;
-    mass = 16.24;
     picture = "\hlc_core\tex\ui\ammo\m_scarhball_ca.paa";
 };
-class hlc_20rnd_762x51_T_SCAR: hlc_20Rnd_762x51_T_fal {
-    descriptionShort = "Caliber: 7.62x51mm NATO<br/>Rounds: 20<br/>Used in: SCAR-H (Mk17)";
+class hlc_20Rnd_762x51_T_SCARH_tan;
+class hlc_20rnd_762x51_T_SCAR: hlc_20Rnd_762x51_T_SCARH_tan {
     displayName = "20Rnd 7.62x51mm SCAR-H Mag (Tracer) ";
-    displayNameShort = "7.62mm Tracer";
-    initSpeed = 714;
-    mass = 16.24;
     picture = "\hlc_core\tex\ui\ammo\m_scarhTracer_ca.paa";
 };
-class hlc_20rnd_762x51_S_SCAR: hlc_20Rnd_762x51_S_fal {
-    descriptionShort = "Caliber: 7.62x51mm NATO<br/>Rounds: 20<br/>Used in: SCAR-H (Mk17)";
+class hlc_20Rnd_762x51_S_SCARH_tan;
+class hlc_20rnd_762x51_S_SCAR: hlc_20Rnd_762x51_S_SCARH_tan {
     displayName = "20Rnd 7.62x51mm Subsonic SCAR-H Mag";
-    displayNameShort = "7.62mm Subsonic";
-    mass = 16.24;
     picture = "\hlc_core\tex\ui\ammo\m_scarhsubsonic_ca.paa";
 };
