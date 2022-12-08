@@ -110,6 +110,14 @@ class UK3CB_OpticRail1913_M14: asdg_OpticRail {
     };
 };
 
+class asdg_OpticRail1913;
+class UK3CB_OpticRail1913_STGW57: asdg_OpticRail1913 {
+    class compatibleItems {
+        hlc_optic_kern = 1;
+        hlc_optic_kern2d = 1;
+    };
+};
+
 class asdg_OpticRailL1A1: asdg_OpticRail {
     class compatibleItems: compatibleItems {
         hlc_optic_pvs4fal = 1;

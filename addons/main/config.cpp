@@ -66,7 +66,6 @@ class Mode_SemiAuto;
 class Mode_FullAuto;
 class Mode_Burst;
 
-class asdg_OpticRail1913;
 class asdg_OpticRail1913_long;
 class nia_rifle_gripod_slot;
 class asdg_MuzzleSlot_762R;

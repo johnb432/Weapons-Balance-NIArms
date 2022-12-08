@@ -4,6 +4,8 @@ class hlc_STGW_base: Rifle_Base_F {
 class hlc_rifle_STGW57: hlc_STGW_base {
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 125.6;
+        delete CowsSlot;
+        class CowsSlot: UK3CB_OpticRail1913_STGW57 {};
     };
 };
 class hlc_rifle_stgw57_RIS: hlc_STGW_base {
