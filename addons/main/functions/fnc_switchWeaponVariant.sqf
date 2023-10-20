@@ -1,4 +1,4 @@
-#include "script_component.hpp"
+#include "..\script_component.hpp"
 
 /*
  * Author: johnb43
@@ -7,14 +7,14 @@
  * Arguments:
  * 0: Unit <OBJECT>
  * 1: Args <ARRAY>
- *      0: Old Weapon <STRING>
- *      1: New Weapon <STRING>
- *      2: Delay until switch happens <NUMBER> (optional) Minimum is 0.1s
- * 4: Function to execute <CODE> (optional)
- * 5: Arguments to pass to functon <ARRAY> (optional)
- * 6: Condition <ARRAY> (optional)
- *      0: Check if in vehicle <BOOLEAN> Action isn't exectuted by default if unit is in a vehicle
- *      1: Check if rhs_fold_checkOptic should be checked <BOOLEAN> Action isn't exectuted by default if unit has optic mounted
+ * - 0: Old Weapon <STRING>
+ * - 1: New Weapon <STRING>
+ * - 2: Delay until switch happens (default: 0.1) <NUMBER> Minimum is 0.1s
+ * 2: Function to execute (default: {}) <CODE> (optional)
+ * 3: Arguments to pass to functon (default: []) <ARRAY>
+ * 4: Condition (default: [true, true]) <ARRAY>
+ * - 0: Check if in vehicle <BOOLEAN> Action isn't exectuted by default if unit is in a vehicle
+ * - 1: Check if rhs_fold_checkOptic should be checked <BOOLEAN> Action isn't exectuted by default if unit has optic mounted
  *
  * Return Value:
  * None
@@ -29,7 +29,7 @@ params [["_unit", objNull, [objNull]], ["_args", ["", "", "", true], [[]], [0, 1
 _args params [["_weapon", "", [""]], ["_newWeapon", "", [""]], ["_delay", 0, [0]]];
 
 // If invalid, exit
-if (isNull _unit || {_weapon isEqualTo ""} || {_newWeapon isEqualTo ""} || {_weapon == _newWeapon}) exitWith {false};
+if (isNull _unit || {_weapon == ""} || {_newWeapon == ""} || {_weapon == _newWeapon}) exitWith {false};
 
 // Check if local
 if (!local _unit) exitWith {
@@ -66,7 +66,7 @@ private _weaponInfo = _loadout select _weaponType;
 _condition params [["_checkVehicle", true, [true]], ["_checkOptic", true, [true]]];
 
 // If in vehicle, don't do action; Check if weapon can be folded when optic is attached to weapon. Default value: 1
-if ((_checkVehicle && {!isNull objectParent _unit}) || {_checkOptic && {([_cfgWeapons >> _weapon, "rhs_fold_checkOptic", 1] call BIS_fnc_returnConfigEntry) == 1} && {(_weaponInfo select 3) isNotEqualTo ""}}) exitWith {
+if ((_checkVehicle && {!isNull objectParent _unit}) || {_checkOptic && {([_cfgWeapons >> _weapon, "rhs_fold_checkOptic", 1] call BIS_fnc_returnConfigEntry) == 1} && {(_weaponInfo select 3) != ""}}) exitWith {
     // Call function that is added as a parameter
     if (_function isNotEqualTo {}) then {
         [[_unit, _weaponInfo, _newWeapon, _weaponState, false], _params] call _function;

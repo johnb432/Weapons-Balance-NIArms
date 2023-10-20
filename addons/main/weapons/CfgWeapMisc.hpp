@@ -4,7 +4,6 @@ class hlc_STGW_base: Rifle_Base_F {
 class hlc_rifle_STGW57: hlc_STGW_base {
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 125.6;
-        delete CowsSlot;
         class CowsSlot: UK3CB_OpticRail1913_STGW57 {};
     };
 };
@@ -38,6 +37,11 @@ class sp_fwa_sig510: sp_fwa_sig510_base {
     };
 };
 
+class hlc_Bren_base;
+class hlc_rifle_L4A3: hlc_Bren_base {
+    displayname = "Bren L4A3";
+};
+
 class hlc_FN3011_base: Rifle_Base_F {
     class WeaponSlotsInfo;
 };
@@ -65,13 +69,20 @@ class hlc_grip_saw_grip1: bipod_01_F_snd {
     displayName = "SAW Pistol Grip (Black)";
     rhs_grip_type = "rhs_grip2_change";
     weaponInfoType = "RHS_Gripod4";
+
+    #if __has_include("\rhsusf\addons\rhsusf_main\loadorder\config.bin")
+        picture = "\rhsusf\addons\rhsusf_inventoryicons\data\accessories\rhsusf_acc_grip4_ca.paa";
+    #endif
 };
 class hlc_grip_saw_grip2: hlc_grip_saw_grip1 {
     inertia = -0.2;
     displayName = "SAW Pistol Grip (Tan)";
-    picture = "\a3\Weapons_F_Mark\Data\UI\icon_bipod_01_F_snd_ca.paa";
     rhs_grip_type = "rhs_grip2_change";
     weaponInfoType = "RHS_Gripod4";
+
+    #if __has_include("\rhsusf\addons\rhsusf_main\loadorder\config.bin")
+        picture = "\rhsusf\addons\rhsusf_inventoryicons\data\accessories\rhsusf_acc_grip4_ca.paa";
+    #endif
 };
 
 class HLC_bipod_UTGShooters: bipod_01_F_snd {

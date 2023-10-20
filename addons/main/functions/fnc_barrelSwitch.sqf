@@ -1,20 +1,20 @@
-#include "script_component.hpp"
+#include "..\script_component.hpp"
 /*
-*   Author: Kerc, johnb43
-*
-*   Description:
-*   Changes the currently held Remington ACR's barrel to another type
-*
-*   Parameters:
-*  	0: Unit <OBJECT>
-*   1: Barrel classname <STRING>
-*
-*  	Example:
-*  	[player, "hlc_barrel_compact_ACR_556"] call wb_niarms_main_fnc_barrelSwitch;
-*
-*  	Returns:
-*  	Nothing
-*/
+ * Author: Kerc, johnb43
+ * Changes the currently held Remington ACR's barrel to another type
+ *
+ * Arguments:
+ * 0: Unit <OBJECT>
+ * 1: Barrel classname <STRING>
+ *
+ * Return Value::
+ * None
+ *
+ * Public: No
+ *
+ * Example:
+ * [player, "hlc_barrel_compact_ACR_556"] call wb_niarms_main_fnc_barrelSwitch;
+ */
 
 params ["_unit", "_replaceBarrel"];
 

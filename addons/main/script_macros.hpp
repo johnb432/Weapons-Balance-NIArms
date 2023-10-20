@@ -10,6 +10,8 @@
     #define PREP(fncName) [QPATHTOF(functions\DOUBLES(fnc,fncName).sqf), QFUNC(fncName)] call CBA_fnc_compileFunction
 #endif
 
+#define MAGAZINE_WELL WB_Magazines
+
 #define MAG_SWITCH(weaponName)\
 class nia_magSwitch {\
     30Rnd_556x45_Stanag_Sand_green = weaponName;\
@@ -24,6 +26,15 @@ class nia_magSwitch {\
     150Rnd_556x45_Drum_Green_Mag_Tracer_F = weaponName;\
     150Rnd_556x45_Drum_Mag_Tracer_F = weaponName;\
     150Rnd_556x45_Drum_Sand_Mag_Tracer_F = weaponName;\
+\
+    hlc_30rnd_556x45_EPR_SCAR = weaponName;\
+    hlc_30rnd_556x45_MDim_SCAR = weaponName;\
+    hlc_30rnd_556x45_M_SCAR = weaponName;\
+    hlc_30rnd_556x45_TDim_SCAR = weaponName;\
+    hlc_30rnd_556x45_SPR_SCAR = weaponName;\
+    hlc_30rnd_556x45_SOST_SCAR = weaponName;\
+    hlc_30rnd_556x45_S_SCAR = weaponName;\
+    hlc_30rnd_556x45_t_SCAR = weaponName;\
 \
     rhs_mag_20Rnd_556x45_M193_2MAG_Stanag = weaponName;\
     rhs_mag_20Rnd_556x45_M196_2MAG_Stanag_Tracer_Red = weaponName;\
@@ -82,6 +93,44 @@ class nia_magSwitch {\
     UK3CB_M16_30rnd_556x45_WT = weaponName;\
     UK3CB_M16_30rnd_556x45_YT = weaponName;\
 \
+    UK3CB_G36_30rnd_556x45_G = weaponName;\
+    UK3CB_G36_30rnd_556x45_R = weaponName;\
+    UK3CB_G36_30rnd_556x45_W = weaponName;\
+    UK3CB_G36_30rnd_556x45_Y = weaponName;\
+    UK3CB_G36_30rnd_556x45 = weaponName;\
+    UK3CB_G36_30rnd_556x45_GT = weaponName;\
+    UK3CB_G36_30rnd_556x45_RT = weaponName;\
+    UK3CB_G36_30rnd_556x45_WT = weaponName;\
+    UK3CB_G36_30rnd_556x45_YT = weaponName;\
+    UK3CB_G36_100rnd_556x45_G = weaponName;\
+    UK3CB_G36_100rnd_556x45_R = weaponName;\
+    UK3CB_G36_100rnd_556x45_W = weaponName;\
+    UK3CB_G36_100rnd_556x45_Y = weaponName;\
+    UK3CB_G36_100rnd_556x45 = weaponName;\
+    UK3CB_G36_100rnd_556x45_GT = weaponName;\
+    UK3CB_G36_100rnd_556x45_RT = weaponName;\
+    UK3CB_G36_100rnd_556x45_WT = weaponName;\
+    UK3CB_G36_100rnd_556x45_YT = weaponName;\
+\
+    UK3CB_AUG_30Rnd_556x45_Magazine_G = weaponName;\
+    UK3CB_AUG_30Rnd_556x45_Magazine_R = weaponName;\
+    UK3CB_AUG_30Rnd_556x45_Magazine_W = weaponName;\
+    UK3CB_AUG_30Rnd_556x45_Magazine_Y = weaponName;\
+    UK3CB_AUG_30Rnd_556x45_Magazine = weaponName;\
+    UK3CB_AUG_30Rnd_556x45_Magazine_GT = weaponName;\
+    UK3CB_AUG_30Rnd_556x45_Magazine_RT = weaponName;\
+    UK3CB_AUG_30Rnd_556x45_Magazine_WT = weaponName;\
+    UK3CB_AUG_30Rnd_556x45_Magazine_YT = weaponName;\
+    UK3CB_AUG_42Rnd_556x45_Magazine_G = weaponName;\
+    UK3CB_AUG_42Rnd_556x45_Magazine_R = weaponName;\
+    UK3CB_AUG_42Rnd_556x45_Magazine_W = weaponName;\
+    UK3CB_AUG_42Rnd_556x45_Magazine_Y = weaponName;\
+    UK3CB_AUG_42Rnd_556x45_Magazine = weaponName;\
+    UK3CB_AUG_42Rnd_556x45_Magazine_GT = weaponName;\
+    UK3CB_AUG_42Rnd_556x45_Magazine_RT = weaponName;\
+    UK3CB_AUG_42Rnd_556x45_Magazine_WT = weaponName;\
+    UK3CB_AUG_42Rnd_556x45_Magazine_YT = weaponName;\
+\
     UK3CB_BAF_556_30Rnd_Blank = weaponName;\
     UK3CB_BAF_556_30Rnd = weaponName;\
     UK3CB_BAF_556_30Rnd_T = weaponName;\
@@ -104,9 +153,11 @@ class nia_magSwitch {\
     gm_20Rnd_556x45mm_B_T_M196_stanag_gry = weaponName;\
     gm_20Rnd_556x45mm_B_M855_stanag_gry = weaponName;\
     gm_20Rnd_556x45mm_B_T_M856_stanag_gry = weaponName;\
+    gm_20Rnd_556x45mm_B_M193_stanag_gry = weaponName;\
     gm_30Rnd_556x45mm_B_T_M196_stanag_gry = weaponName;\
     gm_30Rnd_556x45mm_B_M855_stanag_gry = weaponName;\
     gm_30Rnd_556x45mm_B_T_M856_stanag_gry = weaponName;\
+    gm_30Rnd_556x45mm_B_M193_stanag_gry = weaponName;\
 \
     US85_30Rnd_556x45 = weaponName;\
 }

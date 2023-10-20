@@ -91,14 +91,32 @@ class hlc_20Rnd_762x51_B_SCARH_Tan;
 class hlc_20rnd_762x51_B_SCAR: hlc_20Rnd_762x51_B_SCARH_Tan {
     displayName = "20Rnd 7.62x51mm SCAR-H Mag";
     picture = "\hlc_core\tex\ui\ammo\m_scarhball_ca.paa";
+
+    #if __has_include("\rhsusf\addons\rhsusf_main\loadorder\config.bin")
+        model = "rhsusf\addons\rhsusf_weapons\magazines\rhs_20rnd_scar_mag.p3d";
+        modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_762x51_MK17_20rnd";
+        modelSpecialIsProxy = 1;
+    #endif
 };
 class hlc_20Rnd_762x51_T_SCARH_tan;
 class hlc_20rnd_762x51_T_SCAR: hlc_20Rnd_762x51_T_SCARH_tan {
     displayName = "20Rnd 7.62x51mm SCAR-H Mag (Tracer) ";
     picture = "\hlc_core\tex\ui\ammo\m_scarhTracer_ca.paa";
+
+    #if __has_include("\rhsusf\addons\rhsusf_main\loadorder\config.bin")
+        model = "rhsusf\addons\rhsusf_weapons\magazines\rhs_20rnd_scar_mag.p3d";
+        modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_762x51_MK17_20rnd";
+        modelSpecialIsProxy = 1;
+    #endif
 };
 class hlc_20Rnd_762x51_S_SCARH_tan;
 class hlc_20rnd_762x51_S_SCAR: hlc_20Rnd_762x51_S_SCARH_tan {
     displayName = "20Rnd 7.62x51mm Subsonic SCAR-H Mag";
     picture = "\hlc_core\tex\ui\ammo\m_scarhsubsonic_ca.paa";
+
+    #if __has_include("\rhsusf\addons\rhsusf_main\loadorder\config.bin")
+        model = "rhsusf\addons\rhsusf_weapons\magazines\rhs_20rnd_scar_mag.p3d";
+        modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_762x51_MK17_20rnd";
+        modelSpecialIsProxy = 1;
+    #endif
 };

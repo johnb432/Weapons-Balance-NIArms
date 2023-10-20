@@ -1,7 +1,5 @@
 #include "script_component.hpp"
 
-// TODO: redo existing NIArms ace barrel stats
-
 class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
@@ -16,39 +14,14 @@ class CfgPatches {
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "hlcweapons_core",
-            "hlcweapons_ACR",
-            "hlcweapons_AKs",
-            "hlcweapons_AR15",
-            "hlcweapons_AUG",
-            "hlcweapons_falpocalypse",
-            "hlcweapons_FHAWCovert",
-            "hlcweapons_FN3011",
-            "hlcweapons_g3",
-            "hlcweapons_G36",
-            "hlcweapons_M134",
-            "hlcweapons_M14",
-            "hlcweapons_M16A2",
-            "hlcweapons_M60E4",
-            "hlcweapons_MG3s",
-            "hlcweapons_MP5",
-            "hlcweapons_saw",
-            "hlcweapons_SCAR",
-            "hlcweapons_SG550",
-            "hlcweapons_Springfield1903",
-            "hlcweapons_stgw57",
-            "hlcweapons_XM8",
-            "niaweapons_226",
-            "niarms_416",
-            "niaweapons_C96",
-            "sp_fwa_mas"
+            "wb_niarms_prep"
         };
         author = "johnb43";
         authors[] = {
             "johnb43",
             "ThePointForward",
             "Blutze",
-            "Garfield0003"
+            "Garfield"
         };
         url = "https://github.com/johnb432/Weapons-Balance-NIArms";
         VERSION_CONFIG;
@@ -118,6 +91,7 @@ class CfgMagazines {
     #include "magazines\CfgMagSCAR.hpp"
     #include "magazines\CfgMagSG550.hpp"
     #include "magazines\CfgMagSTANAG.hpp"
+    #include "magazines\CfgMag300.hpp"
     #include "magazines\CfgMagAK556.hpp"
 
     // New additions

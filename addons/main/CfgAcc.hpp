@@ -80,6 +80,18 @@ class CowsSlot_Rail: CowsSlot {
         hlc_optic_vomz = 1;
     };
 };
+class gm_slotOptic_base: CowsSlot {
+    class compatibleItems {};
+};
+class gm_slotOptic_StanagSig: gm_slotOptic_base {
+    class compatibleItems: compatibleItems {
+        hlc_optic_FNSTANAG4X2D_550 = 1;
+        hlc_optic_FNSTANAG4X_550 = 1;
+        hlc_optic_Kern2d_550 = 1;
+        hlc_optic_Kern_550 = 1;
+        hlc_optic_ZF95 = 1;
+    };
+};
 
 class asdg_OpticRail: asdg_SlotInfo {
     class compatibleItems;

@@ -5,7 +5,6 @@ class hlc_fal_base: Rifle_Base_F {
 
 class hlc_rifle_SLR: hlc_fal_base {
     class WeaponSlotsInfo: WeaponSlotsInfo {
-        delete CowsSlot;
         class CowsSlot: asdg_OpticRailL1A1 {};
     };
 };
@@ -21,11 +20,19 @@ class hlc_rifle_c1A1: hlc_rifle_SLR {
     };
 };
 
+class hlc_rifle_C2A1: hlc_fal_base {
+    baseWeapon = "hlc_rifle_C2A1";
+    displayName = "C2A1";
+    class WeaponSlotsInfo: WeaponSlotsInfo {
+        mass = 135;
+        class CowsSlot: asdg_OpticRailL1A1 {};
+    };
+};
+
 class hlc_rifle_FAL5061: hlc_fal_base {
     displayName = "FN FAL 50.62";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 95;
-        delete CowsSlot;
         class CowsSlot: asdg_OpticRailL1A1 {};
     };
 };

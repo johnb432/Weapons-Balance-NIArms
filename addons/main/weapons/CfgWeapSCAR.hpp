@@ -19,3 +19,10 @@ class hlc_WP_SCARH_DMR: hlc_wp_SCARH_STD {
         mass = 81.8;
     };
 };
+
+class hlc_wp_MK17IUR_762R;
+class hlc_wp_MK17IUR_762R_camo: hlc_wp_MK17IUR_762R {
+    class nia_magSwitch {
+        default = "hlc_wp_MK17IUR_762R_camo";
+    };
+};

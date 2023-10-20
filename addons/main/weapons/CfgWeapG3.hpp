@@ -11,7 +11,6 @@ class hlc_rifle_psg1: hlc_g3_base {
 class hlc_rifle_psg1A1: hlc_rifle_psg1 {
     displayName = "HK PSG1A1";
     class WeaponSlotsInfo: WeaponSlotsInfo {
-        delete Cowsslot;
         class Cowsslot: UK3CB_OpticRail1913_G3 {};
     };
 };

@@ -84,7 +84,15 @@ class hlc_50rnd_9x19_B_9mmar: 30Rnd_556x45_Stanag {
 
 class hlc_200rnd_556x45_M_SAW: 30Rnd_556x45_Stanag {
     mass = 51.65;
-    reloadAction = "GestureReloadM200";
+
+    #if __has_include("\rhsusf\addons\rhsusf_main\loadorder\config.bin")
+        model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m249_box_mag";
+        modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_box_200rnd";
+        modelSpecialIsProxy = 1;
+        reloadAction = "rhs_GestureReloadM249";
+    #else
+        reloadAction = "GestureReloadM200";
+    #endif
 };
 class hlc_200rnd_556x45_B_SAW: hlc_200rnd_556x45_M_SAW {
     mass = 51.65;
@@ -115,6 +123,12 @@ class hlc_100Rnd_762x51_T_M60E4: hlc_100Rnd_762x51_B_M60E4 {
 
 class hlc_200Rnd_762x51_B_M60E4: 30Rnd_556x45_Stanag {
     mass = 62;
+
+    #if __has_include("\rhsusf\addons\rhsusf_main\loadorder\config.bin")
+        model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m240_mag";
+        modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_762x51_m240_pouch_100rnd";
+        modelSpecialIsProxy = 1;
+    #endif
 };
 class hlc_200Rnd_762x51_Mdim_M60E4: hlc_200Rnd_762x51_B_M60E4 {
     mass = 62;
