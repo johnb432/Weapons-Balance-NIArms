@@ -14,7 +14,35 @@ class CfgPatches {
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "wb_niarms_prep"
+            "wb_niarms_main_prep",
+            "cba_main",
+            "hlcweapons_core",
+            "hlcweapons_ACR",
+            "hlcweapons_AKs",
+            "hlcweapons_AR15",
+            "hlcweapons_AUG",
+            "hlcweapons_Bren",
+            "hlcweapons_falpocalypse",
+            "hlcweapons_FHAWCovert",
+            "hlcweapons_FN3011",
+            "hlcweapons_g3",
+            "hlcweapons_G36",
+            "hlcweapons_M134",
+            "hlcweapons_M14",
+            "hlcweapons_M16A2",
+            "hlcweapons_M60E4",
+            "hlcweapons_MG3s",
+            "hlcweapons_MP5",
+            "hlcweapons_saw",
+            "hlcweapons_SCAR",
+            "hlcweapons_SG550",
+            "hlcweapons_Springfield1903",
+            "hlcweapons_stgw57",
+            "hlcweapons_XM8",
+            "niaweapons_226",
+            "niarms_416",
+            "niaweapons_C96",
+            "sp_fwa_mas"
         };
         author = "johnb43";
         authors[] = {
@@ -24,6 +52,7 @@ class CfgPatches {
             "Garfield"
         };
         url = "https://github.com/johnb432/Weapons-Balance-NIArms";
+        skipWhenMissingDependencies = 1;
         VERSION_CONFIG;
     };
 };
@@ -52,6 +81,7 @@ class CfgWeapons {
     };
 
     class ItemCore;
+    class CBA_MiscItem;
 
     #include "weapons\CfgWeapMisc.hpp"
     #include "weapons\CfgWeapACR.hpp"

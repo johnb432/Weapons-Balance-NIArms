@@ -1,7 +1,8 @@
 #include "script_component.hpp"
 
 class CfgPatches {
-    class ADDON {
+    class SUBADDON {
+        addonRootClass = QUOTE(ADDON);
         name = COMPONENT_NAME;
         units[] = {};
         weapons[] = {};
@@ -41,6 +42,7 @@ class CfgPatches {
             "johnb43"
         };
         url = "https://github.com/johnb432/Weapons-Balance-NIArms";
+        skipWhenMissingDependencies = 1;
         VERSION_CONFIG;
     };
 };

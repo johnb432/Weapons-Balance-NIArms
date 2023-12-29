@@ -17,7 +17,7 @@ class hlc_10Rnd_762x51_TDim_fal: hlc_10Rnd_762x51_B_fal {
     mass = 8.9;
 };
 
-class hlc_20Rnd_762x51_B_fal: 30rnd_556x45_stanag {
+class hlc_20Rnd_762x51_B_fal: 30Rnd_556x45_Stanag {
     mass = 16.24;
 };
 class hlc_20Rnd_762x51_barrier_fal: hlc_20Rnd_762x51_B_fal {

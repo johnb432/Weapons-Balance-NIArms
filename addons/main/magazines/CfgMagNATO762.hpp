@@ -1,4 +1,4 @@
-class hlc_20rnd_762x51_b_G3: 30rnd_556x45_stanag {
+class hlc_20rnd_762x51_b_G3: 30Rnd_556x45_Stanag {
     mass = 16.24;
 };
 class hlc_20rnd_762x51_barrier_G3: hlc_20rnd_762x51_b_G3 {
@@ -36,7 +36,7 @@ class hlc_50rnd_762x51_MDIM_G3: hlc_20rnd_762x51_b_G3 {
     mass = 30;
 };
 
-class hlc_20Rnd_762x51_B_M14: 30rnd_556x45_stanag {
+class hlc_20Rnd_762x51_B_M14: 30Rnd_556x45_Stanag {
     mass = 16.24;
 };
 class hlc_20Rnd_762x51_barrier_M14: hlc_20Rnd_762x51_B_M14 {

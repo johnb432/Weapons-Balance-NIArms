@@ -187,6 +187,8 @@ class hlc_rifle_auga2para_t: hlc_rifle_auga2para {
 };
 
 class hlc_rifle_auga3: hlc_rifle_aug {
+    HLC_CompatibleBarrels_Classes[] = {};
+    HLC_CurrentBarrel = "";
     modes[] = {"Single","FullAuto","fullauto_medium","single_medium_optics1","single_far_optics2"};
     class Single: Single {
         showToPlayer = 1;
@@ -207,3 +209,8 @@ class hlc_rifle_auga3_GL_BL: hlc_rifle_auga3_GL {
         mass = 114;
     };
 };
+
+class hlc_barrel_9mm: CBA_MiscItem {};
+class hlc_barrel_carbine: CBA_MiscItem {};
+class hlc_barrel_standard: CBA_MiscItem {};
+class hlc_barrel_hbar: CBA_MiscItem {};

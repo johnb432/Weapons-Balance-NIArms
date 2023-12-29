@@ -141,14 +141,14 @@ class hlc_rifle_XM8_MWSF_DMAR: hlc_rifle_XM8_DMAR {
         mass = 84;
     };
 };
-class HLC_Rifle_XM8_MWSF_DMAR_Green: HLC_Rifle_XM8_MWSF_DMAR {
+class HLC_Rifle_XM8_MWSF_DMAR_Green: hlc_rifle_XM8_MWSF_DMAR {
     displayName = "XM8 MWSF (DMAR/Green)";
 };
 
-class HLC_Rifle_XM8_MWSF_DMAR_OD: HLC_Rifle_XM8_MWSF_DMAR {
+class HLC_Rifle_XM8_MWSF_DMAR_OD: hlc_rifle_XM8_MWSF_DMAR {
     displayName = "XM8 MWSF (DMAR/OD)";
 };
-class HLC_Rifle_XM8_MWSF_DMAR_Tan: HLC_Rifle_XM8_MWSF_DMAR {
+class HLC_Rifle_XM8_MWSF_DMAR_Tan: hlc_rifle_XM8_MWSF_DMAR {
     displayName = "XM8 MWSF (DMAR/Tan)";
 };
 

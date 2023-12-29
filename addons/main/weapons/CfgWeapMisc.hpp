@@ -1,3 +1,5 @@
+#pragma hemtt flag pe23_ignore_has_include
+
 class hlc_STGW_base: Rifle_Base_F {
     class WeaponSlotsInfo;
 };

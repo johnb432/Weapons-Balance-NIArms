@@ -349,7 +349,8 @@ class hlc_rifle_ACR68_full_tan: hlc_rifle_ACR68_full_black {
     };
 };
 
-class hlc_barrel_compact_ACR_556: Itemcore {
+class CBA_MiscItem_ItemInfo;
+class hlc_barrel_compact_ACR_556: CBA_MiscItem {
     dlc = "Niarms_acr";
     author = "johnb43";
     displayName = "ACR Barrel (Compact/5.56)";
@@ -357,12 +358,11 @@ class hlc_barrel_compact_ACR_556: Itemcore {
     picture = "\hlc_wp_aug\tex\ui\gear_barrel_carbine_ca.paa";
     model = "hlc_wp_aug\mesh\pickup\Carbine_barrel.p3d";
     scope = 2;
-    class ItemInfo {
+    class ItemInfo: CBA_MiscItem_ItemInfo {
         mass = 13;
-        type = 201;
     };
 };
-class hlc_barrel_carbine_ACR_556: Itemcore {
+class hlc_barrel_carbine_ACR_556: CBA_MiscItem {
     dlc = "Niarms_acr";
     author = "johnb43";
     displayName = "ACR Barrel (Carbine/5.56)";
@@ -370,12 +370,11 @@ class hlc_barrel_carbine_ACR_556: Itemcore {
     picture = "\hlc_wp_aug\tex\ui\gear_barrel_carbine_ca.paa";
     model = "hlc_wp_aug\mesh\pickup\Carbine_barrel.p3d";
     scope = 2;
-    class ItemInfo {
+    class ItemInfo: CBA_MiscItem_ItemInfo {
         mass = 18.2;
-        type = 201;
     };
 };
-class hlc_barrel_mid_ACR_556: Itemcore {
+class hlc_barrel_mid_ACR_556: CBA_MiscItem {
     dlc = "Niarms_acr";
     author = "johnb43";
     displayName = "ACR Barrel (Mid/5.56)";
@@ -383,12 +382,11 @@ class hlc_barrel_mid_ACR_556: Itemcore {
     picture = "\hlc_wp_aug\tex\ui\gear_barrel_standard_ca.paa";
     model = "hlc_wp_aug\mesh\pickup\Standard_barrel.p3d";
     scope = 2;
-    class ItemInfo  {
+    class ItemInfo: CBA_MiscItem_ItemInfo  {
         mass = 20.1;
-        type = 201;
     };
 };
-class hlc_barrel_full_ACR_556: Itemcore {
+class hlc_barrel_full_ACR_556: CBA_MiscItem {
     dlc = "Niarms_acr";
     author = "johnb43";
     displayName = "ACR Barrel (Long/5.56)";
@@ -396,13 +394,12 @@ class hlc_barrel_full_ACR_556: Itemcore {
     picture = "\hlc_wp_aug\tex\ui\gear_barrel_hbar_ca.paa";
     model = "hlc_wp_aug\mesh\pickup\HBAR_barrel.p3d";
     scope = 2;
-    class ItemInfo {
+    class ItemInfo: CBA_MiscItem_ItemInfo {
         mass = 22.7;
-        type = 201;
     };
 };
 
-class hlc_barrel_compact_ACR_68: Itemcore {
+class hlc_barrel_compact_ACR_68: CBA_MiscItem {
     dlc = "Niarms_acr";
     author = "johnb43";
     displayName = "ACR Barrel (Compact/6.8)";
@@ -410,12 +407,11 @@ class hlc_barrel_compact_ACR_68: Itemcore {
     picture = "\hlc_wp_aug\tex\ui\gear_barrel_carbine_ca.paa";
     model = "hlc_wp_aug\mesh\pickup\Carbine_barrel.p3d";
     scope = 2;
-    class ItemInfo {
+    class ItemInfo: CBA_MiscItem_ItemInfo {
         mass = 15;
-        type = 201;
     };
 };
-class hlc_barrel_carbine_ACR_68: Itemcore {
+class hlc_barrel_carbine_ACR_68: CBA_MiscItem {
     dlc = "Niarms_acr";
     author = "johnb43";
     displayName = "ACR Barrel (Carbine/6.8)";
@@ -423,12 +419,11 @@ class hlc_barrel_carbine_ACR_68: Itemcore {
     picture = "\hlc_wp_aug\tex\ui\gear_barrel_carbine_ca.paa";
     model = "hlc_wp_aug\mesh\pickup\Carbine_barrel.p3d";
     scope = 2;
-    class ItemInfo {
+    class ItemInfo: CBA_MiscItem_ItemInfo {
         mass = 20.2;
-        type = 201;
     };
 };
-class hlc_barrel_mid_ACR_68: Itemcore {
+class hlc_barrel_mid_ACR_68: CBA_MiscItem {
     dlc = "Niarms_acr";
     author = "johnb43";
     displayName = "ACR Barrel (Mid/6.8)";
@@ -436,12 +431,11 @@ class hlc_barrel_mid_ACR_68: Itemcore {
     picture = "\hlc_wp_aug\tex\ui\gear_barrel_standard_ca.paa";
     model = "hlc_wp_aug\mesh\pickup\Standard_barrel.p3d";
     scope = 2;
-    class ItemInfo  {
+    class ItemInfo: CBA_MiscItem_ItemInfo  {
         mass = 22.1;
-        type = 201;
     };
 };
-class hlc_barrel_full_ACR_68: Itemcore {
+class hlc_barrel_full_ACR_68: CBA_MiscItem {
     dlc = "Niarms_acr";
     author = "johnb43";
     displayName = "ACR Barrel (Long/6.8)";
@@ -449,8 +443,7 @@ class hlc_barrel_full_ACR_68: Itemcore {
     picture = "\hlc_wp_aug\tex\ui\gear_barrel_hbar_ca.paa";
     model = "hlc_wp_aug\mesh\pickup\HBAR_barrel.p3d";
     scope = 2;
-    class ItemInfo {
+    class ItemInfo: CBA_MiscItem_ItemInfo {
         mass = 24.7;
-        type = 201;
     };
 };

@@ -1,3 +1,5 @@
+#pragma hemtt flag pe23_ignore_has_include
+
 // P90 Magazines
 class hlc_50Rnd_57x28_JHP_P90: 30Rnd_556x45_Stanag {
     ammo = "HLC_57x28mm_JHP";
