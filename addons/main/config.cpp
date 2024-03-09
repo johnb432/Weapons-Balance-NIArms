@@ -132,3 +132,16 @@ class CfgMagazines {
     #include "magazines\CfgMagPKM.hpp"
     #include "magazines\CfgMagMisc2.hpp"
 };
+
+class BettIR_Config {
+    class CompatibleAttachments {
+        class __base_rightSiderailPointer;
+        class hlc_acc_DBALPL_Side: __base_rightSiderailPointer {};
+        class hlc_acc_LS321G: __base_rightSiderailPointer {};
+
+        class hlc_acc_AIM1D_Generic: __base_rightSiderailPointer {};
+        class hlc_acc_AIM1D_M16: __base_rightSiderailPointer {};
+
+        class hlc_acc_DBALPL: __base_rightSiderailPointer {};
+    };
+};

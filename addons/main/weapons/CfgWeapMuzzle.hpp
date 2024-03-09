@@ -122,3 +122,11 @@ class hlc_muzzle_Cherrybomb: muzzle_snds_M {
         };
     };
 };
+class hlc_muzzle_E1_FlashHider: muzzle_snds_M {
+    class ItemInfo: ItemInfo {
+        class AmmoCoef: AmmoCoef {
+            audibleFire = 1;
+            visibleFire = 0.5;
+        };
+    };
+};

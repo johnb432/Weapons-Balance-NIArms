@@ -15,6 +15,22 @@ class hlc_rifle_honeybadger: hlc_rifle_honeybase {
         class CowsSlot: asdg_OpticRail1913_long {};
     };
 };
+class hlc_rifle_vendimus: hlc_rifle_Bushmaster300 {
+    class WeaponSlotsInfo: WeaponSlotsInfo {
+        mass = 77;
+    };
+};
+
+class hlc_rifle_SAMR: hlc_ar15_base {
+    class WeaponSlotsInfo: WeaponSlotsInfo {
+        mass = 87;
+    };
+};
+class hlc_rifle_samr2: hlc_rifle_SAMR {
+    class WeaponSlotsInfo: WeaponSlotsInfo {
+        mass = 87;
+    };
+};
 
 class hlc_rifle_bcmjack: hlc_ar15_base {
     class WeaponSlotsInfo: WeaponSlotsInfo {
@@ -75,40 +91,24 @@ class hlc_rifle_Colt727_GL: hlc_rifle_Colt727 {
         mass = 102.5;
     };
 };
-class hlc_wp_mod727: Rifle_Base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {
-       mass = 67.3;
-    };
-};
-class hlc_wp_mod733: Rifle_Base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {
-        mass = 63.8;
-    };
-};
-class hlc_wp_xm4: Rifle_Base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {
-        mass = 73;
-    };
-};
-class hlc_wp_XM177E2: Rifle_Base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {
-        mass = 65;
-    };
-};
 
-class hlc_wp_m16a2: Rifle_Base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {
-        mass = 77;
-    };
+class hlc_M16Base: Rifle_Base_F {
+    class WeaponSlotsInfo;
 };
-class hlc_wp_m16A1: hlc_wp_m16a2 {
+class hlc_wp_M16A1: hlc_M16Base {
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 68.5;
     };
 };
-class hlc_rifle_A1m203: hlc_wp_m16A1 {
+class hlc_rifle_M16A1_m203: hlc_wp_M16A1 {
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 101.5;
+    };
+};
+
+class hlc_wp_m16a2: hlc_M16Base {
+    class WeaponSlotsInfo: WeaponSlotsInfo {
+        mass = 77;
     };
 };
 class hlc_rifle_m203: hlc_wp_m16a2 {
@@ -116,20 +116,23 @@ class hlc_rifle_m203: hlc_wp_m16a2 {
         mass = 110;
     };
 };
-
-class hlc_rifle_vendimus: hlc_rifle_Bushmaster300 {
+class hlc_wp_mod727: hlc_M16Base {
     class WeaponSlotsInfo: WeaponSlotsInfo {
-        mass = 77;
+       mass = 67.3;
     };
 };
-
-class hlc_rifle_SAMR: hlc_ar15_base {
+class hlc_wp_mod733: hlc_M16Base {
     class WeaponSlotsInfo: WeaponSlotsInfo {
-        mass = 87;
+        mass = 63.8;
     };
 };
-class hlc_rifle_samr2: hlc_rifle_SAMR {
+class hlc_wp_xm4: hlc_M16Base {
     class WeaponSlotsInfo: WeaponSlotsInfo {
-        mass = 87;
+        mass = 73;
+    };
+};
+class hlc_wp_XM177E2: hlc_M16Base {
+    class WeaponSlotsInfo: WeaponSlotsInfo {
+        mass = 65;
     };
 };

@@ -1,3 +1,8 @@
+# Changelog for Weapons balance 9.3.2024
+
+1.2.2.0
+- Bring up-to-date with most recent NIArms release.
+
 # Changelog for Weapons balance 29.12.2023
 
 1.2.1.0
