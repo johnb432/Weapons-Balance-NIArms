@@ -11,6 +11,7 @@ class hlc_rifle_psg1: hlc_g3_base {
 class hlc_rifle_psg1A1: hlc_rifle_psg1 {
     displayName = "HK PSG1A1";
     class WeaponSlotsInfo: WeaponSlotsInfo {
+        mass = 141;
         class Cowsslot: UK3CB_OpticRail1913_G3 {};
     };
 };
@@ -60,7 +61,7 @@ class hlc_rifle_g3a3vris: hlc_rifle_g3a3 {
 };
 class hlc_rifle_g3ka4: hlc_rifle_g3a3 {
     displayName = "HK G3KA4 (RAS)";
-    class WeaponSlotsInfo: WeaponSlotsInfo {
+    class WeaponSlotsInfo {
         mass = 96.9;
         class CharmSlot {};
     };
@@ -81,7 +82,7 @@ class hlc_rifle_hk53: hlc_g3_base {
 };
 class hlc_rifle_hk53RAS : hlc_rifle_hk53 {
     displayName = "HK53 (RAS)";
-    class WeaponSlotsInfo: WeaponSlotsInfo {
+    class WeaponSlotsInfo {
         mass = 72;
     };
 };
@@ -93,14 +94,14 @@ class hlc_rifle_hk33a2: hlc_g3_base {
 };
 class hlc_rifle_hk33a2RIS: hlc_rifle_hk33a2 {
     displayName = "HK33A2 (RIS)";
-    class WeaponSlotsInfo: WeaponSlotsInfo {
+    class WeaponSlotsInfo {
         mass = 85.5;
         class CharmSlot {};
     };
 };
 class hlc_rifle_hk33a2RIS_GL: hlc_rifle_hk33a2RIS {
     displayName = "HK33A2 (RIS/GL)";
-    class WeaponSlotsInfo: WeaponSlotsInfo {
+    class WeaponSlotsInfo {
         mass = 118.5;
         class GripodSlot {};
         class UnderBarrelSlot {};

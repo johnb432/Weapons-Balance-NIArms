@@ -13,7 +13,7 @@ class hlc_ak_base: Rifle_Base_F {
 class hlc_rifle_ak12: hlc_ak_base {
     displayName = "AK-12";
     magazineWell[] += {"AK_545x39"};
-    class WeaponSlotsInfo: WeaponSlotsInfo {
+    class WeaponSlotsInfo {
         mass = 77;
     };
 };

@@ -79,7 +79,7 @@ class hlc_rifle_augsrhbar_t: hlc_rifle_augsrhbar {
 
 class hlc_rifle_augpara: hlc_aug_base {
     modes[] = {"Single","FullAuto","fullauto_medium","single_medium_optics1","single_far_optics2"};
-    class Single: Single {
+    class Single: Mode_SemiAuto {
         showToPlayer = 1;
     };
     class WeaponSlotsInfo: WeaponSlotsInfo {
@@ -168,7 +168,7 @@ class hlc_rifle_augsrcarb_t: hlc_rifle_augsrcarb {
 
 class hlc_rifle_auga2para: hlc_aug_base {
     modes[] = {"Single","FullAuto","fullauto_medium","single_medium_optics1","single_far_optics2"};
-    class Single: Single {
+    class Single: Mode_SemiAuto {
         showToPlayer = 1;
     };
     class WeaponSlotsInfo: WeaponSlotsInfo {

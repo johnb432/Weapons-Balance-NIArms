@@ -42,13 +42,14 @@ class sp_fwa_sig510: sp_fwa_sig510_base {
 class hlc_Bren_base;
 class hlc_rifle_L4A3: hlc_Bren_base {
     displayname = "Bren L4A3";
+    UiPicture = "\a3\weapons_f\data\ui\icon_mg_ca.paa";
 };
 
 class hlc_FN3011_base: Rifle_Base_F {
     class WeaponSlotsInfo;
 };
 class hlc_rifle_FN3011Tactical: hlc_FN3011_base {
-    class WeaponSlotsInfo: WeaponSlotsInfo {
+    class WeaponSlotsInfo {
         class Charmslot {};
         class CowsSlot: asdg_OpticRail1913_long {};
     };

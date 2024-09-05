@@ -23,6 +23,7 @@ class hlc_rifle_c1A1: hlc_rifle_SLR {
 class hlc_rifle_C2A1: hlc_fal_base {
     baseWeapon = "hlc_rifle_C2A1";
     displayName = "C2A1";
+    UiPicture = "\a3\weapons_f\data\ui\icon_mg_ca.paa";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 135;
         class CowsSlot: asdg_OpticRailL1A1 {};

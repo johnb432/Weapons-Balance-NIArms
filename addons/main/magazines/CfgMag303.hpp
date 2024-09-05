@@ -1,3 +1,5 @@
+#pragma hemtt flag pe23_ignore_has_include
+
 // Bren Gun Magazines
 class hlc_30Rnd_303_B_bren: hlc_50Rnd_45ACP_B_1921 {
     ammo = "HLC_303Brit_B";
@@ -11,6 +13,12 @@ class hlc_30Rnd_303_B_bren: hlc_50Rnd_45ACP_B_1921 {
     mass = 19.55;
     picture = "\hlc_core\tex\ui\ammo\m_brenball_ca.paa";
     scope = 2;
+
+    #if __has_include("\UK3CB_Factions\addons\UK3CB_Factions_Weapons\BREN\proxy\uk3cb_bren_303_30rnd_magazine.p3d")
+        modelSpecial = "UK3CB_Factions\addons\UK3CB_Factions_Weapons\BREN\proxy\uk3cb_bren_303_30rnd_magazine.p3d";
+    #else
+        modelSpecial = "";
+    #endif
 };
 class hlc_30Rnd_303_M_bren: hlc_30Rnd_303_B_bren {
     ammo = "HLC_303Brit_T";
@@ -23,6 +31,12 @@ class hlc_30Rnd_303_M_bren: hlc_30Rnd_303_B_bren {
     lastRoundsTracer = 1;
     picture = "\hlc_core\tex\ui\ammo\m_brentracer_ca.paa";
     tracersEvery = 3;
+
+    #if __has_include("\UK3CB_Factions\addons\UK3CB_Factions_Weapons\BREN\proxy\uk3cb_bren_303_30rnd_magazine.p3d")
+        modelSpecial = "UK3CB_Factions\addons\UK3CB_Factions_Weapons\BREN\proxy\uk3cb_bren_303_30rnd_magazine.p3d";
+    #else
+        modelSpecial = "";
+    #endif
 };
 class hlc_30Rnd_303_T_bren: hlc_30Rnd_303_B_bren {
     ammo = "HLC_303Brit_T";
@@ -35,6 +49,12 @@ class hlc_30Rnd_303_T_bren: hlc_30Rnd_303_B_bren {
     lastRoundsTracer = 1;
     picture = "\hlc_core\tex\ui\ammo\m_brentracer_ca.paa";
     tracersEvery = 1;
+
+    #if __has_include("\UK3CB_Factions\addons\UK3CB_Factions_Weapons\BREN\proxy\uk3cb_bren_303_30rnd_magazine.p3d")
+        modelSpecial = "UK3CB_Factions\addons\UK3CB_Factions_Weapons\BREN\proxy\uk3cb_bren_303_30rnd_magazine.p3d";
+    #else
+        modelSpecial = "";
+    #endif
 };
 class hlc_30Rnd_303_AP_bren: hlc_30Rnd_303_B_bren {
     ammo = "HLC_303Brit_AP";
@@ -47,6 +67,12 @@ class hlc_30Rnd_303_AP_bren: hlc_30Rnd_303_B_bren {
     lastRoundsTracer = 0;
     picture = "\hlc_core\tex\ui\ammo\m_brenap_ca.paa";
     tracersEvery = 1;
+
+    #if __has_include("\UK3CB_Factions\addons\UK3CB_Factions_Weapons\BREN\proxy\uk3cb_bren_303_30rnd_magazine.p3d")
+        modelSpecial = "UK3CB_Factions\addons\UK3CB_Factions_Weapons\BREN\proxy\uk3cb_bren_303_30rnd_magazine.p3d";
+    #else
+        modelSpecial = "";
+    #endif
 };
 
 // Lee-Enfield Stipper Clips
@@ -59,6 +85,12 @@ class hlc_10Rnd_303_B_enfield: hlc_30Rnd_303_B_bren {
     initSpeed = 744;
     mass = 5.65;
     picture = "\hlc_core\tex\ui\ammo\m_enfieldball_ca.paa";
+
+    #if __has_include("\UK3CB_Factions\addons\UK3CB_Factions_Weapons\ENFIELD\proxy\uk3cb_enfield_303_10rnd_magazine.p3d")
+        modelSpecial = "UK3CB_Factions\addons\UK3CB_Factions_Weapons\ENFIELD\proxy\uk3cb_enfield_303_10rnd_magazine.p3d";
+    #else
+        modelSpecial = "";
+    #endif
 };
 class hlc_10Rnd_303_T_enfield: hlc_30Rnd_303_T_bren {
     count = 10;
@@ -69,6 +101,12 @@ class hlc_10Rnd_303_T_enfield: hlc_30Rnd_303_T_bren {
     initSpeed = 720;
     mass = 5.65;
     picture = "\hlc_core\tex\ui\ammo\m_enfieldtracer_ca.paa";
+
+    #if __has_include("\UK3CB_Factions\addons\UK3CB_Factions_Weapons\ENFIELD\proxy\uk3cb_enfield_303_10rnd_magazine.p3d")
+        modelSpecial = "UK3CB_Factions\addons\UK3CB_Factions_Weapons\ENFIELD\proxy\uk3cb_enfield_303_10rnd_magazine.p3d";
+    #else
+        modelSpecial = "";
+    #endif
 };
 class hlc_10Rnd_303_AP_enfield: hlc_30Rnd_303_AP_bren {
     count = 10;
@@ -79,4 +117,10 @@ class hlc_10Rnd_303_AP_enfield: hlc_30Rnd_303_AP_bren {
     initSpeed = 840;
     mass = 5.65;
     picture = "\hlc_core\tex\ui\ammo\m_enfieldap_ca.paa";
+
+    #if __has_include("\UK3CB_Factions\addons\UK3CB_Factions_Weapons\ENFIELD\proxy\uk3cb_enfield_303_10rnd_magazine.p3d")
+        modelSpecial = "UK3CB_Factions\addons\UK3CB_Factions_Weapons\ENFIELD\proxy\uk3cb_enfield_303_10rnd_magazine.p3d";
+    #else
+        modelSpecial = "";
+    #endif
 };

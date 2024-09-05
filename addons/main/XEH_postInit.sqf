@@ -2,6 +2,8 @@
 
 if (!hasInterface) exitWith {};
 
+NIArms_altReloads_isReloading = false;
+
 // Called in postInit because it's overwritten by NIArms if it is done in preInit
 hlc_barrel_standard_compatible_weapons = [
     "hlc_rifle_auga1carb",

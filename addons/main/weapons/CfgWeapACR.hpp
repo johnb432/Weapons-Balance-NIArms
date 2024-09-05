@@ -306,6 +306,10 @@ class hlc_rifle_ACR68_MID_tan: hlc_rifle_ACR68_MID_black {
     };
 };
 
+class hlc_rifle_ACR68_MID_black_grip3: hlc_rifle_ACR68_MID_black {};
+class hlc_rifle_ACR68_MID_green_grip3: hlc_rifle_ACR68_MID_green {};
+class hlc_rifle_ACR68_MID_tan_grip3: hlc_rifle_ACR68_MID_tan {};
+
 class hlc_rifle_ACR68_GL_mid_black: hlc_rifle_ACR68_MID_black {
     displayName = "Remington ACR-E 6.8mm (Mid/GL/Black)";
     HLC_CompatibleBarrels_Classes[] = {"hlc_rifle_ACR_GL_SBR_black","hlc_rifle_ACR_GL_Carb_black","hlc_rifle_ACR_GL_mid_black","hlc_rifle_ACR68_GL_SBR_black","hlc_rifle_ACR68_GL_Carb_black","hlc_rifle_ACR68_GL_mid_black"};

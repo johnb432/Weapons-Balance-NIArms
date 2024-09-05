@@ -12,7 +12,7 @@ class hlc_smg_mp5A2_Sfire: hlc_smg_mp5a2 {
 };
 class hlc_smg_mp5a2_tac: hlc_smg_mp5a2 {
     displayName = "HK MP5A2 (TAC)";
-    class WeaponSlotsInfo: WeaponSlotsInfo {
+    class WeaponSlotsInfo {
         mass = 64.8;
     };
 };
@@ -24,7 +24,7 @@ class hlc_smg_mp5a3: hlc_smg_mp5a2 {
 };
 class hlc_smg_mp5a3_tac: hlc_smg_mp5a2 {
     displayName = "HK MP5A3 (TAC)";
-    class WeaponSlotsInfo: WeaponSlotsInfo {
+    class WeaponSlotsInfo {
         mass = 69.3;
     };
 };
@@ -36,7 +36,7 @@ class hlc_smg_mp5a4: hlc_MP5_base {
 };
 class hlc_smg_mp5a4_tac: hlc_smg_mp5a4 {
     displayName = "HK MP5A4 (TAC)";
-    class WeaponSlotsInfo: WeaponSlotsInfo {
+    class WeaponSlotsInfo {
         mass = 64.8;
     };
 };
@@ -48,7 +48,7 @@ class hlc_smg_MP5N: hlc_MP5_base {
 };
 class hlc_smg_mp5N_tac: hlc_smg_MP5N {
     displayName = "HK MP5A5 (TAC)";
-    class WeaponSlotsInfo: WeaponSlotsInfo {
+    class WeaponSlotsInfo {
         mass = 69.3;
     };
 };
@@ -84,14 +84,14 @@ class hlc_smg_mp510: hlc_smg_MP5N {
 };
 class hlc_mp510_tac: hlc_smg_mp510 {
     displayName = "HK MP5/10A4 (TAC)";
-    class WeaponSlotsInfo: WeaponSlotsInfo {
+    class WeaponSlotsInfo {
         mass = 65.4;
     };
 };
 
 class hlc_smg_9mmar: hlc_smg_MP5N {
     displayName = "HK MP5A5 (GL)";
-    class WeaponSlotsInfo: WeaponSlotsInfo {
+    class WeaponSlotsInfo {
         mass = 98.3;
     };
     class Single: Mode_SemiAuto {
