@@ -147,8 +147,6 @@ class hlc_wp_xm4: hlc_M16Base {
     };
 };
 class hlc_wp_XM177E2: hlc_M16Base {
-    ACE_barrelTwist = 304.8;
-    ACE_barrelLength = 292;
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 65;
     };
