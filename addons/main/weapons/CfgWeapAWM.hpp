@@ -1,6 +1,5 @@
 class hlc_AWC_base: Rifle_Base_F {
     ACE_barrelLength = 686;
-    ACE_barrelTwist = 279.4;
     class WeaponSlotsInfo: WeaponSlotsInfo {
         class CowsSlot: asdg_OpticRail1913_long {};
     };
