@@ -1,5 +1,6 @@
 class hlc_saw_base: Rifle_Base_F {
     class WeaponSlotsInfo;
+    ace_overheating_closedBolt = 0;
 };
 class hlc_lmg_minimipara: hlc_saw_base {
     magazineWell[] += {"CBA_556x45_STANAG_2D","CBA_556x45_STANAG_2D_XL"};
@@ -117,6 +118,10 @@ class hlc_m249_SQuantoon_grip3: hlc_m249_SQuantoon {
 };
 
 class hlc_lmg_mk46: hlc_lmg_minimi_railed {
+    ACE_barrelTwist = 177.8;
+    class FullAuto: FullAuto {
+      dispersion = 0.0009;
+    };
     class WeaponSlotsInfo {
         mass = 154.4;
         class CowsSlot: asdg_OpticRail1913_long {};
@@ -125,6 +130,10 @@ class hlc_lmg_mk46: hlc_lmg_minimi_railed {
     };
 };
 class hlc_lmg_mk46mod1: hlc_lmg_mk46 {
+    ACE_barrelTwist = 177.8;
+    class FullAuto: FullAuto {
+      dispersion = 0.0009;
+    };
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 152.4;
         class CowsSlot: asdg_OpticRail1913 {};
@@ -134,16 +143,26 @@ class hlc_lmg_mk46mod1: hlc_lmg_mk46 {
 };
 
 class hlc_lmg_mk48: hlc_saw_base {
+    ACE_barrelLength = 502;
     class WeaponSlotsInfo {
         mass = 182.6;
         class CowsSlot: asdg_OpticRail1913_long {};
     };
+    class FullAuto: FullAuto
+    {
+      dispersion = 0.0009;
+    };
 };
 class hlc_lmg_mk48mod1: hlc_lmg_mk48 {
+    ACE_barrelLength = 502;
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 186.6;
         class CowsSlot: asdg_OpticRail1913 {};
         class GripodSlot: nia_rifle_gripod_slot {};
         class UnderBarrelSlot: WB_rifle_grips_slot {};
+    };
+    class FullAuto: FullAuto
+    {
+      dispersion = 0.0009;
     };
 };

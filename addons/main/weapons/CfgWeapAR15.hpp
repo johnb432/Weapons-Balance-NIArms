@@ -76,6 +76,7 @@ class hlc_rifle_CQBR: hlc_rifle_RU556 {
     };
 };
 class hlc_rifle_mk18mod0: hlc_rifle_CQBR {
+    ACE_barrelLength = 262;
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 60;
     };
@@ -85,10 +86,22 @@ class hlc_rifle_Colt727: hlc_ar15_base {
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 69.5;
     };
+    class Single: Single {
+      dispersion = 0.00093;
+    };
+    class FullAuto: FullAuto {
+      dispersion = 0.00093;
+    };
 };
 class hlc_rifle_Colt727_GL: hlc_rifle_Colt727 {
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 102.5;
+    };
+    class Single: Single {
+      dispersion = 0.00093;
+    };
+    class FullAuto: FullAuto {
+      dispersion = 0.00093;
     };
 };
 
@@ -122,6 +135,8 @@ class hlc_wp_mod727: hlc_M16Base {
     };
 };
 class hlc_wp_mod733: hlc_M16Base {
+    ACE_barrelTwist = 228.6;
+    ACE_barrelLength = 292;
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 63.8;
     };
@@ -132,7 +147,15 @@ class hlc_wp_xm4: hlc_M16Base {
     };
 };
 class hlc_wp_XM177E2: hlc_M16Base {
+    ACE_barrelTwist = 304.8;
+    ACE_barrelLength = 292;
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 65;
+    };
+    class FullAuto: Burst {
+      dispersion =  0.0022;
+    };
+    class Single: Mode_SemiAuto {
+      dispersion =  0.0022;
     };
 };

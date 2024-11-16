@@ -31,6 +31,8 @@ class hlc_rifle_C2A1: hlc_fal_base {
 };
 
 class hlc_rifle_FAL5061: hlc_fal_base {
+    ACE_barrelTwist = 304.8;
+    ACE_barrelLength = 458;
     displayName = "FN FAL 50.62";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 95;
@@ -45,24 +47,32 @@ class hlc_rifle_LAR: hlc_rifle_FAL5061 {
     };
 };
 class hlc_rifle_FAL5000: hlc_rifle_FAL5061 {
+    ACE_barrelTwist = 304.8;
+    ACE_barrelLength = 533;
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 94;
         class CowsSlot: asdg_OpticRailL1A1 {};
     };
 };
 class hlc_rifle_FAL5000_RH: hlc_rifle_FAL5000 {
+    ACE_barrelTwist = 304.8;
+    ACE_barrelLength = 533;
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 94;
         class CowsSlot: asdg_OpticRailL1A1 {};
     };
 };
 class hlc_rifle_FAL5061Rail: hlc_fal_base {
+    ACE_barrelTwist = 304.8;
+    ACE_barrelLength = 458;
     displayName = "FN FAL 50.62 (RIS)";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 97;
     };
 };
 class hlc_rifle_FAL5000Rail: hlc_rifle_FAL5061Rail {
+    ACE_barrelTwist = 304.8;
+    ACE_barrelLength = 533;
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 96;
     };

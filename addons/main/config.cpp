@@ -67,6 +67,9 @@ class CfgPatches {
 class Mode_SemiAuto;
 class Mode_FullAuto;
 class Mode_Burst;
+class FullAuto;
+class Single;
+class Burst;
 
 class asdg_OpticRail1913_long;
 class nia_rifle_gripod_slot;

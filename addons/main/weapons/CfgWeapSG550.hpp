@@ -1,7 +1,9 @@
 class hlc_sg550_base: Rifle_Base_F {
+    ACE_barrelTwist = 254;
     class WeaponSlotsInfo;
 };
 class hlc_rifle_SG550: hlc_sg550_base {
+    ACE_barrelTwist = 254;
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 90;
     };

@@ -4,6 +4,7 @@ class hlc_STGW_base: Rifle_Base_F {
     class WeaponSlotsInfo;
 };
 class hlc_rifle_STGW57: hlc_STGW_base {
+    ACE_barrelLength = 609;
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 125.6;
         class CowsSlot: UK3CB_OpticRail1913_STGW57 {};

@@ -12,15 +12,22 @@ class HLC_wp_M134Painless: Rifle_Base_F {
 
 class hlc_M60e4_base: Rifle_Base_F {
     class WeaponSlotsInfo;
+    ace_overheating_closedBolt = 0;
 };
 class hlc_lmg_m60: hlc_M60e4_base {
     delete nia_magSwitch;
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 231;
     };
+    class FullAuto: FullAuto {
+      dispersion = 0.00095;
+    };
 };
 class hlc_lmg_M60E4: hlc_M60e4_base {
     delete nia_magSwitch;
+    class FullAuto: FullAuto {
+      dispersion = 0.001;
+    };
 };
 
 class hlc_MG42_base: Rifle_Base_F {

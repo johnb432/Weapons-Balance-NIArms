@@ -11,6 +11,8 @@ class hlc_ak_base: Rifle_Base_F {
 };
 
 class hlc_rifle_ak12: hlc_ak_base {
+    ACE_barrelTwist = 200;
+    ACE_barrelLength = 415;
     displayName = "AK-12";
     magazineWell[] += {"AK_545x39"};
     class WeaponSlotsInfo {
@@ -24,6 +26,7 @@ class hlc_rifle_ak12GL: hlc_rifle_ak12 {
     };
 };
 class hlc_rifle_aku12: hlc_rifle_ak12 {
+    ACE_barrelLength = 250;
     descriptionShort = "SMG<br/>Caliber:5.45x39mm";
     displayName = "AK-12K";
     class WeaponSlotsInfo: WeaponSlotsInfo {
@@ -31,12 +34,22 @@ class hlc_rifle_aku12: hlc_rifle_ak12 {
     };
 };
 class hlc_rifle_RPK12: hlc_rifle_ak12 {
+    ACE_barrelTwist = 200;
     descriptionShort = "Light Support Weapon<br/>Caliber:5.45x39mm";
     displayName = "RPK-16";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 98;
         class GripodSlot: WB_rifle_grips_slot {};
         class UnderBarrelSlot: WB_rifle_grips_slot {};
+    };
+    class Single: Single {
+      dispersion = 0.00097;
+    };
+    class FullAuto: FullAuto {
+      dispersion = 0.00097;
+    };
+    class Burst: Burst {
+      dispersion = 0.00097;
     };
 };
 
@@ -205,6 +218,8 @@ class hlc_rifle_aek971worn: hlc_rifle_aek971 {
 };
 
 class hlc_rifle_RK62: hlc_ak_base {
+    ACE_barrelTwist = 199.898;
+    ACE_barrelLength = 418;
     displayName = "RK 62";
     magazines[] = {"hlc_30Rnd_762x39_b_ak_Valmet"};
     magazineWell[] += {"AK_762x39"};
@@ -227,8 +242,15 @@ class hlc_rifle_rpk: hlc_ak_base {
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 107;
     };
+    class Single: Single {
+      dispersion = 0.0011;
+    };
+    class FullAuto: FullAuto {
+      dispersion = 0.0011;
+    };
 };
 class hlc_rifle_rpk74n: hlc_ak_base {
+    ACE_barrelTwist = 200;
     descriptionShort = "Light Support Weapon<br/>Caliber:5.45x39mm";
     displayName = "RPK-74N";
     magazineWell[] += {"AK_545x39"};
@@ -241,6 +263,12 @@ class hlc_rifle_rpk74n: hlc_ak_base {
     rhs_pso1m21_type = "rhs_acc_pso1m21_svd";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 101;
+    };
+    class Single: Single {
+      dispersion = 0.0011;
+    };
+    class FullAuto: FullAuto {
+      dispersion = 0.0011;
     };
 };
 

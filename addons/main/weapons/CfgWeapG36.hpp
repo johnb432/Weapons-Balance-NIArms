@@ -41,6 +41,7 @@ class hlc_rifle_G36KE1: hlc_rifle_G36KA1 {
     };
 };
 class hlc_rifle_G36C: hlc_G36_base {
+    ACE_barrelLength = 228;
     displayName = "HK G36C";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 65.7;
@@ -53,12 +54,14 @@ class hlc_rifle_G36V: hlc_G36_base {
     };
 };
 class hlc_rifle_G36CV: hlc_rifle_G36V {
+    ACE_barrelLength = 228;
     displayName = "HK G36CV";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 65.7;
     };
 };
 class hlc_rifle_G36CTac: hlc_rifle_G36CV {
+    ACE_barrelLength = 228;
     displayName = "HK G36CV (TAC)";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 67.7;
@@ -103,6 +106,7 @@ class hlc_rifle_g36KTac: hlc_rifle_G36KV {
     };
 };
 class hlc_rifle_G36MLIC: hlc_G36_base {
+    ACE_barrelLength = 228;
     displayName = "HK G36-MLI(C)";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 84.2;
