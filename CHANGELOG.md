@@ -1,3 +1,8 @@
+# Changelog for Weapons balance 19.1.2025
+
+1.3.0.0
+- Refactored mod so that it loads components dynamically depending on which NIArms are loaded.
+
 # Changelog for Weapons balance 5.9.2024
 
 1.2.3.0

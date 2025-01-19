@@ -1,5 +1,5 @@
 #define COMPONENT main
-#define COMPONENT_BEAUTIFIED NIArms
+#define COMPONENT_BEAUTIFIED NIArms - Core
 #include "script_mod.hpp"
 
 // #define DEBUG_MODE_FULL
