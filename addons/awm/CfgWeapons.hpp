@@ -33,21 +33,13 @@ class CfgWeapons {
             mass = 151.8;
         };
     };
-    class hlc_rifle_awmagnum_BL: hlc_rifle_awmagnum {
-        class WeaponSlotsInfo: WeaponSlotsInfo {
-            mass = 151.8;
-        };
-    };
+    class hlc_rifle_awmagnum_BL: hlc_rifle_awmagnum {};
     class hlc_rifle_awMagnum_BL_ghillie: hlc_rifle_awmagnum_BL {
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 151.8;
         };
     };
-    class hlc_rifle_awmagnum_FDE: hlc_rifle_awmagnum {
-        class WeaponSlotsInfo: WeaponSlotsInfo {
-            mass = 151.8;
-        };
-    };
+    class hlc_rifle_awmagnum_FDE: hlc_rifle_awmagnum {};
     class hlc_rifle_awMagnum_FDE_ghillie: hlc_rifle_awmagnum_FDE {
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 151.8;

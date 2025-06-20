@@ -7,7 +7,7 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "hlcweapons_AR15",
+            "hlcweapons_ar15",
             "hlcweapons_M16A2"
         };
         author = "johnb43";

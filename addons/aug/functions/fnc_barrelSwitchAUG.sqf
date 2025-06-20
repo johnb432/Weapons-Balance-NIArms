@@ -13,14 +13,14 @@
  * Public: No
  *
  * Example:
- * [player, "hlc_barrel_carbine"] call wb_niarms_main_fnc_barrelSwitch;
+ * [player, "hlc_barrel_carbine"] call wb_niarms_aug_fnc_barrelSwitch
  */
 
 params ["_unit", "_replaceBarrel"];
 
 // Check config for compatible classes
 private _weapon = currentWeapon _unit;
-((uiNamespace getVariable [QGVAR(barrelSwitchCache), createHashMap]) get _weapon) params ["_currentBarrel", "_weaponClasses"];
+((uiNamespace getVariable [QEGVAR(main,barrelSwitchCache), createHashMap]) get _weapon) params ["_currentBarrel", "_weaponClasses"];
 private _count = count _weaponClasses;
 
 if (_count == 3 && {_replaceBarrel == "hlc_barrel_9mm"}) exitWith {
@@ -42,7 +42,7 @@ if (_index == -1) exitWith {};
 
     if (!_isSuccess) exitWith {};
 
-    _unit setVariable [QGVAR(barrelSwitchInProgress), true];
+    _unit setVariable [QEGVAR(main,barrelSwitchInProgress), true];
 
     // Animation for changing barrel
     _unit playActionNow "HLC_GestureSwapBarrelAUG";
@@ -53,8 +53,8 @@ if (_index == -1) exitWith {};
     [_unit, _currentBarrel, true] call CBA_fnc_addItem;
 
     [{
-        _this setVariable [QGVAR(barrelSwitchInProgress), false];
+        _this setVariable [QEGVAR(main,barrelSwitchInProgress), false];
     }, _unit, 4.75] call CBA_fnc_waitAndExecute;
 
     nil
-}, [_replaceBarrel, _currentBarrel], [true, false]] call FUNC(switchWeaponVariant);
+}, [_replaceBarrel, _currentBarrel], [true, false]] call EFUNC(main,switchWeaponVariant);

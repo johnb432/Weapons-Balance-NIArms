@@ -10,14 +10,14 @@
  * Modified interaction menu <ARRAY>
  *
  * Example:
- * player call wb_niarms_main_fnc_barrelSwitchMenusAUG
+ * player call wb_niarms_aug_fnc_barrelSwitchMenusAUG
  *
  * Public: No
  */
 
 params ["_unit"];
 
-private _cache = (uiNamespace getVariable [QGVAR(barrelSwitchCache), createHashMap]) get (currentWeapon _unit);
+private _cache = (uiNamespace getVariable [QEGVAR(main,barrelSwitchCache), createHashMap]) get (currentWeapon _unit);
 
 if (isNil "_cache") exitWith {[]};
 

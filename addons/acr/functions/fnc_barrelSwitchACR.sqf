@@ -13,7 +13,7 @@
  * Public: No
  *
  * Example:
- * [player, "hlc_barrel_compact_ACR_556"] call wb_niarms_main_fnc_barrelSwitch;
+ * [player, "hlc_barrel_compact_ACR_556"] call wb_niarms_acr_fnc_barrelSwitch
  */
 
 params ["_unit", "_replaceBarrel"];

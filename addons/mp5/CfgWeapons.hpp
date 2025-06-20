@@ -2,6 +2,15 @@ class CfgWeapons {
     class Rifle_Base_F;
     class hlc_MP5_base: Rifle_Base_F {
         class WeaponSlotsInfo;
+        class Single: Mode_SemiAuto {
+            class StandardSound;
+        };
+        class FullAuto: Mode_FullAuto {
+            class StandardSound;
+        };
+        class Burst: Mode_Burst {
+            class StandardSound;
+        };
     };
     class hlc_smg_mp5a2: hlc_MP5_base {
         displayName = "HK MP5A2";
@@ -96,37 +105,19 @@ class CfgWeapons {
         class WeaponSlotsInfo {
             mass = 98.3;
         };
-        class Single: Mode_SemiAuto {
-            class BaseSoundModeType;
-            class StandardSound: BaseSoundModeType {
-                delete soundBegin;
-                soundSetShot[] = {"mp5_Shot_SoundSet", "mp5_tail_SoundSet"};
-            };
-            class SilencedSound: BaseSoundModeType {
-                delete soundBegin;
-                soundSetShot[] = {"mp5_silencerShot_SoundSet", "mp5_silencerTail_SoundSet"};
+        class Single: Single {
+            class StandardSound: StandardSound {
+                soundSetShot[] = {"NIA_MP5_NEW_Shot_SoundSet", "mp5_tail_SoundSet"};
             };
         };
-        class FullAuto: Mode_FullAuto {
-            class BaseSoundModeType;
-            class StandardSound: BaseSoundModeType {
-                delete soundBegin;
-                soundSetShot[] = {"mp5_Shot_SoundSet", "mp5_tail_SoundSet"};
-            };
-            class SilencedSound: BaseSoundModeType {
-                delete soundBegin;
-                soundSetShot[] = {"mp5_silencerShot_SoundSet", "mp5_silencerTail_SoundSet"};
+        class FullAuto: FullAuto {
+            class StandardSound: StandardSound {
+                soundSetShot[] = {"NIA_MP5_NEW_Shot_SoundSet", "mp5_tail_SoundSet"};
             };
         };
-        class Burst: Mode_Burst {
-            class BaseSoundModeType;
-            class StandardSound: BaseSoundModeType {
-                delete soundBegin;
-                soundSetShot[] = {"mp5_Shot_SoundSet", "mp5_tail_SoundSet"};
-            };
-            class SilencedSound: BaseSoundModeType {
-                delete soundBegin;
-                soundSetShot[] = {"mp5_silencerShot_SoundSet", "mp5_silencerTail_SoundSet"};
+        class Burst: Burst {
+            class StandardSound: StandardSound {
+                soundSetShot[] = {"NIA_MP5_NEW_Shot_SoundSet", "mp5_tail_SoundSet"};
             };
         };
     };

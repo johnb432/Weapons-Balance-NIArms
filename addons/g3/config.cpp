@@ -7,6 +7,7 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
+            "wb_niarms_g3_prep",
             "hlcweapons_g3"
         };
         author = "johnb43";

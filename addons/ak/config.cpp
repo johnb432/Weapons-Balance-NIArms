@@ -14,7 +14,7 @@ class CfgPatches {
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "hlcweapons_AKs"
+            "hlcweapons_aks"
         };
         author = "johnb43";
         authors[] = {
@@ -26,7 +26,8 @@ class CfgPatches {
     };
 };
 
-class WB_rifle_grips_slot;
+class asdg_SlotInfo;
+class WB_rifle_grips_slot: asdg_SlotInfo {};
 class asdg_MuzzleSlot_762R;
 class asdg_OpticSideRail_AK;
 

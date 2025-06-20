@@ -7,6 +7,7 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
+            "wb_niarms_fal_prep",
             "hlcweapons_falpocalypse"
         };
         author = "johnb43";

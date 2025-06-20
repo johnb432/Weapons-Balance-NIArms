@@ -28,6 +28,19 @@ class CfgPatches {
 #include "CfgAmmoBelts.hpp"
 #include "CfgMagazineWells.hpp"
 
+class CfgFunctions {
+    class NIARMS_ALTRELOADS {
+        class functions {
+            class perFrame {
+                file = PATH_TO_FUNC(empty);
+            };
+            class postInit {
+                file = PATH_TO_FUNC(empty);
+            };
+        };
+    };
+};
+
 class CfgWeapons {
     class ItemCore;
 
@@ -59,7 +72,7 @@ class CfgMagazines {
 
 class BettIR_Config {
     class CompatibleAttachments {
-        class __base_rightSiderailPointer;
+        class __base_rightSiderailPointer {};
         class hlc_acc_DBALPL_Side: __base_rightSiderailPointer {};
         class hlc_acc_LS321G: __base_rightSiderailPointer {};
 

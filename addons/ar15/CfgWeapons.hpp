@@ -9,7 +9,7 @@ class CfgWeapons {
         };
     };
     class hlc_rifle_honeybase: hlc_rifle_Bushmaster300 {
-        class WeaponSlotsInfo: WeaponSlotsInfo {
+        class WeaponSlotsInfo {
             mass = 61;
             class CowsSlot: asdg_OpticRail1913_long {};
         };

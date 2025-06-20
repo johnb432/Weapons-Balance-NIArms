@@ -101,9 +101,6 @@ class CfgWeapons {
 
     class hlc_rifle_auga2: hlc_rifle_aug {
         modes[] = {"Single","FullAuto","fullauto_medium","single_medium_optics1","single_far_optics2"};
-        class Single: Single {
-            showToPlayer = 1;
-        };
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 79;
         };

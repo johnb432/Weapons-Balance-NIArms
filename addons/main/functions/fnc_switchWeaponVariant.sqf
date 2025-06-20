@@ -21,7 +21,7 @@
  * Public: No
  *
  * Example:
- * [player, ["rhs_weap_ak74m", "rhs_weap_ak74m_npz", 3], {hint _this}] call wb_niarms_main_fnc_switchWeaponVariant;
+ * [player, ["rhs_weap_ak74m", "rhs_weap_ak74m_npz", 3], {hint _this}] call wb_niarms_main_fnc_switchWeaponVariant
  */
 
 params [["_unit", objNull, [objNull]], ["_args", ["", "", "", true], [[]], [0, 1, 2, 3, 4]], ["_function", {}, [{}]], ["_params", []], ["_condition", [true, true], [[], true], [0, 1, 2]]];

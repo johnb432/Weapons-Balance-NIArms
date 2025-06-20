@@ -70,10 +70,6 @@ class CowsSlot_Rail: CowsSlot {
     };
 };
 
-class asdg_OpticRail: asdg_SlotInfo {
-    class compatibleItems;
-};
-
 class asdg_MuzzleSlot_556;
 class UK3CB_MuzzleSlot_556_HK33: asdg_MuzzleSlot_556 {
     class compatibleItems {

@@ -16,25 +16,16 @@ class CfgWeapons {
             mass = 75.6;
         };
     };
-    class hlc_rifleACR_SBR_cliffhanger: hlc_rifle_ACR_SBR_tan {
+    class hlc_rifle_ACR_SBR_cliffhanger: hlc_rifle_ACR_SBR_tan {
         displayName = "Remington ACR-E (Compact/'Cliffhanger')";
         HLC_CompatibleBarrels_Classes[] = {};
         HLC_CurrentBarrel = "";
-        class WeaponSlotsInfo: WeaponSlotsInfo {
-            mass = 75.6;
-        };
     };
     class hlc_rifle_ACR_SBR_green: hlc_rifle_ACR_SBR_tan {
         HLC_CompatibleBarrels_Classes[] = {"hlc_rifle_ACR_SBR_green","hlc_rifle_ACR_carb_green","hlc_rifle_ACR_MID_green","hlc_rifle_ACR_Full_green","hlc_rifle_ACR68_SBR_green","hlc_rifle_ACR68_carb_green","hlc_rifle_ACR68_MID_green","hlc_rifle_ACR68_full_green"};
-        class WeaponSlotsInfo: WeaponSlotsInfo {
-            mass = 75.6;
-        };
     };
     class hlc_rifle_ACR_SBR_black: hlc_rifle_ACR_SBR_tan {
         HLC_CompatibleBarrels_Classes[] = {"hlc_rifle_ACR_SBR_black","hlc_rifle_ACR_carb_black","hlc_rifle_ACR_MID_black","hlc_rifle_ACR_Full_black","hlc_rifle_ACR68_SBR_black","hlc_rifle_ACR68_carb_black","hlc_rifle_ACR68_MID_black","hlc_rifle_ACR68_full_black"};
-        class WeaponSlotsInfo: WeaponSlotsInfo {
-            mass = 75.6;
-        };
     };
 
     class hlc_rifle_ACR_GL_SBR_black: hlc_rifle_ACR_SBR_black {
@@ -55,16 +46,10 @@ class CfgWeapons {
     class hlc_rifle_ACR_GL_SBR_green: hlc_rifle_ACR_GL_SBR_black {
         displayName = "Remington ACR-E (Compact/GL/Green)";
         HLC_CompatibleBarrels_Classes[] = {"hlc_rifle_ACR_GL_SBR_green","hlc_rifle_ACR_GL_Carb_green","hlc_rifle_ACR_GL_mid_green","hlc_rifle_ACR68_GL_SBR_green","hlc_rifle_ACR68_GL_Carb_green","hlc_rifle_ACR68_GL_mid_green"};
-        class WeaponSlotsInfo: WeaponSlotsInfo {
-            mass = 108.6;
-        };
     };
     class hlc_rifle_ACR_GL_SBR_tan: hlc_rifle_ACR_GL_SBR_black {
         displayName = "Remington ACR-E (Compact/GL/Tan)";
         HLC_CompatibleBarrels_Classes[] = {"hlc_rifle_ACR_GL_SBR_tan","hlc_rifle_ACR_GL_Carb_tan","hlc_rifle_ACR_GL_mid_tan","hlc_rifle_ACR68_GL_SBR_tan","hlc_rifle_ACR68_GL_Carb_tan","hlc_rifle_ACR68_GL_mid_tan"};
-        class WeaponSlotsInfo: WeaponSlotsInfo {
-            mass = 108.6;
-        };
     };
 
     class hlc_rifle_ACR_Carb_black: hlc_rifle_ACR_SBR_tan {
@@ -79,9 +64,6 @@ class CfgWeapons {
     };
     class hlc_rifle_ACR_Carb_green: hlc_rifle_ACR_Carb_black {
         HLC_CompatibleBarrels_Classes[] = {"hlc_rifle_ACR_SBR_green","hlc_rifle_ACR_carb_green","hlc_rifle_ACR_MID_green","hlc_rifle_ACR_Full_green","hlc_rifle_ACR68_SBR_green","hlc_rifle_ACR68_carb_green","hlc_rifle_ACR68_MID_green","hlc_rifle_ACR68_full_green"};
-        class WeaponSlotsInfo: WeaponSlotsInfo {
-            mass = 80.8;
-        };
     };
     class hlc_rifle_ACR_Carb_green_x15: hlc_rifle_ACR_Carb_green {
         model = "hlc_wp_acr\mesh\acr\ACR_Carbine_x15.p3d";
@@ -199,15 +181,9 @@ class CfgWeapons {
     };
     class hlc_rifle_ACR68_SBR_green: hlc_rifle_ACR68_SBR_tan {
         HLC_CompatibleBarrels_Classes[] = {"hlc_rifle_ACR_SBR_green","hlc_rifle_ACR_carb_green","hlc_rifle_ACR_MID_green","hlc_rifle_ACR_Full_green","hlc_rifle_ACR68_SBR_green","hlc_rifle_ACR68_carb_green","hlc_rifle_ACR68_MID_green","hlc_rifle_ACR68_full_green"};
-        class WeaponSlotsInfo: WeaponSlotsInfo {
-            mass = 77.6;
-        };
     };
     class hlc_rifle_ACR68_SBR_black: hlc_rifle_ACR68_SBR_tan {
         HLC_CompatibleBarrels_Classes[] = {"hlc_rifle_ACR_SBR_black","hlc_rifle_ACR_carb_black","hlc_rifle_ACR_MID_black","hlc_rifle_ACR_Full_black","hlc_rifle_ACR68_SBR_black","hlc_rifle_ACR68_carb_black","hlc_rifle_ACR68_MID_black","hlc_rifle_ACR68_full_black"};
-        class WeaponSlotsInfo: WeaponSlotsInfo {
-            mass = 77.6;
-        };
     };
     class hlc_rifle_ACR68_Squant: hlc_rifle_ACR68_SBR_tan {
         displayName = "Remington ACR-E 6.8mm (Compact/SQ/Tan)";

@@ -10,7 +10,7 @@
  * Modified interaction menu <ARRAY>
  *
  * Example:
- * player call wb_niarms_main_fnc_barrelSwitchMenusACR
+ * player call wb_niarms_acr_fnc_barrelSwitchMenusACR
  *
  * Public: No
  */
